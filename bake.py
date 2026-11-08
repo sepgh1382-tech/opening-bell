@@ -7,6 +7,7 @@ d = dates[0]; b = json.load(open(f"briefings/{d}.json"))
 def direction(ch):
     s = str(ch or "").strip()
     return "up" if s.startswith("+") else "down" if s.startswith(("-", "−")) else "flat"
+signed = lambda s: re.sub(r"^-(?=\d)", "\u2212", str(s or ""))
 try: day = datetime.date.fromisoformat(d).strftime("%A, %B %-d, %Y")
 except Exception: day = d
 mood = (b.get("mood") or "mixed").lower()
@@ -20,7 +21,7 @@ out = [f'<section class="mood" aria-label="Market mood"><div class="container">'
   f'<div class="reason"><p class="small">Overall market mood</p><p class="lead">{e(b.get("moodReason"))}</p></div></div></section>']
 if b.get("snapshot"):
     out.append('<section aria-label="Market snapshot"><div class="container"><ul class="figures">' + "".join(
-      f'<li><span class="small">{e(t.get("asset"))}</span><span class="v">{e(t.get("value"))}</span><span class="c {direction(t.get("change"))}">{e(t.get("change"))}</span></li>'
+      f'<li><span class="small">{e(t.get("asset"))}</span><span class="v">{e(t.get("value"))}</span><span class="c {direction(t.get("change"))}">{e(signed(t.get("change")))}</span></li>'
       for t in b["snapshot"]) + '</ul></div></section>')
 lots = []
 for s in stories:
