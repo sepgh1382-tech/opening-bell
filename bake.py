@@ -43,6 +43,10 @@ out.append('<div class="container desk"><section aria-labelledby="lots-h"><div c
   f'<h2 id="lots-h">Top stories</h2><p class="small">{len(stories)} stories, {ups} bullish, {downs} bearish</p></div></div>'
   f'<ol class="lots">{"".join(lots)}</ol></section><aside class="side">{side}</aside></div>')
 page = open("index.html").read()
-new = re.sub(r"<!-- baked:start -->.*?<!-- baked:end -->", lambda m: "<!-- baked:start -->\n" + "\n".join(out) + "\n<!-- baked:end -->", page, flags=re.S)
+# Two baked regions: the mood and figures above the live-markets section, the stories below it.
+def bake(page, name, parts):
+    return re.sub(rf"<!-- baked:{name}:start -->.*?<!-- baked:{name}:end -->",
+                  lambda m: f"<!-- baked:{name}:start -->\n" + "\n".join(parts) + f"\n<!-- baked:{name}:end -->", page, flags=re.S)
+new = bake(bake(page, "top", out[:-1]), "desk", out[-1:])
 open("index.html", "w").write(new)
 print("Baked", d, "into index.html")

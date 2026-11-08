@@ -26,15 +26,47 @@
   </div>
 </header>
 
-<main id="app">
-<!-- baked:start -->
+<main>
+<div id="top">
+<!-- baked:top:start -->
 <section class="mood" aria-label="Market mood"><div class="container">
 <p class="dateline small"><span class="day">Saturday, November 7, 2026</span><span>Weekend edition, week of Nov 2 to 6</span></p>
 <div class="gauge bearish"><h1><span class="visually-hidden">Market mood: </span><span class="fit">bearish</span></h1></div>
 <div class="reason"><p class="small">Overall market mood</p><p class="lead">A midterm-driven AI and chip rout gave the S&amp;P 500 its worst week since June, and a hot jobs report on Friday revived the chance of a Fed rate hike in December.</p></div></div></section>
 <section aria-label="Market snapshot"><div class="container"><ul class="figures"><li><span class="small">S&amp;P 500</span><span class="v">7,376.86</span><span class="c up">+0.3% Fri</span></li><li><span class="small">Nasdaq</span><span class="v">24,579.42</span><span class="c up">+1.1% Fri</span></li><li><span class="small">Dow</span><span class="v">51,285.73</span><span class="c down">−0.5% Fri</span></li><li><span class="small">Russell 2000</span><span class="v">2,754.11</span><span class="c up">+0.9% Fri</span></li><li><span class="small">Dec hike odds</span><span class="v">~78%</span><span class="c flat">After jobs data</span></li><li><span class="small">Unemployment</span><span class="v">4.1%</span><span class="c flat">October</span></li></ul></div></section>
+<!-- baked:top:end -->
+</div>
+
+<section class="live" aria-labelledby="live-h">
+  <div class="container">
+    <div class="live-head rule-bar">
+      <h2 id="live-h">Live markets</h2>
+      <p class="small">Prices right now, separate from this edition</p>
+    </div>
+
+    <details class="heat" open>
+      <summary>S&amp;P 500 heatmap</summary>
+      <div class="heat-frame" id="heat"></div>
+      <p class="small heat-note">Box size is company value, color is today’s change. Stock data from <a href="https://www.tradingview.com/heatmap/stock/" target="_blank" rel="noopener nofollow">TradingView</a>, may be delayed.</p>
+    </details>
+
+    <div class="crypto">
+      <div class="crypto-head">
+        <h3>Crypto, last 24 hours</h3>
+        <p class="small" id="coins-status">Connecting to live prices…</p>
+        <button type="button" class="ctl" id="coins-pause" aria-pressed="false">Pause updates</button>
+      </div>
+      <ul class="figures coins" id="coins"></ul>
+      <p class="small">Prices from Coinbase.</p>
+    </div>
+  </div>
+</section>
+
+<div id="desk">
+<!-- baked:desk:start -->
 <div class="container desk"><section aria-labelledby="lots-h"><div class="lots-head rule-bar"><div class="row"><h2 id="lots-h">Top stories</h2><p class="small">7 stories, 1 bullish, 4 bearish</p></div></div><ol class="lots"><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">High impact</span></div><div class="body"><h3>Democratic midterm sweep sparks a sharp AI and chip selloff</h3><p>After Democrats&#x27; midterm wins, AI infrastructure stocks plunged on Thursday. Nvidia fell about 9%, AMD and Micron about 17%, and the Philadelphia Semiconductor Index dropped more than 12%. The Nasdaq had its steepest one-day fall in 19 months.</p><ul class="tags" aria-label="Affected"><li>Nasdaq</li><li>Semiconductors</li><li>NVDA</li><li>AMD</li><li>MU</li><li>AVGO</li><li>Data centers</li></ul><p class="why"><strong>Why it matters:</strong> Investors worry about tighter rules on data centers and power use, which would make the AI buildout slower and more expensive. That hits the stocks that have driven most of the market&#x27;s gains.</p><p class="sources"><span class="small">Sources</span><a href="https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650" target="_blank" rel="noopener">NBC News</a><a href="https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html" target="_blank" rel="noopener">CNBC</a><a href="https://finance.yahoo.com/markets/stocks/articles/stocks-plunge-dem-midterm-sweep-205246551.html" target="_blank" rel="noopener">Yahoo Finance</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">High impact</span></div><div class="body"><h3>Hot October jobs report puts a December Fed rate hike back on the table</h3><p>Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed&#x27;s December 8 and 9 meeting.</p><ul class="tags" aria-label="Affected"><li>Treasury yields</li><li>US dollar</li><li>Rate-sensitive stocks</li><li>Banks</li></ul><p class="why"><strong>Why it matters:</strong> A strong economy is good news for earnings, but higher rates raise borrowing costs and make stocks look pricier compared with bonds. Traders also pulled forward their expected timing of the final hike.</p><p class="sources"><span class="small">Sources</span><a href="https://www.morningstar.com/economy/hot-october-jobs-report-raises-odds-december-rate-hike" target="_blank" rel="noopener">Morningstar</a><a href="https://www.investing.com/news/economic-indicators/strong-october-jobs-report-sends-yields-higher-5008272" target="_blank" rel="noopener">Investing.com / Reuters</a><a href="https://www.foxbusiness.com/economy/us-jobs-report-october-2026" target="_blank" rel="noopener">Fox Business</a></p></div></li><li class="lot neutral"><div class="verdict"><span class="effect">Neutral</span><span class="small">Medium impact</span></div><div class="body"><h3>Chip stocks bounce Friday, but the S&amp;P 500 still posts its worst week since June</h3><p>The Nasdaq rose 1.1% and the S&amp;P 500 0.3% on Friday as chipmakers recovered part of Thursday&#x27;s losses. The Dow slipped 0.5%.</p><ul class="tags" aria-label="Affected"><li>S&amp;P 500</li><li>Nasdaq</li><li>Dow</li></ul><p class="why"><strong>Why it matters:</strong> Dip buying shows demand for AI names hasn&#x27;t gone away, but one up day after a heavy selloff doesn&#x27;t yet signal that the trend has turned.</p><p class="sources"><span class="small">Sources</span><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html" target="_blank" rel="noopener">Yahoo Finance live</a><a href="https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html" target="_blank" rel="noopener">Washington Post / AP</a><a href="https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026" target="_blank" rel="noopener">StockTitan</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">Medium impact</span></div><div class="body"><h3>Hyperscaler spending worries add to pressure on AI stocks</h3><p>Alongside the election, investors are focused on the huge borrowing and spending behind the AI boom. Several large cloud companies have turned cash-flow negative as they pour hundreds of billions into data centers.</p><ul class="tags" aria-label="Affected"><li>MSFT</li><li>AMZN</li><li>GOOGL</li><li>META</li><li>AI infrastructure</li></ul><p class="why"><strong>Why it matters:</strong> If returns on AI spending take longer to arrive, investors may pay less for these companies&#x27; future growth.</p><p class="sources"><span class="small">Sources</span><a href="https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets" target="_blank" rel="noopener">Al Jazeera</a><a href="https://www.fool.com/investing/2026/11/05/the-ai-selloff-is-getting-worse-nvidia-dell-and-data-center-stocks-are-plunging-hard-is-it-time-to-buy-the-dip/" target="_blank" rel="noopener">Motley Fool</a></p></div></li><li class="lot neutral"><div class="verdict"><span class="effect">Neutral</span><span class="small">Medium impact</span></div><div class="body"><h3>Marvell agrees to buy Lumentum in a $115 billion all-stock deal</h3><p>Marvell announced plans on November 2 to acquire the optical components maker in an all-stock deal. Lumentum shares fell sharply afterward.</p><ul class="tags" aria-label="Affected"><li>MRVL</li><li>LITE</li><li>Optical networking</li></ul><p class="why"><strong>Why it matters:</strong> A deal this size signals confidence in AI networking demand, but it&#x27;s paid in stock, so its value moves with the chip selloff.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li><li class="lot bullish"><div class="verdict"><span class="effect">▲ Bullish</span><span class="small">Low impact</span></div><div class="body"><h3>AppLovin soars 31% on a beat-and-raise quarter</h3><p>AppLovin jumped 31% on Thursday after third-quarter results beat expectations and it raised guidance. Unity gained 39% over the week on strong results and takeover interest.</p><ul class="tags" aria-label="Affected"><li>APP</li><li>U</li><li>Ad tech</li></ul><p class="why"><strong>Why it matters:</strong> Strong company results can still win big even when the wider market is weak.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">Low impact</span></div><div class="body"><h3>DraftKings falls more than 25% after an earnings miss</h3><p>DraftKings missed on earnings, revenue and sportsbook revenue, sending shares down more than 25%.</p><ul class="tags" aria-label="Affected"><li>DKNG</li><li>Online betting</li></ul><p class="why"><strong>Why it matters:</strong> The miss raises doubts about growth across the sports betting sector.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li></ol></section><aside class="side"><section class="particulars" aria-labelledby="watch-h"><h2 id="watch-h">What to watch</h2><dl><div class="item"><dt>Mon 11/9</dt><dd>Earnings: Constellation Energy, Barrick, Occidental, Rocket Lab</dd></div><div class="item"><dt>Tue 11/10</dt><dd>October CPI inflation report, a key input for the December Fed decision. Earnings: CoreWeave, Rigetti</dd></div><div class="item"><dt>Thu 11/12</dt><dd>Earnings: Cisco, Applied Materials, Nebius, Brookfield</dd></div><div class="item"><dt>Dec 8 and 9</dt><dd>Fed meeting, where markets expect about a 78% chance of a hike</dd></div></dl></section><section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h">Bottom line</h2><p>The week turned on politics and rates. AI and chip stocks, the market&#x27;s main engine, sold off hard on fears of tighter data-center rules after the midterms, and a strong jobs report made a December rate hike more likely. Tuesday&#x27;s CPI report is the next big test: hot inflation would add to rate-hike pressure, while a cool reading could support a rebound.</p></section></aside></div>
-<!-- baked:end -->
+<!-- baked:desk:end -->
+</div>
 </main>
 
 <footer class="foot">
@@ -84,7 +116,8 @@
   }
 
   function renderState(title, detail){
-    $("#app").innerHTML = `<div class="container" style="padding-block:var(--space-2xl)"><div class="state">
+    $("#desk").innerHTML = "";
+    $("#top").innerHTML = `<div class="container" style="padding-block:var(--space-2xl)"><div class="state">
       <h2>${esc(title)}</h2><p>${esc(detail)}</p></div></div>`;
   }
 
@@ -136,7 +169,7 @@
     const ups = all.filter(s=>s.effect==="bullish").length;
     const downs = all.filter(s=>s.effect==="bearish").length;
 
-    $("#app").innerHTML = `
+    $("#top").innerHTML = `
     <section class="mood" aria-label="Market mood">
       <div class="container">
         <p class="dateline small"><span class="day">${esc(fmtDate(current.id))}</span>${b.coverage ? `<span>${esc(tidy(b.coverage))}</span>` : ""}</p>
@@ -148,8 +181,9 @@
     ${(b.snapshot||[]).length ? `<section aria-label="Market snapshot"><div class="container"><ul class="figures">
       ${(b.snapshot||[]).map(t=>`<li><span class="small">${esc(t.asset)}</span><span class="v">${esc(t.value)}</span>
         <span class="c ${dirClass(t.change)}">${esc(signed(t.change))}</span></li>`).join("")}
-    </ul></div></section>` : ""}
+    </ul></div></section>` : ""}`;
 
+    $("#desk").innerHTML = `
     <div class="container desk">
       <section aria-labelledby="lots-h">
         <div class="lots-head rule-bar">
@@ -182,7 +216,7 @@
   }
 
   // One delegated listener: filter buttons and the empty state's "Show all stories".
-  $("#app").addEventListener("click", e => {
+  $("#desk").addEventListener("click", e => {
     const btn = e.target.closest("button[data-f]");
     if (!btn || !current) return;
     filter = btn.dataset.f;
@@ -198,9 +232,9 @@
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitMood);
 
   // The latest briefing is baked into the page; a failed load keeps it and says only the archive is missing.
-  const baked = () => !!document.querySelector("#app .mood");
+  const baked = () => !!document.querySelector("#top .mood");
   function archiveNotice(text){
-    $("#app").insertAdjacentHTML("afterbegin", `<div class="container"><p class="notice" role="status">${esc(text)}</p></div>`);
+    $("#top").insertAdjacentHTML("afterbegin", `<div class="container"><p class="notice" role="status">${esc(text)}</p></div>`);
   }
 
   async function start(){
@@ -219,6 +253,144 @@
     }
   }
   start();
+})();
+</script>
+<script>
+/* Live markets: TradingView's stock heatmap, plus a crypto grid streamed from Coinbase's public feed. */
+(function(){
+  const $ = s => document.querySelector(s);
+  const dark = matchMedia("(prefers-color-scheme: dark)");
+
+  // ---- Stock heatmap (TradingView embed), mounted when the disclosure is open ----
+  const heat = $("#heat"), details = $(".heat");
+  let heatTheme = null;
+  function mountHeatmap(){
+    const theme = dark.matches ? "dark" : "light";
+    if (!details.open || heatTheme === theme) return;
+    heatTheme = theme;
+    // The widget sets its container to height: 100%, so it sits inside the sized .heat-frame.
+    heat.innerHTML = '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div></div>';
+    const box = heat.firstChild;
+    const s = document.createElement("script");
+    s.src = "https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js";
+    s.async = true;
+    s.textContent = JSON.stringify({
+      exchanges: [], dataSource: "SPX500", grouping: "sector",
+      blockSize: "market_cap_basic", blockColor: "change", locale: "en",
+      symbolUrl: "", colorTheme: theme, hasTopBar: false, isDataSetEnabled: false,
+      isZoomEnabled: true, hasSymbolTooltip: true, isMonoSize: false,
+      width: "100%", height: "100%"
+    });
+    box.appendChild(s);
+    // Give the widget's iframe a name for screen readers once it appears.
+    new MutationObserver((_, obs) => {
+      const f = heat.querySelector("iframe");
+      if (f){ f.title = "S&P 500 heatmap by TradingView"; obs.disconnect(); }
+    }).observe(heat, {childList: true, subtree: true});
+  }
+  details.addEventListener("toggle", mountHeatmap);
+  dark.addEventListener("change", mountHeatmap);
+  mountHeatmap();
+
+  // ---- Crypto grid (Coinbase public feed, no key) ----
+  const COINS = ["BTC","ETH","SOL","XRP","DOGE","ADA","LINK","AVAX","LTC","BCH","SUI","SHIB"];
+  const state = Object.fromEntries(COINS.map(c => [c, {price: null, open: null, spark: [], dirty: false, el: null}]));
+  const list = $("#coins"), status = $("#coins-status"), pauseBtn = $("#coins-pause");
+  let paused = false, lastUpdate = null, ws = null, retry = 0;
+
+  function fmtPrice(p){
+    const a = Math.abs(p);
+    const o = a >= 10 ? {minimumFractionDigits: 2, maximumFractionDigits: 2}
+            : a >= 1  ? {minimumFractionDigits: 4, maximumFractionDigits: 4}
+            : {minimumSignificantDigits: 4, maximumSignificantDigits: 4};
+    return new Intl.NumberFormat(undefined, o).format(p);
+  }
+  const fmtTime = d => d.toLocaleTimeString(undefined, {hour: "numeric", minute: "2-digit", second: "2-digit"});
+
+  list.innerHTML = COINS.map(c => `<li data-coin="${c}">
+      <span class="small">${c}</span><span class="v">–</span><span class="c flat">&nbsp;</span>
+      <svg class="spark flat" viewBox="0 0 100 28" preserveAspectRatio="none" aria-hidden="true" focusable="false"><polyline points=""/></svg>
+    </li>`).join("");
+  COINS.forEach(c => { state[c].el = list.querySelector(`[data-coin="${c}"]`); });
+
+  function drawCoin(c){
+    const s = state[c], el = s.el;
+    if (s.price == null) return;
+    el.querySelector(".v").textContent = fmtPrice(s.price);
+    const dir = s.open ? (s.price > s.open ? "up" : s.price < s.open ? "down" : "flat") : "flat";
+    const ch = el.querySelector(".c"), svg = el.querySelector(".spark");
+    if (s.open){
+      const pct = (s.price - s.open) / s.open * 100;
+      ch.textContent = `${pct >= 0 ? "+" : "−"}${Math.abs(pct).toFixed(2)}% 24h`;
+    }
+    ch.className = "c " + dir; svg.setAttribute("class", "spark " + dir);
+    const pts = s.spark.length ? s.spark.concat(s.price) : [];
+    if (pts.length > 1){
+      const lo = Math.min(...pts), hi = Math.max(...pts), span = hi - lo || 1;
+      svg.querySelector("polyline").setAttribute("points",
+        pts.map((v, i) => `${(i / (pts.length - 1) * 100).toFixed(2)},${(26 - (v - lo) / span * 24).toFixed(2)}`).join(" "));
+    }
+    s.dirty = false;
+  }
+
+  function setStatus(text){ if (status.textContent !== text) status.textContent = text; }
+
+  // Draw at most once a second, and not while paused or while the tab is hidden.
+  setInterval(() => {
+    if (paused || document.hidden) return;
+    let any = false;
+    COINS.forEach(c => { if (state[c].dirty){ drawCoin(c); any = true; } });
+    if (any) lastUpdate = new Date();
+    if (ws && ws.readyState === 1 && lastUpdate) setStatus(`Live, updated ${fmtTime(lastUpdate)}`);
+  }, 1000);
+
+  pauseBtn.addEventListener("click", () => {
+    paused = !paused;
+    pauseBtn.setAttribute("aria-pressed", String(paused));
+    setStatus(paused ? `Paused${lastUpdate ? ` at ${fmtTime(lastUpdate)}` : ""}` : "Live");
+  });
+
+  // 24 hours of 15-minute closes for the sparklines, refreshed every 15 minutes.
+  async function loadHistory(){
+    await Promise.all(COINS.map(async c => {
+      try{
+        const r = await fetch(`https://api.exchange.coinbase.com/products/${c}-USD/candles?granularity=900`);
+        if (!r.ok) return;
+        const rows = await r.json();   // newest first: [time, low, high, open, close, volume]
+        const s = state[c];
+        s.spark = rows.slice(0, 96).reverse().map(x => x[4]);
+        if (s.price == null && rows.length){ s.price = rows[0][4]; }
+        if (s.open == null && rows[95]){ s.open = rows[95][3]; }
+        s.dirty = true;
+      }catch(e){ /* the live feed still fills the price */ }
+    }));
+  }
+  loadHistory();
+  setInterval(loadHistory, 15 * 60 * 1000);
+
+  function connect(){
+    ws = new WebSocket("wss://ws-feed.exchange.coinbase.com");
+    ws.onopen = () => {
+      retry = 0;
+      ws.send(JSON.stringify({type: "subscribe", product_ids: COINS.map(c => c + "-USD"), channels: ["ticker"]}));
+      if (!paused) setStatus("Live");
+    };
+    ws.onmessage = e => {
+      const m = JSON.parse(e.data);
+      if (m.type !== "ticker") return;
+      const s = state[m.product_id.replace("-USD", "")];
+      if (!s) return;
+      s.price = +m.price; s.open = +m.open_24h; s.dirty = true;
+    };
+    ws.onclose = () => {
+      const wait = Math.min(60, 2 ** retry++) ;
+      setStatus(retry > 3
+        ? `Live crypto prices are unavailable. Trying again every ${wait < 60 ? wait + " seconds" : "minute"}.`
+        : "Connection lost. Reconnecting…");
+      setTimeout(connect, wait * 1000);
+    };
+  }
+  connect();
 })();
 </script>
 </body>
