@@ -2,10 +2,17 @@ name: Daily briefing
 
 on:
   schedule:
-    # GitHub cron is in UTC. 13:17 UTC is 7:17 AM Central in winter and 8:17 AM in summer,
-    # before the 8:30 AM Central market open either way. GitHub can start scheduled runs late.
+    # GitHub cron is in UTC, and GitHub sometimes starts scheduled runs late or skips them.
+    # 13:17 UTC is 7:17 AM Central in winter (8:17 AM in summer), before the 8:30 AM Central open.
     - cron: "17 13 * * *"
-  workflow_dispatch: {}  # adds a "Run workflow" button on the Actions tab
+    # Backup run 90 minutes later. It does nothing if a briefing for today already exists.
+    - cron: "47 14 * * *"
+  workflow_dispatch:  # adds a "Run workflow" button on the Actions tab
+    inputs:
+      force:
+        description: "Rebuild even if today's briefing already exists (replaces it)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,17 +30,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Skip if today's briefing already exists
+        id: check
+        env:
+          FORCE: ${{ inputs.force || false }}
+        run: |
+          f="briefings/$(date +%Y-%m-%d).json"
+          if [ -f "$f" ] && [ "$FORCE" != "true" ]; then
+            echo "$f already published (by an earlier run or the Claude task), nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.skip != 'true'
         with:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - if: steps.check.outputs.skip != 'true'
+        run: pip install -r requirements.txt
 
       - name: Build today's briefing from news feeds and market data
+        if: steps.check.outputs.skip != 'true'
         run: python agent.py
 
       - name: Publish
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "Opening Bell Agent"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
