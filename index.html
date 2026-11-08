@@ -7,16 +7,14 @@
 <title>Opening Bell Briefing</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Six+Caps&family=Bevan&family=Archivo+Narrow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="mast">
   <div class="container">
-    <div class="brand">
-      <p class="wordmark">Opening Bell</p>
-      <p class="small">Daily market briefing</p>
-    </div>
+    <p class="tagline">Daily market briefing</p>
+    <h1 class="wordmark">Opening Bell</h1>
     <nav class="picker" aria-label="Choose an edition">
       <button id="prev" class="ctl" type="button" aria-label="Earlier briefing" disabled>Earlier</button>
       <label for="day" class="visually-hidden">Edition</label>
@@ -29,18 +27,21 @@
 <main>
 <div id="top">
 <!-- baked:top:start -->
-<section class="mood" aria-label="Market mood"><div class="container">
-<p class="dateline small"><span class="day">Saturday, November 7, 2026</span><span>Weekend edition, week of Nov 2 to 6</span></p>
-<div class="gauge bearish"><h1><span class="visually-hidden">Market mood: </span><span class="fit">bearish</span></h1></div>
-<div class="reason"><p class="small">Overall market mood</p><p class="lead">A midterm-driven AI and chip rout gave the S&amp;P 500 its worst week since June, and a hot jobs report on Friday revived the chance of a Fed rate hike in December.</p></div></div></section>
-<section aria-label="Market snapshot"><div class="container"><ul class="figures"><li><span class="small">S&amp;P 500</span><span class="v">7,376.86</span><span class="c up">+0.3% Fri</span></li><li><span class="small">Nasdaq</span><span class="v">24,579.42</span><span class="c up">+1.1% Fri</span></li><li><span class="small">Dow</span><span class="v">51,285.73</span><span class="c down">−0.5% Fri</span></li><li><span class="small">Russell 2000</span><span class="v">2,754.11</span><span class="c up">+0.9% Fri</span></li><li><span class="small">Dec hike odds</span><span class="v">~78%</span><span class="c flat">After jobs data</span></li><li><span class="small">Unemployment</span><span class="v">4.1%</span><span class="c flat">October</span></li></ul></div></section>
+<section class="deck" aria-label="Market mood"><div class="container"><p class="dateline"><span class="day">Saturday, November 7, 2026</span><span>Weekend edition, week of Nov 2 to 6</span></p><div class="mood bearish"><h2 class="mood-label">Market mood</h2><p class="mood-word">▼ bearish</p></div><p class="deck-reason">A midterm-driven AI and chip rout gave the S&amp;P 500 its worst week since June, and a hot jobs report on Friday revived the chance of a Fed rate hike in December.</p></div></section>
+<section class="ticker" aria-label="Market snapshot"><div class="container"><ul class="figures"><li><span class="small">S&amp;P 500</span><span class="v">7,376.86</span><span class="c up">+0.3% Fri</span></li><li><span class="small">Nasdaq</span><span class="v">24,579.42</span><span class="c up">+1.1% Fri</span></li><li><span class="small">Dow</span><span class="v">51,285.73</span><span class="c down">−0.5% Fri</span></li><li><span class="small">Russell 2000</span><span class="v">2,754.11</span><span class="c up">+0.9% Fri</span></li><li><span class="small">Dec hike odds</span><span class="v">~78%</span><span class="c flat">After jobs data</span></li><li><span class="small">Unemployment</span><span class="v">4.1%</span><span class="c flat">October</span></li></ul></div></section>
 <!-- baked:top:end -->
+</div>
+
+<div id="desk">
+<!-- baked:desk:start -->
+<div class="container front"><div class="frontbar"><p class="small">7 stories, 1 bullish, 4 bearish</p></div><section class="stories" aria-label="Top stories"><div id="lots-list"><div class="front-grid"><article class="lead-story bearish"><h2 class="headline">Democratic midterm sweep sparks a sharp AI and chip selloff</h2><p class="verdict"><span class="effect">▼ Bearish</span>, high impact</p><p class="standfirst">After Democrats&#x27; midterm wins, AI infrastructure stocks plunged on Thursday. Nvidia fell about 9%, AMD and Micron about 17%, and the Philadelphia Semiconductor Index dropped more than 12%. The Nasdaq had its steepest one-day fall in 19 months.</p><p class="why"><strong>Why it matters:</strong> Investors worry about tighter rules on data centers and power use, which would make the AI buildout slower and more expensive. That hits the stocks that have driven most of the market&#x27;s gains.</p><ul class="tags" aria-label="Affected"><li>Nasdaq</li><li>Semiconductors</li><li>NVDA</li><li>AMD</li><li>MU</li><li>AVGO</li><li>Data centers</li></ul><p class="sources"><span>Sources</span><a href="https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650" target="_blank" rel="noopener">NBC News</a><a href="https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html" target="_blank" rel="noopener">CNBC</a><a href="https://finance.yahoo.com/markets/stocks/articles/stocks-plunge-dem-midterm-sweep-205246551.html" target="_blank" rel="noopener">Yahoo Finance</a></p></article><div class="front-col"><section class="also" aria-labelledby="also-h"><h2 id="also-h" class="section-head">Also today</h2><article class="story bearish"><h3>Hot October jobs report puts a December Fed rate hike back on the table</h3><p class="verdict"><span class="effect">▼ Bearish</span>, high impact</p><p>Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed&#x27;s December 8 and 9 meeting.</p><ul class="tags" aria-label="Affected"><li>Treasury yields</li><li>US dollar</li><li>Rate-sensitive stocks</li><li>Banks</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> A strong economy is good news for earnings, but higher rates raise borrowing costs and make stocks look pricier compared with bonds. Traders also pulled forward their expected timing of the final hike.</p><p class="sources"><span>Sources</span><a href="https://www.morningstar.com/economy/hot-october-jobs-report-raises-odds-december-rate-hike" target="_blank" rel="noopener">Morningstar</a><a href="https://www.investing.com/news/economic-indicators/strong-october-jobs-report-sends-yields-higher-5008272" target="_blank" rel="noopener">Investing.com / Reuters</a><a href="https://www.foxbusiness.com/economy/us-jobs-report-october-2026" target="_blank" rel="noopener">Fox Business</a></p></details></article><article class="story neutral"><h3>Chip stocks bounce Friday, but the S&amp;P 500 still posts its worst week since June</h3><p class="verdict"><span class="effect">Neutral</span>, medium impact</p><p>The Nasdaq rose 1.1% and the S&amp;P 500 0.3% on Friday as chipmakers recovered part of Thursday&#x27;s losses. The Dow slipped 0.5%.</p><ul class="tags" aria-label="Affected"><li>S&amp;P 500</li><li>Nasdaq</li><li>Dow</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> Dip buying shows demand for AI names hasn&#x27;t gone away, but one up day after a heavy selloff doesn&#x27;t yet signal that the trend has turned.</p><p class="sources"><span>Sources</span><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html" target="_blank" rel="noopener">Yahoo Finance live</a><a href="https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html" target="_blank" rel="noopener">Washington Post / AP</a><a href="https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026" target="_blank" rel="noopener">StockTitan</a></p></details></article></section><section class="watch sheet" aria-labelledby="watch-h"><h2 id="watch-h" class="section-head">What to watch</h2><dl><div class="item"><dt>Mon 11/9</dt><dd>Earnings: Constellation Energy, Barrick, Occidental, Rocket Lab</dd></div><div class="item"><dt>Tue 11/10</dt><dd>October CPI inflation report, a key input for the December Fed decision. Earnings: CoreWeave, Rigetti</dd></div><div class="item"><dt>Thu 11/12</dt><dd>Earnings: Cisco, Applied Materials, Nebius, Brookfield</dd></div><div class="item"><dt>Dec 8 and 9</dt><dd>Fed meeting, where markets expect about a 78% chance of a hike</dd></div></dl></section></div><section class="brief" aria-labelledby="brief-h"><h2 id="brief-h" class="section-head">In brief</h2><div class="brief-grid"><article class="story bearish"><h3>Hyperscaler spending worries add to pressure on AI stocks</h3><p class="verdict"><span class="effect">▼ Bearish</span>, medium impact</p><p>Alongside the election, investors are focused on the huge borrowing and spending behind the AI boom. Several large cloud companies have turned cash-flow negative as they pour hundreds of billions into data centers.</p><ul class="tags" aria-label="Affected"><li>MSFT</li><li>AMZN</li><li>GOOGL</li><li>META</li><li>AI infrastructure</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> If returns on AI spending take longer to arrive, investors may pay less for these companies&#x27; future growth.</p><p class="sources"><span>Sources</span><a href="https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets" target="_blank" rel="noopener">Al Jazeera</a><a href="https://www.fool.com/investing/2026/11/05/the-ai-selloff-is-getting-worse-nvidia-dell-and-data-center-stocks-are-plunging-hard-is-it-time-to-buy-the-dip/" target="_blank" rel="noopener">Motley Fool</a></p></details></article><article class="story neutral"><h3>Marvell agrees to buy Lumentum in a $115 billion all-stock deal</h3><p class="verdict"><span class="effect">Neutral</span>, medium impact</p><p>Marvell announced plans on November 2 to acquire the optical components maker in an all-stock deal. Lumentum shares fell sharply afterward.</p><ul class="tags" aria-label="Affected"><li>MRVL</li><li>LITE</li><li>Optical networking</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> A deal this size signals confidence in AI networking demand, but it&#x27;s paid in stock, so its value moves with the chip selloff.</p><p class="sources"><span>Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></details></article><article class="story bullish"><h3>AppLovin soars 31% on a beat-and-raise quarter</h3><p class="verdict"><span class="effect">▲ Bullish</span>, low impact</p><p>AppLovin jumped 31% on Thursday after third-quarter results beat expectations and it raised guidance. Unity gained 39% over the week on strong results and takeover interest.</p><ul class="tags" aria-label="Affected"><li>APP</li><li>U</li><li>Ad tech</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> Strong company results can still win big even when the wider market is weak.</p><p class="sources"><span>Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></details></article><article class="story bearish"><h3>DraftKings falls more than 25% after an earnings miss</h3><p class="verdict"><span class="effect">▼ Bearish</span>, low impact</p><p>DraftKings missed on earnings, revenue and sportsbook revenue, sending shares down more than 25%.</p><ul class="tags" aria-label="Affected"><li>DKNG</li><li>Online betting</li></ul><details class="more"><summary>Why it matters</summary><p class="why"><strong>Why it matters:</strong> The miss raises doubts about growth across the sports betting sector.</p><p class="sources"><span>Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></details></article></div></section></div></div></section><section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h" class="section-head">Bottom line</h2><p>The week turned on politics and rates. AI and chip stocks, the market&#x27;s main engine, sold off hard on fears of tighter data-center rules after the midterms, and a strong jobs report made a December rate hike more likely. Tuesday&#x27;s CPI report is the next big test: hot inflation would add to rate-hike pressure, while a cool reading could support a rebound.</p></section></div>
+<!-- baked:desk:end -->
 </div>
 
 <section class="live" aria-labelledby="live-h">
   <div class="container">
-    <div class="live-head rule-bar">
-      <h2 id="live-h">Live markets</h2>
+    <div class="live-head">
+      <h2 id="live-h" class="section-head">Live markets</h2>
       <p class="small">Prices right now, separate from this edition</p>
     </div>
 
@@ -52,7 +53,7 @@
 
     <div class="crypto">
       <div class="crypto-head">
-        <h3>Crypto, last 24 hours</h3>
+        <h3 class="sub-head">Crypto, last 24 hours</h3>
         <p class="small" id="coins-status">Connecting to live prices…</p>
         <button type="button" class="ctl" id="coins-pause" aria-pressed="false">Pause updates</button>
       </div>
@@ -61,12 +62,6 @@
     </div>
   </div>
 </section>
-
-<div id="desk">
-<!-- baked:desk:start -->
-<div class="container desk"><section aria-labelledby="lots-h"><div class="lots-head rule-bar"><div class="row"><h2 id="lots-h">Top stories</h2><p class="small">7 stories, 1 bullish, 4 bearish</p></div></div><ol class="lots"><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">High impact</span></div><div class="body"><h3>Democratic midterm sweep sparks a sharp AI and chip selloff</h3><p>After Democrats&#x27; midterm wins, AI infrastructure stocks plunged on Thursday. Nvidia fell about 9%, AMD and Micron about 17%, and the Philadelphia Semiconductor Index dropped more than 12%. The Nasdaq had its steepest one-day fall in 19 months.</p><ul class="tags" aria-label="Affected"><li>Nasdaq</li><li>Semiconductors</li><li>NVDA</li><li>AMD</li><li>MU</li><li>AVGO</li><li>Data centers</li></ul><p class="why"><strong>Why it matters:</strong> Investors worry about tighter rules on data centers and power use, which would make the AI buildout slower and more expensive. That hits the stocks that have driven most of the market&#x27;s gains.</p><p class="sources"><span class="small">Sources</span><a href="https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650" target="_blank" rel="noopener">NBC News</a><a href="https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html" target="_blank" rel="noopener">CNBC</a><a href="https://finance.yahoo.com/markets/stocks/articles/stocks-plunge-dem-midterm-sweep-205246551.html" target="_blank" rel="noopener">Yahoo Finance</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">High impact</span></div><div class="body"><h3>Hot October jobs report puts a December Fed rate hike back on the table</h3><p>Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed&#x27;s December 8 and 9 meeting.</p><ul class="tags" aria-label="Affected"><li>Treasury yields</li><li>US dollar</li><li>Rate-sensitive stocks</li><li>Banks</li></ul><p class="why"><strong>Why it matters:</strong> A strong economy is good news for earnings, but higher rates raise borrowing costs and make stocks look pricier compared with bonds. Traders also pulled forward their expected timing of the final hike.</p><p class="sources"><span class="small">Sources</span><a href="https://www.morningstar.com/economy/hot-october-jobs-report-raises-odds-december-rate-hike" target="_blank" rel="noopener">Morningstar</a><a href="https://www.investing.com/news/economic-indicators/strong-october-jobs-report-sends-yields-higher-5008272" target="_blank" rel="noopener">Investing.com / Reuters</a><a href="https://www.foxbusiness.com/economy/us-jobs-report-october-2026" target="_blank" rel="noopener">Fox Business</a></p></div></li><li class="lot neutral"><div class="verdict"><span class="effect">Neutral</span><span class="small">Medium impact</span></div><div class="body"><h3>Chip stocks bounce Friday, but the S&amp;P 500 still posts its worst week since June</h3><p>The Nasdaq rose 1.1% and the S&amp;P 500 0.3% on Friday as chipmakers recovered part of Thursday&#x27;s losses. The Dow slipped 0.5%.</p><ul class="tags" aria-label="Affected"><li>S&amp;P 500</li><li>Nasdaq</li><li>Dow</li></ul><p class="why"><strong>Why it matters:</strong> Dip buying shows demand for AI names hasn&#x27;t gone away, but one up day after a heavy selloff doesn&#x27;t yet signal that the trend has turned.</p><p class="sources"><span class="small">Sources</span><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html" target="_blank" rel="noopener">Yahoo Finance live</a><a href="https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html" target="_blank" rel="noopener">Washington Post / AP</a><a href="https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026" target="_blank" rel="noopener">StockTitan</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">Medium impact</span></div><div class="body"><h3>Hyperscaler spending worries add to pressure on AI stocks</h3><p>Alongside the election, investors are focused on the huge borrowing and spending behind the AI boom. Several large cloud companies have turned cash-flow negative as they pour hundreds of billions into data centers.</p><ul class="tags" aria-label="Affected"><li>MSFT</li><li>AMZN</li><li>GOOGL</li><li>META</li><li>AI infrastructure</li></ul><p class="why"><strong>Why it matters:</strong> If returns on AI spending take longer to arrive, investors may pay less for these companies&#x27; future growth.</p><p class="sources"><span class="small">Sources</span><a href="https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets" target="_blank" rel="noopener">Al Jazeera</a><a href="https://www.fool.com/investing/2026/11/05/the-ai-selloff-is-getting-worse-nvidia-dell-and-data-center-stocks-are-plunging-hard-is-it-time-to-buy-the-dip/" target="_blank" rel="noopener">Motley Fool</a></p></div></li><li class="lot neutral"><div class="verdict"><span class="effect">Neutral</span><span class="small">Medium impact</span></div><div class="body"><h3>Marvell agrees to buy Lumentum in a $115 billion all-stock deal</h3><p>Marvell announced plans on November 2 to acquire the optical components maker in an all-stock deal. Lumentum shares fell sharply afterward.</p><ul class="tags" aria-label="Affected"><li>MRVL</li><li>LITE</li><li>Optical networking</li></ul><p class="why"><strong>Why it matters:</strong> A deal this size signals confidence in AI networking demand, but it&#x27;s paid in stock, so its value moves with the chip selloff.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li><li class="lot bullish"><div class="verdict"><span class="effect">▲ Bullish</span><span class="small">Low impact</span></div><div class="body"><h3>AppLovin soars 31% on a beat-and-raise quarter</h3><p>AppLovin jumped 31% on Thursday after third-quarter results beat expectations and it raised guidance. Unity gained 39% over the week on strong results and takeover interest.</p><ul class="tags" aria-label="Affected"><li>APP</li><li>U</li><li>Ad tech</li></ul><p class="why"><strong>Why it matters:</strong> Strong company results can still win big even when the wider market is weak.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li><li class="lot bearish"><div class="verdict"><span class="effect">▼ Bearish</span><span class="small">Low impact</span></div><div class="body"><h3>DraftKings falls more than 25% after an earnings miss</h3><p>DraftKings missed on earnings, revenue and sportsbook revenue, sending shares down more than 25%.</p><ul class="tags" aria-label="Affected"><li>DKNG</li><li>Online betting</li></ul><p class="why"><strong>Why it matters:</strong> The miss raises doubts about growth across the sports betting sector.</p><p class="sources"><span class="small">Sources</span><a href="https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks" target="_blank" rel="noopener">Kiplinger</a></p></div></li></ol></section><aside class="side"><section class="particulars" aria-labelledby="watch-h"><h2 id="watch-h">What to watch</h2><dl><div class="item"><dt>Mon 11/9</dt><dd>Earnings: Constellation Energy, Barrick, Occidental, Rocket Lab</dd></div><div class="item"><dt>Tue 11/10</dt><dd>October CPI inflation report, a key input for the December Fed decision. Earnings: CoreWeave, Rigetti</dd></div><div class="item"><dt>Thu 11/12</dt><dd>Earnings: Cisco, Applied Materials, Nebius, Brookfield</dd></div><div class="item"><dt>Dec 8 and 9</dt><dd>Fed meeting, where markets expect about a 78% chance of a hike</dd></div></dl></section><section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h">Bottom line</h2><p>The week turned on politics and rates. AI and chip stocks, the market&#x27;s main engine, sold off hard on fears of tighter data-center rules after the midterms, and a strong jobs report made a December rate hike more likely. Tuesday&#x27;s CPI report is the next big test: hot inflation would add to rate-hike pressure, while a cool reading could support a rebound.</p></section></aside></div>
-<!-- baked:desk:end -->
-</div>
 </main>
 
 <footer class="foot">
@@ -106,19 +101,10 @@
   };
   const tidy = s => String(s ?? "").replace(/\s+·\s+/g, ", ");
 
-  function fitMood(){
-    const el = document.querySelector(".gauge .fit");
-    if (!el) return;
-    const box = el.closest(".gauge").clientWidth;
-    el.style.fontSize = "100px";
-    const w = el.scrollWidth;
-    if (w > 0) el.style.fontSize = Math.min(100 * box / w, 420) + "px";
-  }
-
   function renderState(title, detail){
     $("#desk").innerHTML = "";
-    $("#top").innerHTML = `<div class="container" style="padding-block:var(--space-2xl)"><div class="state">
-      <h2>${esc(title)}</h2><p>${esc(detail)}</p></div></div>`;
+    $("#top").innerHTML = `<div class="container state-wrap"><div class="state">
+      <h2 class="section-head">${esc(title)}</h2><p>${esc(detail)}</p></div></div>`;
   }
 
   function renderPicker(){
@@ -134,30 +120,47 @@
     if (was && was.disabled) sel.focus();
   }
 
-  function storyItem(s){
-    const eff=(s.effect||"neutral").toLowerCase(), imp=(s.impact||"").toLowerCase();
-    return `<li class="lot ${esc(eff)}">
-      <div class="verdict"><span class="effect">${effectMark[eff]||""}${esc(effectLabel[eff]||eff)}</span>
-      ${imp?`<span class="small">${esc(imp.charAt(0).toUpperCase()+imp.slice(1))} impact</span>`:""}</div>
-      <div class="body">
-        <h3>${esc(s.headline)}</h3>
-        <p>${esc(s.what)}</p>
-        ${(s.affected||[]).length?`<ul class="tags" aria-label="Affected">${s.affected.map(a=>`<li>${esc(a)}</li>`).join("")}</ul>`:""}
-        ${s.why?`<p class="why"><strong>Why it matters:</strong> ${esc(s.why)}</p>`:""}
-        ${(s.sources||[]).length?`<p class="sources"><span class="small">Sources</span>${s.sources.map(x=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.title||"Source")}</a>`).join("")}</p>`:""}
-      </div></li>`;
+  // The markup below is mirrored in bake.py; change both together.
+  const effOf = s => (s.effect||"neutral").toLowerCase();
+  function verdict(s){
+    const eff = effOf(s), imp = (s.impact||"").toLowerCase();
+    return `<p class="verdict"><span class="effect">${effectMark[eff]||""}${esc(effectLabel[eff]||eff)}</span>${imp ? `, ${esc(imp)} impact` : ""}</p>`;
+  }
+  const tags = s => (s.affected||[]).length ? `<ul class="tags" aria-label="Affected">${s.affected.map(a=>`<li>${esc(a)}</li>`).join("")}</ul>` : "";
+  const why = s => s.why ? `<p class="why"><strong>Why it matters:</strong> ${esc(s.why)}</p>` : "";
+  function sources(s){
+    const links = (s.sources||[]).filter(x => /^https?:\/\//i.test(x.url||""))
+      .map(x=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.title||"Source")}</a>`).join("");
+    return links ? `<p class="sources"><span>Sources</span>${links}</p>` : "";
+  }
+  const leadStory = s => `<article class="lead-story ${esc(effOf(s))}"><h2 class="headline">${esc(s.headline)}</h2>${verdict(s)}
+      <p class="standfirst">${esc(s.what)}</p>${why(s)}${tags(s)}${sources(s)}</article>`;
+  function story(s){
+    const more = why(s) + sources(s);
+    return `<article class="story ${esc(effOf(s))}"><h3>${esc(s.headline)}</h3>${verdict(s)}<p>${esc(s.what)}</p>${tags(s)}${
+      more ? `<details class="more"><summary>${s.why ? "Why it matters" : "Sources"}</summary>${more}</details>` : ""}</article>`;
+  }
+  function watchBlock(b){
+    return (b.watch||[]).length ? `<section class="watch sheet" aria-labelledby="watch-h"><h2 id="watch-h" class="section-head">What to watch</h2><dl>${
+      b.watch.map(w=>`<div class="item"><dt>${esc(w.when)}</dt><dd>${esc(w.item)}</dd></div>`).join("")}</dl></section>` : "";
   }
 
-  // Redraws only the story list, so the filter buttons (and keyboard focus) stay put.
+  // Redraws only the front page's stories, so the filter buttons (and keyboard focus) stay put.
+  // The first matching story leads, the next two run beside it, the rest go in brief.
   function renderLots(announce){
-    const all = current.data.stories||[];
+    const b = current.data, all = b.stories||[];
     const stories = all.filter(s =>
-      filter==="all" ? true : filter==="high" ? (s.impact||"").toLowerCase()==="high" : (s.effect||"").toLowerCase()===filter);
+      filter==="all" ? true : filter==="high" ? (s.impact||"").toLowerCase()==="high" : effOf(s)===filter);
     document.querySelectorAll(".filters button").forEach(btn => btn.setAttribute("aria-pressed", String(btn.dataset.f===filter)));
-    $("#lots-list").innerHTML = stories.length
-      ? `<ol class="lots">${stories.map(storyItem).join("")}</ol>`
-      : `<div class="state" style="margin-top:var(--space-lg)"><h2>${esc(storyCount(0, filterNoun[filter]))}</h2>
+    const lead = stories.length
+      ? leadStory(stories[0])
+      : `<div class="state lead-story"><h2 class="section-head">${esc(storyCount(0, filterNoun[filter]))}</h2>
           <button type="button" class="ctl" data-f="all">Show all stories</button></div>`;
+    const also = stories.slice(1,3), rest = stories.slice(3);
+    $("#lots-list").innerHTML = `<div class="front-grid">${lead}
+      <div class="front-col">${also.length ? `<section class="also" aria-labelledby="also-h"><h2 id="also-h" class="section-head">Also today</h2>${also.map(story).join("")}</section>` : ""}${watchBlock(b)}</div>
+      ${rest.length ? `<section class="brief" aria-labelledby="brief-h"><h2 id="brief-h" class="section-head">In brief</h2><div class="brief-grid">${rest.map(story).join("")}</div></section>` : ""}
+    </div>`;
     if (announce) $("#lots-status").textContent = storyCount(stories.length, filter==="all" ? "" : filterNoun[filter]);
   }
 
@@ -170,43 +173,29 @@
     const downs = all.filter(s=>s.effect==="bearish").length;
 
     $("#top").innerHTML = `
-    <section class="mood" aria-label="Market mood">
-      <div class="container">
-        <p class="dateline small"><span class="day">${esc(fmtDate(current.id))}</span>${b.coverage ? `<span>${esc(tidy(b.coverage))}</span>` : ""}</p>
-        <div class="gauge ${esc(mood)}"><h1><span class="visually-hidden">Market mood: </span><span class="fit">${esc(mood)}</span></h1></div>
-        <div class="reason"><p class="small">Overall market mood</p><p class="lead">${esc(b.moodReason)}</p></div>
-      </div>
-    </section>
-
-    ${(b.snapshot||[]).length ? `<section aria-label="Market snapshot"><div class="container"><ul class="figures">
-      ${(b.snapshot||[]).map(t=>`<li><span class="small">${esc(t.asset)}</span><span class="v">${esc(t.value)}</span>
-        <span class="c ${dirClass(t.change)}">${esc(signed(t.change))}</span></li>`).join("")}
-    </ul></div></section>` : ""}`;
+    <section class="deck" aria-label="Market mood"><div class="container">
+      <p class="dateline"><span class="day">${esc(fmtDate(current.id))}</span>${b.coverage ? `<span>${esc(tidy(b.coverage))}</span>` : ""}</p>
+      <div class="mood ${esc(mood)}"><h2 class="mood-label">Market mood</h2><p class="mood-word">${effectMark[mood]||""}${esc(mood)}</p></div>
+      <p class="deck-reason">${esc(b.moodReason)}</p>
+    </div></section>
+    ${(b.snapshot||[]).length ? `<section class="ticker" aria-label="Market snapshot"><div class="container"><ul class="figures">${
+      b.snapshot.map(t=>`<li><span class="small">${esc(t.asset)}</span><span class="v">${esc(t.value)}</span><span class="c ${dirClass(t.change)}">${esc(signed(t.change))}</span></li>`).join("")
+    }</ul></div></section>` : ""}`;
 
     $("#desk").innerHTML = `
-    <div class="container desk">
-      <section aria-labelledby="lots-h">
-        <div class="lots-head rule-bar">
-          <div class="row">
-            <h2 id="lots-h">Top stories</h2>
-            <p class="small">${all.length} stories, ${ups} bullish, ${downs} bearish</p>
-          </div>
-          <div class="filters" role="group" aria-label="Filter stories">
-            ${filterNames.map(([k,l])=>`<button type="button" class="ctl" data-f="${k}" aria-pressed="false">${l}</button>`).join("")}
-          </div>
-          <p id="lots-status" class="visually-hidden" role="status"></p>
+    <div class="container front">
+      <div class="frontbar">
+        <p class="small">${all.length} stories, ${ups} bullish, ${downs} bearish</p>
+        <div class="filters" role="group" aria-label="Filter stories">
+          ${filterNames.map(([k,l])=>`<button type="button" class="ctl" data-f="${k}" aria-pressed="false">${l}</button>`).join("")}
         </div>
-        <div id="lots-list"></div>
-      </section>
-      <aside class="side">
-        ${(b.watch||[]).length?`<section class="particulars" aria-labelledby="watch-h"><h2 id="watch-h">What to watch</h2><dl>
-          ${b.watch.map(w=>`<div class="item"><dt>${esc(w.when)}</dt><dd>${esc(w.item)}</dd></div>`).join("")}</dl></section>`:""}
-        ${b.bottomLine?`<section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h">Bottom line</h2><p>${esc(b.bottomLine)}</p></section>`:""}
-      </aside>
+        <p id="lots-status" class="visually-hidden" role="status"></p>
+      </div>
+      <section class="stories" aria-label="Top stories"><div id="lots-list"></div></section>
+      ${b.bottomLine ? `<section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h" class="section-head">Bottom line</h2><p>${esc(b.bottomLine)}</p></section>` : ""}
     </div>`;
     renderLots(false);
     $("#lastrun").textContent = "Updated automatically every morning by an AI news agent" + (b.generatedAt ? `. Last run ${new Date(b.generatedAt).toLocaleString()}.` : ".");
-    fitMood();
   }
 
   function select(id){
@@ -228,8 +217,6 @@
   $("#prev").addEventListener("click", () => { const i=briefings.findIndex(b=>b.id===current?.id); if(briefings[i+1]) location.hash = briefings[i+1].id; });
   $("#next").addEventListener("click", () => { const i=briefings.findIndex(b=>b.id===current?.id); if(i>0) location.hash = briefings[i-1].id; });
   window.addEventListener("hashchange", () => select(location.hash.slice(1)));
-  window.addEventListener("resize", fitMood);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitMood);
 
   // The latest briefing is baked into the page; a failed load keeps it and says only the archive is missing.
   const baked = () => !!document.querySelector("#top .mood");
