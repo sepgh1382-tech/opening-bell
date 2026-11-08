@@ -1,7 +1,10 @@
 #!/bin/bash
 # Rebuilds briefings/index.json from the files in briefings/, then commits and pushes to GitHub.
+# Safe to run from two places (the GitHub workflow and a local task): it pulls what the other pushed first.
 set -euo pipefail
 cd "$(dirname "$0")"
+
+build() {
 python3 - <<'PY'
 import json, os, re
 dates = sorted((f[:-5] for f in os.listdir("briefings") if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", f)), reverse=True)
@@ -11,8 +14,18 @@ json.dump({"dates": dates}, open("briefings/index.json", "w"), indent=2)
 print("Briefings:", len(dates), "latest:", dates[0] if dates else None)
 PY
 python3 bake.py
+}
+
+build
 git add -A
 git diff --cached --quiet && { echo "Nothing new to publish."; exit 0; }
 git commit -q -m "Briefing for $(date +%Y-%m-%d)"
+
+# Bring in anything the other publisher pushed. On a conflict (same day's briefing) this run's version wins.
+git pull -q --rebase --autostash -X theirs origin main || { git rebase --abort 2>/dev/null; echo "Could not merge with GitHub."; exit 1; }
+build  # regenerate the index and page from the merged set of briefings
+git add -A
+git diff --cached --quiet || git commit -q --amend --no-edit
+
 git push -q origin main
 echo "Published."
