@@ -10,6 +10,7 @@ for d in dates:
 json.dump({"dates": dates}, open("briefings/index.json", "w"), indent=2)
 print("Briefings:", len(dates), "latest:", dates[0] if dates else None)
 PY
+python3 bake.py
 git add -A
 git diff --cached --quiet && { echo "Nothing new to publish."; exit 0; }
 git commit -q -m "Briefing for $(date +%Y-%m-%d)"

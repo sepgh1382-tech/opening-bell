@@ -1,6 +1,6 @@
 {
   "bottomLine": "The week turned on politics and rates. AI and chip stocks, the market's main engine, sold off hard on fears of tighter data-center rules after the midterms, and a strong jobs report made a December rate hike more likely. Tuesday's CPI report is the next big test: hot inflation would add to rate-hike pressure, while a cool reading could support a rebound.",
-  "coverage": "Weekend edition · week of Nov 2–6",
+  "coverage": "Weekend edition, week of Nov 2 to 6",
   "date": "2026-11-07",
   "generatedAt": "2026-11-07T20:00:00Z",
   "mood": "bearish",
@@ -92,7 +92,7 @@
           "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
         }
       ],
-      "what": "Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed's December 8–9 meeting.",
+      "what": "Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed's December 8 and 9 meeting.",
       "why": "A strong economy is good news for earnings, but higher rates raise borrowing costs and make stocks look pricier compared with bonds. Traders also pulled forward their expected timing of the final hike."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "item": "Fed meeting, where markets expect about a 78% chance of a hike",
-      "when": "Dec 8–9"
+      "when": "Dec 8 and 9"
     }
   ]
 }
