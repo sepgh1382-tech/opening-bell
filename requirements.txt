@@ -1,1 +1,2 @@
-anthropic>=0.125.0
+feedparser==6.0.11
+vaderSentiment==3.3.2
