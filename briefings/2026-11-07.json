@@ -1,0 +1,220 @@
+{
+  "bottomLine": "The week turned on politics and rates. AI and chip stocks, the market's main engine, sold off hard on fears of tighter data-center rules after the midterms, and a strong jobs report made a December rate hike more likely. Tuesday's CPI report is the next big test: hot inflation would add to rate-hike pressure, while a cool reading could support a rebound.",
+  "coverage": "Weekend edition · week of Nov 2–6",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T20:00:00Z",
+  "mood": "bearish",
+  "moodReason": "A midterm-driven AI and chip rout gave the S&P 500 its worst week since June, and a hot jobs report on Friday revived the chance of a Fed rate hike in December.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "+0.3% Fri",
+      "value": "7,376.86"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+1.1% Fri",
+      "value": "24,579.42"
+    },
+    {
+      "asset": "Dow",
+      "change": "-0.5% Fri",
+      "value": "51,285.73"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+0.9% Fri",
+      "value": "2,754.11"
+    },
+    {
+      "asset": "Dec hike odds",
+      "change": "After jobs data",
+      "value": "~78%"
+    },
+    {
+      "asset": "Unemployment",
+      "change": "October",
+      "value": "4.1%"
+    }
+  ],
+  "stories": [
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "Data centers"
+      ],
+      "effect": "bearish",
+      "headline": "Democratic midterm sweep sparks a sharp AI and chip selloff",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+        },
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html"
+        },
+        {
+          "title": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-plunge-dem-midterm-sweep-205246551.html"
+        }
+      ],
+      "what": "After Democrats' midterm wins, AI infrastructure stocks plunged on Thursday. Nvidia fell about 9%, AMD and Micron about 17%, and the Philadelphia Semiconductor Index dropped more than 12%. The Nasdaq had its steepest one-day fall in 19 months.",
+      "why": "Investors worry about tighter rules on data centers and power use, which would make the AI buildout slower and more expensive. That hits the stocks that have driven most of the market's gains."
+    },
+    {
+      "affected": [
+        "Treasury yields",
+        "US dollar",
+        "Rate-sensitive stocks",
+        "Banks"
+      ],
+      "effect": "bearish",
+      "headline": "Hot October jobs report puts a December Fed rate hike back on the table",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "Morningstar",
+          "url": "https://www.morningstar.com/economy/hot-october-jobs-report-raises-odds-december-rate-hike"
+        },
+        {
+          "title": "Investing.com / Reuters",
+          "url": "https://www.investing.com/news/economic-indicators/strong-october-jobs-report-sends-yields-higher-5008272"
+        },
+        {
+          "title": "Fox Business",
+          "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+        }
+      ],
+      "what": "Employers added 165,000 jobs in October, well above forecasts, and unemployment fell to 4.1%. Markets now price roughly a 78% chance of a quarter-point hike at the Fed's December 8–9 meeting.",
+      "why": "A strong economy is good news for earnings, but higher rates raise borrowing costs and make stocks look pricier compared with bonds. Traders also pulled forward their expected timing of the final hike."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Nasdaq",
+        "Dow"
+      ],
+      "effect": "neutral",
+      "headline": "Chip stocks bounce Friday, but the S&P 500 still posts its worst week since June",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Yahoo Finance live",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+        },
+        {
+          "title": "Washington Post / AP",
+          "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "title": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+        }
+      ],
+      "what": "The Nasdaq rose 1.1% and the S&P 500 0.3% on Friday as chipmakers recovered part of Thursday's losses. The Dow slipped 0.5%.",
+      "why": "Dip buying shows demand for AI names hasn't gone away, but one up day after a heavy selloff doesn't yet signal that the trend has turned."
+    },
+    {
+      "affected": [
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "AI infrastructure"
+      ],
+      "effect": "bearish",
+      "headline": "Hyperscaler spending worries add to pressure on AI stocks",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+        },
+        {
+          "title": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/05/the-ai-selloff-is-getting-worse-nvidia-dell-and-data-center-stocks-are-plunging-hard-is-it-time-to-buy-the-dip/"
+        }
+      ],
+      "what": "Alongside the election, investors are focused on the huge borrowing and spending behind the AI boom. Several large cloud companies have turned cash-flow negative as they pour hundreds of billions into data centers.",
+      "why": "If returns on AI spending take longer to arrive, investors may pay less for these companies' future growth."
+    },
+    {
+      "affected": [
+        "MRVL",
+        "LITE",
+        "Optical networking"
+      ],
+      "effect": "neutral",
+      "headline": "Marvell agrees to buy Lumentum in a $115 billion all-stock deal",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ],
+      "what": "Marvell announced plans on November 2 to acquire the optical components maker in an all-stock deal. Lumentum shares fell sharply afterward.",
+      "why": "A deal this size signals confidence in AI networking demand, but it's paid in stock, so its value moves with the chip selloff."
+    },
+    {
+      "affected": [
+        "APP",
+        "U",
+        "Ad tech"
+      ],
+      "effect": "bullish",
+      "headline": "AppLovin soars 31% on a beat-and-raise quarter",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ],
+      "what": "AppLovin jumped 31% on Thursday after third-quarter results beat expectations and it raised guidance. Unity gained 39% over the week on strong results and takeover interest.",
+      "why": "Strong company results can still win big even when the wider market is weak."
+    },
+    {
+      "affected": [
+        "DKNG",
+        "Online betting"
+      ],
+      "effect": "bearish",
+      "headline": "DraftKings falls more than 25% after an earnings miss",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ],
+      "what": "DraftKings missed on earnings, revenue and sportsbook revenue, sending shares down more than 25%.",
+      "why": "The miss raises doubts about growth across the sports betting sector."
+    }
+  ],
+  "watch": [
+    {
+      "item": "Earnings: Constellation Energy, Barrick, Occidental, Rocket Lab",
+      "when": "Mon 11/9"
+    },
+    {
+      "item": "October CPI inflation report, a key input for the December Fed decision. Earnings: CoreWeave, Rigetti",
+      "when": "Tue 11/10"
+    },
+    {
+      "item": "Earnings: Cisco, Applied Materials, Nebius, Brookfield",
+      "when": "Thu 11/12"
+    },
+    {
+      "item": "Fed meeting, where markets expect about a 78% chance of a hike",
+      "when": "Dec 8–9"
+    }
+  ]
+}

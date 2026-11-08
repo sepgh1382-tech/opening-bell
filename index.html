@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="A daily stock-market news briefing that rates how each story is likely to move the market.">
+<title>Opening Bell Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: masthead + mood band, ticker strip, then a two-column desk (stories | watch list & bottom line) that stacks on phones */
+:root{
+  --bg:#EEF1F5; --surface:#FFFFFF; --ink:#101A2B; --muted:#5A6678; --line:#D5DBE4;
+  --accent:#2448C8; --accent-soft:#E3E9FB;
+  --up:#0F7A4A; --up-soft:#DDF2E7; --down:#B4232F; --down-soft:#F8E1E3; --flat:#6B7487; --flat-soft:#E7EAF0;
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-data:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B111C; --surface:#131B2A; --ink:#E6EBF3; --muted:#93A0B4; --line:#253048;
+  --accent:#7D9BFF; --accent-soft:#1C2847;
+  --up:#4FD199; --up-soft:#12301F; --down:#FF7A84; --down-soft:#3A1519; --flat:#A2ABBD; --flat-soft:#1E2535;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B111C; --surface:#131B2A; --ink:#E6EBF3; --muted:#93A0B4; --line:#253048;
+  --accent:#7D9BFF; --accent-soft:#1C2847;
+  --up:#4FD199; --up-soft:#12301F; --down:#FF7A84; --down-soft:#3A1519; --flat:#A2ABBD; --flat-soft:#1E2535;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead */
+.mast{border-bottom:1px solid var(--line);background:var(--surface)}
+.mast .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-block:14px}
+.brand{display:flex;align-items:baseline;gap:10px;min-width:0}
+.brand h1{margin:0;font-family:var(--f-display);font-stretch:72%;font-weight:800;font-size:1.65rem;letter-spacing:.01em;text-transform:uppercase;line-height:1}
+.brand .bell{width:10px;height:10px;border-radius:50%;background:var(--accent);align-self:center;box-shadow:0 0 0 4px var(--accent-soft)}
+.brand small{font-family:var(--f-data);font-size:.72rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.picker{display:flex;align-items:center;gap:8px;font-family:var(--f-data);font-size:.8rem;color:var(--muted)}
+.picker select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.picker button{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+.picker button:disabled{opacity:.4;cursor:default}
+
+/* mood band */
+.mood{padding-block:28px 22px}
+.mood .wrap{display:grid;grid-template-columns:auto 1fr;gap:18px 28px;align-items:center}
+.dateline{grid-column:1/-1;font-family:var(--f-data);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.gauge{font-family:var(--f-display);font-stretch:62%;font-weight:800;font-size:clamp(3rem,9vw,5.6rem);line-height:.85;text-transform:uppercase;letter-spacing:-.01em}
+.gauge.bullish{color:var(--up)} .gauge.bearish{color:var(--down)} .gauge.mixed{color:var(--accent)}
+.mood p{margin:0;font-size:1.15rem;max-width:60ch;text-wrap:pretty;min-width:0}
+.mood .label{display:block;font-family:var(--f-data);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+
+/* ticker strip */
+.ticker{border-block:1px solid var(--line);background:var(--surface)}
+.ticker .rail{display:flex;overflow-x:auto;scrollbar-width:thin}
+.tick{flex:0 0 auto;min-width:150px;padding:12px 18px;border-right:1px solid var(--line);font-family:var(--f-data);font-variant-numeric:tabular-nums}
+.tick:last-child{border-right:0}
+.tick .n{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tick .v{font-size:1.05rem;font-weight:600;margin-top:2px}
+.tick .c{font-size:.8rem}
+.c.up{color:var(--up)} .c.down{color:var(--down)} .c.flat{color:var(--flat)}
+
+/* desk */
+.desk{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:32px;padding-block:28px 48px}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.bar h2,.side h2{margin:0;font-family:var(--f-display);font-stretch:80%;font-weight:700;font-size:.95rem;letter-spacing:.08em;text-transform:uppercase}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font-family:var(--f-data);font-size:.75rem;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{font-family:var(--f-data);font-size:.75rem;color:var(--muted)}
+
+.stories{display:flex;flex-direction:column;gap:12px}
+.story{display:grid;grid-template-columns:6px minmax(0,1fr);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.story .stripe{background:var(--flat)}
+.story.bullish .stripe{background:var(--up)} .story.bearish .stripe{background:var(--down)}
+.story .body{padding:16px 18px;min-width:0}
+.story h3{margin:8px 0 6px;font-family:var(--f-display);font-stretch:88%;font-weight:700;font-size:1.22rem;line-height:1.2;text-wrap:balance}
+.story p{margin:0 0 8px;max-width:68ch}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font-family:var(--f-data);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:4px;background:var(--flat-soft);color:var(--flat)}
+.chip.bullish{background:var(--up-soft);color:var(--up)} .chip.bearish{background:var(--down-soft);color:var(--down)}
+.chip.impact{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.chip.impact.high{border-color:var(--ink);color:var(--ink)}
+.why{font-size:.95rem;color:var(--muted)}
+.why b{color:var(--ink);font-weight:600}
+.affected{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.affected span{font-family:var(--f-data);font-size:.72rem;padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.src{font-family:var(--f-data);font-size:.72rem;display:flex;flex-wrap:wrap;gap:4px 12px}
+.src a{color:var(--muted)} .src a:hover{color:var(--accent)}
+
+.side{display:flex;flex-direction:column;gap:24px;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.panel h2{margin-bottom:10px}
+.watch{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.watch li{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:.93rem}
+.watch li:first-child{border-top:0;padding-top:0}
+.watch .when{font-family:var(--f-data);font-size:.72rem;color:var(--accent);text-transform:uppercase;letter-spacing:.04em;padding-top:3px}
+.bottom p{margin:0;font-size:1rem}
+.note{font-family:var(--f-data);font-size:.7rem;color:var(--muted);line-height:1.6}
+
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:40px 24px;text-align:center;color:var(--muted)}
+.empty h3{font-family:var(--f-display);font-stretch:85%;color:var(--ink);margin:0 0 6px}
+.status{font-family:var(--f-data);font-size:.75rem;color:var(--muted);padding-block:6px}
+
+@media (max-width:860px){
+  .desk{grid-template-columns:minmax(0,1fr)}
+  .mood .wrap{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .story{transition:transform .15s ease,box-shadow .15s ease}
+  .story:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(16,26,43,.08)}
+}
+</style>
+
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div class="brand"><span class="bell" aria-hidden="true"></span><h1>Opening Bell</h1><small>Daily market briefing</small></div>
+    <div class="picker">
+      <button id="prev" type="button" aria-label="Earlier briefing">&larr;</button>
+      <label for="day" class="sr">Edition</label>
+      <select id="day" aria-label="Choose a day"><option>Loading…</option></select>
+      <button id="next" type="button" aria-label="Later briefing">&rarr;</button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <section class="mood"><div class="wrap">
+    <div class="dateline" id="dateline">Loading the latest briefing…</div>
+  </div></section>
+</main>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const safeUrl = u => /^https?:\/\//i.test(u||"") ? u : "#";
+  let briefings = [];   // sorted newest first
+  let current = null;
+  let filter = "all";
+
+  function fmtDate(iso){
+    const d = new Date(iso + "T12:00:00");
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString(undefined,{weekday:"long",year:"numeric",month:"long",day:"numeric"});
+  }
+  function dirClass(ch){ const s=String(ch||"").trim(); if(s.startsWith("+")) return "up"; if(s.startsWith("-")||s.startsWith("−")) return "down"; return "flat"; }
+  const effectLabel = {bullish:"Bullish",bearish:"Bearish",neutral:"Neutral"};
+
+  function renderEmpty(msg, detail){
+    $("#app").innerHTML = `<section class="mood"><div class="wrap"><div class="dateline">${esc(msg)}</div></div></section>
+      <div class="wrap" style="padding-block:0 48px"><div class="empty"><h3>No briefing yet</h3>
+      <p>${esc(detail)}</p></div></div>`;
+  }
+
+  function renderPicker(){
+    const sel = $("#day");
+    sel.innerHTML = briefings.map(b => `<option value="${esc(b.id)}">${esc(b.id)}</option>`).join("");
+    if (current) sel.value = current.id;
+    const i = briefings.findIndex(b => b.id === current?.id);
+    $("#prev").disabled = i < 0 || i >= briefings.length - 1;
+    $("#next").disabled = i <= 0;
+  }
+
+  function render(){
+    if (!current){ return; }
+    const b = current.data;
+    const mood = (b.mood||"mixed").toLowerCase();
+    const stories = (b.stories||[]).filter(s =>
+      filter==="all" ? true : filter==="high" ? (s.impact||"").toLowerCase()==="high" : (s.effect||"").toLowerCase()===filter);
+    const total = (b.stories||[]).length;
+    const ups = (b.stories||[]).filter(s=>s.effect==="bullish").length;
+    const downs = (b.stories||[]).filter(s=>s.effect==="bearish").length;
+
+    $("#app").innerHTML = `
+    <section class="mood"><div class="wrap">
+      <div class="dateline">${esc(fmtDate(current.id))}${b.coverage ? " · " + esc(b.coverage) : ""}</div>
+      <div class="gauge ${esc(mood)}">${esc(mood)}</div>
+      <p><span class="label">Overall market mood</span>${esc(b.moodReason)}</p>
+    </div></section>
+
+    ${(b.snapshot||[]).length ? `<section class="ticker" aria-label="Market snapshot"><div class="wrap"><div class="rail">
+      ${(b.snapshot||[]).map(t=>`<div class="tick"><div class="n">${esc(t.asset)}</div><div class="v">${esc(t.value)}</div>
+        <div class="c ${dirClass(t.change)}">${esc(t.change||"")}</div></div>`).join("")}
+    </div></div></section>` : ""}
+
+    <div class="wrap desk">
+      <section aria-label="Top stories">
+        <div class="bar">
+          <h2>Top stories</h2>
+          <span class="count">${total} stories · ${ups} bullish · ${downs} bearish</span>
+        </div>
+        <div class="bar">
+          <div class="filters" role="group" aria-label="Filter stories">
+            ${[["all","All"],["bullish","Bullish"],["bearish","Bearish"],["neutral","Neutral"],["high","High impact"]].map(([k,l])=>
+              `<button type="button" data-f="${k}" aria-pressed="${filter===k}">${l}</button>`).join("")}
+          </div>
+        </div>
+        <div class="stories">
+          ${stories.length ? stories.map(s=>{
+            const eff=(s.effect||"neutral").toLowerCase(), imp=(s.impact||"").toLowerCase();
+            return `<article class="story ${esc(eff)}"><div class="stripe" aria-hidden="true"></div><div class="body">
+              <div class="chips"><span class="chip ${esc(eff)}">${eff==="bullish"?"▲":eff==="bearish"?"▼":"●"} ${esc(effectLabel[eff]||eff)}</span>
+              ${imp?`<span class="chip impact ${esc(imp)}">${esc(imp)} impact</span>`:""}</div>
+              <h3>${esc(s.headline)}</h3>
+              <p>${esc(s.what)}</p>
+              ${(s.affected||[]).length?`<div class="affected">${s.affected.map(a=>`<span>${esc(a)}</span>`).join("")}</div>`:""}
+              ${s.why?`<p class="why"><b>Why it matters:</b> ${esc(s.why)}</p>`:""}
+              ${(s.sources||[]).length?`<div class="src">${s.sources.map(x=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.title||"Source")} ↗</a>`).join("")}</div>`:""}
+            </div></article>`}).join("") : `<div class="empty">No stories match this filter.</div>`}
+        </div>
+      </section>
+      <aside class="side">
+        ${(b.watch||[]).length?`<div class="panel"><h2>What to watch</h2><ul class="watch">
+          ${b.watch.map(w=>`<li><span class="when">${esc(w.when)}</span><span>${esc(w.item)}</span></li>`).join("")}</ul></div>`:""}
+        ${b.bottomLine?`<div class="panel bottom"><h2>Bottom line</h2><p>${esc(b.bottomLine)}</p></div>`:""}
+        <p class="note">Updated automatically every morning by an AI news agent${b.generatedAt?` · last run ${esc(new Date(b.generatedAt).toLocaleString())}`:""}.<br>
+        For information only. Not financial advice.</p>
+      </aside>
+    </div>`;
+    document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{filter=btn.dataset.f;render();}));
+  }
+
+  function select(id){
+    const found = briefings.find(b=>b.id===id) || briefings[0];
+    current = found || null;
+    renderPicker(); render();
+  }
+
+  $("#day").addEventListener("change", e => { location.hash = e.target.value; });
+  $("#prev").addEventListener("click", () => { const i=briefings.findIndex(b=>b.id===current?.id); if(briefings[i+1]) location.hash = briefings[i+1].id; });
+  $("#next").addEventListener("click", () => { const i=briefings.findIndex(b=>b.id===current?.id); if(i>0) location.hash = briefings[i-1].id; });
+  window.addEventListener("hashchange", () => select(location.hash.slice(1)));
+
+  async function start(){
+    try{
+      const idx = await fetch("briefings/index.json",{cache:"no-store"}).then(r=>{if(!r.ok) throw 0; return r.json();});
+      const dates = (idx.dates||[]).slice().sort().reverse();
+      if(!dates.length){ renderEmpty("Waiting for the first edition","A new briefing is published here every morning."); return; }
+      const docs = await Promise.all(dates.slice(0,120).map(d=>fetch("briefings/"+d+".json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)));
+      briefings = dates.map((d,i)=>({id:d,data:docs[i]})).filter(b=>b.data);
+      const want = location.hash.slice(1);
+      select(want && briefings.some(b=>b.id===want) ? want : briefings[0].id);
+    }catch(e){
+      renderEmpty("Briefings unavailable","The briefing archive couldn't be loaded. Try refreshing the page.");
+    }
+  }
+  start();
+})();
+</script>
+<style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}</style>
+
+</body>
+</html>
