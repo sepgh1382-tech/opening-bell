@@ -80,6 +80,24 @@ select.ctl { appearance: none; padding-inline-end: var(--space-xl); font-variant
 .c.up, .c.down { font-family: var(--font-outlier); font-weight: 400; font-variant-numeric: tabular-nums; }
 .c.up { color: var(--color-up); } .c.down { color: var(--color-down); } .c.flat { color: var(--color-flat); }
 
+/* the short version: the top stories as headlines, then one control that opens everything else */
+.three .container { display: grid; gap: var(--space-md); padding-bottom: var(--space-lg); }
+.three-list { list-style: none; margin: 0; padding: 0; counter-reset: three; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-md) var(--gap-columns); }
+@media (min-width: 60rem) { .three-list { grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); } }
+.three-list li { counter-increment: three; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-2xs) var(--space-sm); align-content: start; padding-top: var(--space-sm); border-top: var(--rule-hair) solid var(--color-rule); }
+.three-list li::before { content: counter(three); grid-row: span 2; font: 500 var(--text-xl)/1.05 var(--font-outlier); color: var(--color-muted); font-variant-numeric: tabular-nums; }
+.three-list h3 { font: 600 var(--text-title)/1.15 var(--font-body); letter-spacing: -0.015em; color: var(--color-ink); max-width: none; }
+
+.full > .full-toggle { list-style: none; cursor: pointer; border-top: var(--rule-bar) solid var(--color-ink); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.full > .full-toggle::-webkit-details-marker { display: none; }
+.full-toggle .container { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); min-height: 56px; font: 600 var(--text-md)/1.3 var(--font-display); color: var(--color-ink); }
+.full-toggle .container::after { content: "+" / ""; font: 500 var(--text-xl)/1 var(--font-outlier); color: var(--color-muted); }
+.full[open] > .full-toggle .container::after { content: "−" / ""; }
+.full:not([open]) .when-open, .full[open] .when-closed { display: none; }
+.full > .full-toggle:focus-visible { outline-offset: -4px; }
+@media (hover: hover) { .full > .full-toggle:hover { background: var(--color-paper-2); } }
+.full[open] > .full-toggle { margin-bottom: var(--space-md); }
+
 /* the front page */
 .frontbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm) var(--space-md); padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
 .filters { display: flex; flex-wrap: wrap; gap: var(--space-xs); }
