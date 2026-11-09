@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T16:36:37Z",
+  "coverage": "Pre-market, Mon Nov 9, covering Thu Nov 5 and Fri Nov 6 sessions",
+  "mood": "bearish",
+  "moodReason": "Thursday's AI and chip selloff was the worst US session since April 2025 for the S&P 500, and the Nasdaq is still down about 10.8% over the past month. Friday's rebound recovered only a small part of Thursday's losses, and strong October payrolls keep rate-hike worries alive.",
+  "snapshot": [
+    {"asset": "S&P 500", "value": "7,376.86", "change": "+0.3%"},
+    {"asset": "Nasdaq Composite", "value": "24,579.42", "change": "+1.1%"},
+    {"asset": "Dow Jones", "value": "51,285.73", "change": "-0.5%"},
+    {"asset": "Russell 2000", "value": "2,753.65", "change": "+0.9%"},
+    {"asset": "VIX", "value": "25.49", "change": "-9.6%"},
+    {"asset": "Dollar Index", "value": "102.28", "change": "+0.7%"},
+    {"asset": "Gold (per ounce)", "value": "$4,066.60", "change": "+0.1%"}
+  ],
+  "stories": [
+    {
+      "headline": "AI and chip stocks sell off hard on Thursday, Nov 5",
+      "what": "The S&P 500 fell 4.36% and the Dow lost 3.44%, both their worst sessions since April 2025. The Nasdaq fell about 5.5%, pushed into correction territory. Nvidia dropped about 9%, AMD about 17% and Micron about 17.5%. Sources differ on exact percentages, so treat the figures as approximate.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["Nasdaq", "S&P 500", "semiconductors", "AI infrastructure", "Nvidia", "AMD", "Micron"],
+      "why": "The AI trade is the main growth driver of the index, so doubts about how fast data center and chip spending will pay off hit the largest index weights. Reports also cite concerns about regulatory limits and the financing cost of the AI buildout.",
+      "sources": [
+        {"title": "KY3 (AP): Brutal sell-off for AI stocks sends Wall Street reeling", "url": "https://www.ky3.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/"},
+        {"title": "StockAnalysis: Nasdaq 100 falls over 4% as chip stocks drop", "url": "https://stockanalysis.com/news/nasdaq-100-falls-chip-stocks-slide/"},
+        {"title": "IBTimes: Nvidia stock tumbles alongside Qualcomm, pushing Nasdaq to worst session since April 2025", "url": "https://www.ibtimes.co.uk/nvidia-qualcomm-shares-nasdaq-ai-selloff-1830635"}
+      ]
+    },
+    {
+      "headline": "October payrolls beat forecasts at 165,000 and unemployment falls to 4.1%",
+      "what": "The October jobs report showed 165,000 new jobs against roughly 62,000 to 65,000 expected. The unemployment rate fell to 4.1% and August and September were revised up by a combined 84,000. Manufacturing added 19,000 jobs.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["Treasury yields", "US dollar", "rate-sensitive growth stocks", "Nasdaq", "S&P 500"],
+      "why": "A strong labor market makes the Fed less likely to cut and more open to another hike, which lifts yields and the dollar and pressures valuations for long-duration tech. The dollar index rose 0.7% on the day and the 10-year yield was about 4.86%.",
+      "sources": [
+        {"title": "IndustryWeek: October jobs report, US adds 165,000 jobs as unemployment falls to 4.1%", "url": "https://www.industryweek.com/talent/news/55417255/october-jobs-report-us-adds-165000-jobs-as-unemployment-falls-slightly-to-41"},
+        {"title": "investingLive: Americas market news wrap, non-farm payrolls beat estimates", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-beat-estimates/"}
+      ]
+    },
+    {
+      "headline": "Stocks rebound modestly on Friday, Nov 6, but Dow lags",
+      "what": "The Nasdaq rose 1.09% to 24,579.42 and the S&P 500 gained 0.32% to 7,376.86. The Russell 2000 rose 0.87%, while the Dow slipped 0.46% to 51,285.73. Chipmakers, including Nvidia and AMD, bounced, but the rebound recovered only a small part of Thursday's drop.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["S&P 500", "Nasdaq", "Dow Jones", "Russell 2000", "chipmakers"],
+      "why": "The bounce shows dip buyers are active, but the VIX at 25.49 signals that investors are still nervous. Whether the rebound holds depends on how the AI trade and the rate outlook develop this week.",
+      "sources": [
+        {"title": "Journal Arta: Wall Street close, Nasdaq rises 1.09% and S&P 500 gains 0.32% as Dow slips 0.46%", "url": "https://journalarta.com/en/2026/11/07/wall-street-close-nasdaq-rises-1-09-and-sp-500-gains-0-32-as-dow-slips-0-46/"},
+        {"title": "HyperDash: US stocks eke out gains as chipmakers rebound, dollar climbs after jobs report", "url": "https://hyperdash.com/news/us-stocks-eke-out-gains-as-chipmakers-rebound-dollar-climbs-after-jobs-report"}
+      ]
+    },
+    {
+      "headline": "Global markets slide with Nikkei and DAX lower",
+      "what": "Europe and Asia followed Wall Street lower. The Nikkei 225 fell about 6% and the DAX dropped 1.9% in the latest reported session, with the Euro Stoxx 50 down about 1%.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["Nikkei 225", "DAX", "Euro Stoxx 50", "global chipmakers"],
+      "why": "The sell-off spread beyond the US, which suggests the AI and chip repricing is a global event tied to the same supply chains, not only a US tech problem.",
+      "sources": [
+        {"title": "Journal Arta: Wall Street close, Nasdaq rises 1.09% and S&P 500 gains 0.32% as Dow slips 0.46%", "url": "https://journalarta.com/en/2026/11/07/wall-street-close-nasdaq-rises-1-09-and-sp-500-gains-0-32-as-dow-slips-0-46/"},
+        {"title": "HyperDash: US stocks eke out gains as chipmakers rebound, dollar climbs after jobs report", "url": "https://hyperdash.com/news/us-stocks-eke-out-gains-as-chipmakers-rebound-dollar-climbs-after-jobs-report"}
+      ]
+    },
+    {
+      "headline": "Oil and gold hold near recent levels",
+      "what": "Brent crude eased 0.36% to $97.94 a barrel, and WTI was reported flat near $90.50. Gold rose slightly to about $4,066 an ounce.",
+      "effect": "neutral",
+      "impact": "low",
+      "affected": ["energy", "gold", "Brent crude", "WTI crude"],
+      "why": "Oil near $90 to $100 keeps inflation expectations elevated, which supports the hawkish rates backdrop, while gold's steadiness suggests investors are not rushing into safe havens.",
+      "sources": [
+        {"title": "Journal Arta: Wall Street close, Nasdaq rises 1.09% and S&P 500 gains 0.32% as Dow slips 0.46%", "url": "https://journalarta.com/en/2026/11/07/wall-street-close-nasdaq-rises-1-09-and-sp-500-gains-0-32-as-dow-slips-0-46/"},
+        {"title": "investingLive: Americas market news wrap, non-farm payrolls beat estimates", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-beat-estimates/"}
+      ]
+    },
+    {
+      "headline": "Earnings and CPI set up a busy week for tech and AI names",
+      "what": "This week brings Take-Two before the bell on Monday, October CPI on Tuesday at 8:30am ET, CoreWeave after the close on Tuesday, and Cisco and Applied Materials on Thursday.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["CoreWeave", "Cisco", "Applied Materials", "Take-Two", "AI infrastructure", "Nasdaq"],
+      "why": "CoreWeave and the chip equipment makers are direct reads on AI data center spending, the exact fear behind Thursday's sell-off. CPI will show whether inflation supports the case for another Fed hike.",
+      "sources": [
+        {"title": "Regards of Wall Street: Stock market week ahead, November 9, 2026", "url": "https://www.regardsofwallstreet.com/news/stock-market-week-ahead-november-9-2026"}
+      ]
+    }
+  ],
+  "watch": [
+    {"when": "Mon 11/9", "item": "Take-Two earnings before the open, ahead of GTA 6"},
+    {"when": "Tue 11/10", "item": "October CPI report, 8:30am ET"},
+    {"when": "Tue 11/10", "item": "CoreWeave earnings after the close"},
+    {"when": "Thu 11/12", "item": "Cisco and Applied Materials earnings"}
+  ],
+  "bottomLine": "US stocks are in a fragile spot after the worst AI-led sell-off since April 2025 and a Friday bounce that was much smaller. Strong October payrolls and a hawkish Fed tone keep yields near 4.86% and the dollar firm, which weighs on richly valued tech. This week's CPI print and the AI-linked earnings from CoreWeave, Cisco and Applied Materials will decide whether the selling was a reset or the start of a deeper correction."
+}
