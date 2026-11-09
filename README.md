@@ -8,7 +8,7 @@ For information only. Not financial advice.
 
 ## How the daily update works
 
-`.github/workflows/daily-briefing.yml` runs on GitHub's servers every morning (13:17 UTC: 7:17 AM Central in winter, 8:17 AM in summer), with a backup run 90 minutes later in case GitHub skips the first. Each run does nothing if today's briefing already exists, for example because the Claude task in the app published one first (Run workflow → "force" rebuilds anyway). Your computer doesn't need to be on, and it costs nothing: there are no API keys or paid services. It:
+`.github/workflows/daily-briefing.yml` runs on GitHub's servers every morning (13:17 UTC: 7:17 AM Central in winter, 8:17 AM in summer), with retries twice an hour until mid-afternoon, because GitHub often delays or skips scheduled runs. Each run does nothing if today's briefing already exists, for example because the Claude task in the app published one first (Run workflow → "force" rebuilds anyway). Your computer doesn't need to be on, and it costs nothing: there are no API keys or paid services. It:
 
 1. runs `agent.py`, which builds `briefings/<date>.json` from:
    - market prices from Yahoo Finance's public chart data
