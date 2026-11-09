@@ -35,12 +35,16 @@ def why(s):
     return f'<p class="why"><strong>Why it matters:</strong> {e(s.get("why"))}</p>' if s.get("why") else ''
 def eff(s): return e((s.get("effect") or "neutral").lower())
 
-# ---- top: dateline, the mood deck, then the top stories as headlines ----
+# ---- top: dateline, the mood deck, the market figures, then the top stories as headlines ----
 top = [
   '<section class="deck" aria-label="Market mood"><div class="container">'
   f'<p class="dateline"><span class="day">{e(day)}</span>' + (f'<span>{e(cov)}</span>' if cov else '') + '</p>'
   f'<div class="mood {e(mood)}"><h2 class="mood-label">Market mood</h2><p class="mood-word">{marks.get(mood, "")}{e(mood)}</p></div>'
   f'<p class="deck-reason">{e(b.get("moodReason"))}</p></div></section>']
+if b.get("snapshot"):
+    top.append('<section class="ticker" aria-label="Market snapshot"><div class="container"><ul class="figures">' + "".join(
+      f'<li><span class="small">{e(t.get("asset"))}</span><span class="v">{e(t.get("value"))}</span><span class="c {direction(t.get("change"))}">{e(signed(t.get("change")))}</span></li>'
+      for t in b["snapshot"]) + '</ul></div></section>')
 three = stories[:3]
 if three:
     head = "1 thing to know" if len(three) == 1 else f"{len(three)} things to know"
@@ -49,7 +53,7 @@ if three:
                + "".join(f'<li class="{eff(s)}"><h3>{e(s.get("headline"))}</h3>{verdict(s)}</li>' for s in three)
                + '</ol></div></section>')
 
-# ---- desk (inside the "See all" disclosure): the figures, then the front page ----
+# ---- desk (inside the "See all" disclosure): the front page ----
 def lead_story(s):
     return (f'<article class="lead-story {eff(s)}"><h2 class="headline">{e(s.get("headline"))}</h2>{verdict(s)}'
             f'<p class="standfirst">{e(s.get("what"))}</p>{why(s)}{tags(s)}{sources(s)}</article>')
@@ -73,10 +77,6 @@ if stories[3:]:
              + "".join(story(s) for s in stories[3:]) + '</div></section>')
 grid += '</div>'
 desk = []
-if b.get("snapshot"):
-    desk.append('<section class="ticker" aria-label="Market snapshot"><div class="container"><ul class="figures">' + "".join(
-      f'<li><span class="small">{e(t.get("asset"))}</span><span class="v">{e(t.get("value"))}</span><span class="c {direction(t.get("change"))}">{e(signed(t.get("change")))}</span></li>'
-      for t in b["snapshot"]) + '</ul></div></section>')
 desk.append(
   '<div class="container front">'
   f'<div class="frontbar"><p class="small">{len(stories)} stories, {ups} bullish, {downs} bearish</p></div>'
@@ -84,7 +84,7 @@ desk.append(
   + (f'<section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h" class="section-head">Bottom line</h2><p>{e(b["bottomLine"])}</p></section>' if b.get("bottomLine") else '')
   + '</div>')
 
-label = f'See all {len(stories)} {"story" if len(stories) == 1 else "stories"} and markets' if stories else 'See markets'
+label = f'See all {len(stories)} {"story" if len(stories) == 1 else "stories"} and live markets' if stories else 'See live markets'
 
 # Two baked regions, the top (#top) and the front page (#desk), plus the disclosure's label.
 def bake(page, name, parts):

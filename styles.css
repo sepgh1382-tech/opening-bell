@@ -74,7 +74,7 @@ select.ctl { appearance: none; padding-inline-end: var(--space-2xl); font-varian
 .deck-reason { font: 300 var(--text-lead)/1.6 var(--font-body); color: var(--color-night-ink); max-width: 58ch; margin-inline: auto; }
 
 /* figures: a quiet row of numbers */
-.ticker { padding-block: var(--space-lg) var(--space-md); }
+.ticker { padding-block: var(--space-xl) 0; }
 .figures { list-style: none; margin: 0; padding: 0; overflow: hidden; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); background: var(--color-sheet); border-block: var(--rule-hair) solid var(--color-rule); }
 .figures li { display: grid; align-content: start; gap: var(--space-2xs); padding: var(--space-md) var(--space-md); margin-inline-start: calc(-1 * var(--rule-hair)); border-inline-start: var(--rule-hair) solid var(--color-rule); min-width: 0; }
 .figures .small { font: 500 var(--text-xs)/1.4 var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; }
