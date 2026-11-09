@@ -84,7 +84,7 @@ desk.append(
   + (f'<section class="band" aria-labelledby="bottom-h"><h2 id="bottom-h" class="section-head">Bottom line</h2><p>{e(b["bottomLine"])}</p></section>' if b.get("bottomLine") else '')
   + '</div>')
 
-label = f'See all {len(stories)} {"story" if len(stories) == 1 else "stories"} and live markets' if stories else 'See live markets'
+label = f'See all {len(stories)} {"story" if len(stories) == 1 else "stories"}' if stories else 'See the full briefing'
 
 # Two baked regions, the top (#top) and the front page (#desk), plus the disclosure's label.
 def bake(page, name, parts):
