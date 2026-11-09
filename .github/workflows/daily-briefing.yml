@@ -2,10 +2,15 @@ name: Daily briefing
 
 on:
   schedule:
-    # GitHub cron is in UTC, and GitHub often starts scheduled runs late or skips them entirely,
-    # so it tries twice an hour from 13:17 to 20:47 UTC (7:17 AM to 2:47 PM Central in winter).
-    # Every try after the first successful one sees today's briefing and stops within seconds.
-    - cron: "17,47 13-20 * * *"
+    # GitHub cron is in UTC (Central is UTC-6 in winter, UTC-5 in summer), and GitHub often starts
+    # scheduled runs late or skips them, so there are several tries.
+    # Morning: twice an hour from 7:17 to 9:47 AM Central. Once today's briefing exists, these stop.
+    - cron: "17,47 13-15 * * *"
+    # Refreshes on weekdays: around 11:17 AM, 1:17 PM and 3:47 PM Central (after the close), and 7:17 PM.
+    # These rebuild today's briefing with the latest news and prices, unless the Claude task wrote it.
+    - cron: "17 17,19 * * 1-5"
+    - cron: "47 21 * * 1-5"
+    - cron: "17 1 * * 2-6"
   workflow_dispatch:  # adds a "Run workflow" button on the Actions tab
     inputs:
       force:
@@ -29,18 +34,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Skip if today's briefing already exists
+      - name: Decide whether to build
         id: check
         env:
           FORCE: ${{ inputs.force || false }}
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
           f="briefings/$(date +%Y-%m-%d).json"
+          skip=false
           if [ -f "$f" ] && [ "$FORCE" != "true" ]; then
-            echo "$f already published (by an earlier run or the Claude task), nothing to do."
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
+            if [ "$SCHEDULE" = "17,47 13-15 * * *" ]; then
+              echo "$f already published this morning, nothing to do."
+              skip=true
+            elif ! grep -q '"source": "free-agent"' "$f"; then
+              echo "$f was written by the Claude task, keeping it."
+              skip=true
+            else
+              echo "Refreshing $f with the latest news and prices."
+            fi
           fi
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
         if: steps.check.outputs.skip != 'true'

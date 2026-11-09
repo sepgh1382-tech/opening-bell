@@ -308,7 +308,10 @@ def build_briefing(day, now):
     else:
         mood = "mixed"
 
-    period = "over the past week" if weekend else "in the last session"
+    local = now.astimezone(TIMEZONE)
+    minutes = local.hour * 60 + local.minute
+    phase = "pre" if minutes < 8 * 60 + 30 else "open" if minutes < 15 * 60 else "close"  # NYSE hours in Central time
+    period = "over the past week" if weekend else {"pre": "in the last session", "open": "so far today", "close": "today"}[phase]
     reason = []
     if spx is not None:
         reason.append(f"The S&P 500 {'rose' if spx >= 0 else 'fell'} {abs(spx):.1f}% {period}.")
@@ -330,13 +333,16 @@ def build_briefing(day, now):
         span = f"{start:%b} {start.day} to {end.day}" if start.month == end.month else f"{start:%b} {start.day} to {end:%b} {end.day}"
         coverage = f"Weekend edition, week of {span}"
     else:
-        coverage = f"Pre-market, {day:%a %b} {day.day}"
+        stamp = local.strftime("%-I:%M %p").replace("AM", "a.m.").replace("PM", "p.m.")
+        label = {"pre": "Pre-market", "open": f"Market hours, updated {stamp} CT", "close": f"After the close, updated {stamp} CT"}[phase]
+        coverage = f"{label}, {day:%a %b} {day.day}"
 
     for s in stories:
         for k in ("_score", "_topic", "_published"):
             s.pop(k, None)
     return {
         "date": day.isoformat(),
+        "source": "free-agent",  # lets later runs today refresh this file, but never one the Claude task wrote
         "generatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "coverage": coverage,
         "mood": mood,
