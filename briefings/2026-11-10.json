@@ -1,50 +1,50 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, AI and chip stocks and earnings. The top story: The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test. Of today's top 10 stories, 6 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Tue Nov 10",
+  "bottomLine": "The biggest themes right now are interest rates, earnings and AI and chip stocks. The top story: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations. Of today's top 10 stories, 4 lean bullish and 4 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 4:24 p.m. CT, Tue Nov 10",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T08:25:39Z",
-  "mood": "bullish",
-  "moodReason": "The S&P 500 rose 2.3% in the last session. Of today's top 10 stories, 6 lean bullish and 3 lean bearish.",
+  "generatedAt": "2026-11-10T22:24:59Z",
+  "mood": "mixed",
+  "moodReason": "The S&P 500 fell 0.4% today. Of today's top 10 stories, 4 lean bullish and 4 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
-      "change": "+2.3% Mon",
-      "value": "7,549.94"
+      "change": "-0.4% Tue",
+      "value": "7,520.93"
     },
     {
       "asset": "Nasdaq",
-      "change": "+2.7% Mon",
-      "value": "25,253.14"
+      "change": "-0.7% Tue",
+      "value": "25,065.88"
     },
     {
       "asset": "Dow",
-      "change": "+2.2% Mon",
-      "value": "52,389.75"
+      "change": "-0.3% Tue",
+      "value": "52,231.89"
     },
     {
       "asset": "Russell 2000",
-      "change": "+3.1% Mon",
-      "value": "2,840.81"
+      "change": "-0.7% Tue",
+      "value": "2,821.38"
     },
     {
       "asset": "VIX",
-      "change": "-22.3% Mon",
-      "value": "19.92"
+      "change": "-2.3% Tue",
+      "value": "19.46"
     },
     {
       "asset": "10Y yield",
-      "change": "+0 bp Mon",
-      "value": "4.86%"
+      "change": "+12 bp Tue",
+      "value": "4.98%"
     },
     {
       "asset": "Oil (WTI)",
-      "change": "-2.0% Mon",
-      "value": "$85.09"
+      "change": "-0.5% Mon",
+      "value": "$86.44"
     },
     {
       "asset": "Bitcoin",
-      "change": "-0.8% Mon",
-      "value": "$74,642"
+      "change": "-2.0% Mon",
+      "value": "$73,707"
     }
   ],
   "source": "free-agent",
@@ -53,176 +53,157 @@
       "affected": [
         "S&P 500",
         "Treasuries",
-        "Financials"
+        "Financials",
+        "Rate sensitive stocks"
       ],
-      "effect": "bullish",
-      "headline": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "effect": "bearish",
+      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
       "impact": "high",
       "sources": [
         {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories"
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
         }
       ],
-      "what": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+      "what": "Treasury yields moved higher after a hotter-than-expected CPI report.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
       "affected": [
-        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Aggressive Fed rate hikes are quickly becoming the biggest risk to stocks in 2027, says economist",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "The Fed remains too optimistic on its ability to tame inflation, and markets may be too complacent, economist Neil Dutta warns.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Rate sensitive stocks"
+      ],
+      "effect": "bullish",
+      "headline": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-futures-climb-as-oil-slide-lifts-sentiment-5014579"
+        }
+      ],
+      "what": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
+        }
+      ],
+      "what": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        }
+      ],
+      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
         "Nasdaq",
         "Semiconductors",
         "S&P 500"
       ],
       "effect": "bullish",
-      "headline": "China’s Moonshot AI rents advanced Nvidia chips: Bloomberg",
+      "headline": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
       "impact": "medium",
       "sources": [
         {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4669531-chinas-moonshot-ai-rents-advanced-nvidia-chips-bloomberg?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
         }
       ],
-      "what": "China’s Moonshot AI rents advanced Nvidia chips: Bloomberg.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "neutral",
-      "headline": "Elmos Semiconductor GAAP EPS of €2.14, revenue of €166.7M; reaffirms FY2026 outlook",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4669537-elmos-semiconductor-gaap-eps-of-214-revenue-of-1667m-reaffirms-fy2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Elmos Semiconductor GAAP EPS of €2.14, revenue of €166.7M; reaffirms FY2026 outlook.",
+      "what": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
       "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
     },
     {
       "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "Energy",
-        "Oil",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html"
-        }
-      ],
-      "what": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
         "S&P 500",
-        "Treasuries"
+        "Treasuries",
+        "Financials"
       ],
-      "effect": "bearish",
-      "headline": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+      "effect": "bullish",
+      "headline": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
       "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
+          "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html"
         }
       ],
-      "what": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
-      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+      "what": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
       "affected": [
-        "NVDA",
+        "INTC",
         "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
+        "Semiconductors"
       ],
-      "effect": "bullish",
-      "headline": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "effect": "neutral",
+      "headline": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
       "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "The chip makers’ shares were posting big gains Monday, but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
-      "effect": "bearish",
-      "headline": "Trump administration proposes stricter work-search rules for unemployment benefits",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html"
-        }
-      ],
-      "what": "A Labor Department proposal would require unemployment claimants to report at least five qualifying work-search activities each week.",
-      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
-    },
-    {
-      "affected": [
-        "GS",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
-        }
-      ],
-      "what": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "SoftBank swings to $7 billion net loss in second quarter as tech selloff weighs on results",
-      "impact": "low",
       "sources": [
         {
           "title": "CNBC",
@@ -230,7 +211,26 @@
         }
       ],
       "what": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+      "why": "Results and outlook from INTC move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "US lawmakers push China chip rules after Nvidia CEO allegations",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/schumer-says-congress-must-have-answers-on-trump-defense-of-nvidia-ceo-5016683"
+        }
+      ],
+      "what": "US lawmakers push China chip rules after Nvidia CEO allegations.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
     }
   ],
   "watch": []
