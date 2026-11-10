@@ -1,235 +1,109 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, inflation and earnings. The top story: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations. Of today's top 10 stories, 5 lean bullish and 4 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 7:29 p.m. CT, Tue Nov 10",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-11T01:29:34Z",
-  "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.4% today. Of today's top 10 stories, 5 lean bullish and 4 lean bearish.",
+  "generatedAt": "2026-11-10T15:04:06Z",
+  "coverage": "Pre-market, Tue Nov 10. Latest verified closes are from Fri Nov 6",
+  "mood": "bearish",
+  "moodReason": "The AI and chip selloff on Thu Nov 5 was the sharpest US drop since April 2025, and the Nasdaq is nearly 12% below its Oct 6 record. Strong October payrolls have pushed traders toward a December rate hike, which keeps pressure on richly valued tech.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "-0.4% Tue",
-      "value": "7,520.93"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "-0.7% Tue",
-      "value": "25,065.88"
-    },
-    {
-      "asset": "Dow",
-      "change": "-0.3% Tue",
-      "value": "52,231.89"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "-0.7% Tue",
-      "value": "2,821.38"
-    },
-    {
-      "asset": "VIX",
-      "change": "-2.3% Tue",
-      "value": "19.46"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "+12 bp Tue",
-      "value": "4.98%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "-0.4% Tue",
-      "value": "$86.53"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "-2.0% Tue",
-      "value": "$73,703"
-    }
+    {"asset": "S&P 500 (Nov 6)", "value": "7,376.86", "change": "+0.32%"},
+    {"asset": "Nasdaq Composite (Nov 6)", "value": "24,579.42", "change": "+1.09%"},
+    {"asset": "Dow Jones (Nov 6)", "value": "51,285.73", "change": "-0.46%"},
+    {"asset": "10-year Treasury yield (Nov 6)", "value": "4.86%", "change": "+0.02 pt"},
+    {"asset": "Brent crude (Nov 6)", "value": "$97.94", "change": "-0.36%"},
+    {"asset": "Gold (Nov 6)", "value": "$4,066.60", "change": "+0.08%"},
+    {"asset": "Dollar Index (Nov 6)", "value": "102.28", "change": "+0.72%"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
-      ],
+      "headline": "AI and chip stocks suffer the worst sell-off since April 2025 on Thu Nov 5",
+      "what": "The Nasdaq Composite fell 5.52%, the S&P 500 dropped about 4.4% to 7,353.73 and the Dow lost about 3.44%, or more than 1,800 points. Reuters estimated about $3 trillion of value was wiped from S&P 500 companies. The Nasdaq is now nearly 12% below its Oct 6 record.",
       "effect": "bearish",
-      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
       "impact": "high",
+      "affected": ["Nasdaq", "S&P 500", "Dow Jones", "semiconductors", "AI infrastructure"],
+      "why": "AI and chip companies carry large weights in the major indexes, so doubts about data center spending and tighter AI rules hit the whole market. Reports tie the fear to the midterm results, with Democrats winning control of both chambers of Congress.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
-        }
-      ],
-      "what": "Treasury yields moved higher after a hotter-than-expected CPI report.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "KPTV (AP): A brutal sell-off for AI stocks sends Wall Street reeling", "url": "https://www.kptv.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/?outputType=apps"},
+        {"title": "Journal Arta: Nasdaq faces biggest one-day drop in 19 months as AI stocks slide", "url": "https://journalarta.com/en/2026/11/06/nasdaq-faces-biggest-one-day-drop-in-19-months-as-ai-stocks-slide/"},
+        {"title": "Devdiscourse (Reuters): US stocks, Nasdaq posts biggest daily drop in 19 months on fears of AI regulations", "url": "https://www.devdiscourse.com/article/international/4002353-us-stocks-nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
+      "headline": "October payrolls beat forecasts with 165,000 jobs and unemployment at 4.1%",
+      "what": "The Bureau of Labor Statistics reported 165,000 new jobs in October, against forecasts of roughly 59,000 to 65,000. The unemployment rate fell 0.1 point to 4.1%, hourly wages rose 3.1% from a year earlier, and September was revised up to 60,000.",
       "effect": "bearish",
-      "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["Treasury yields", "US dollar", "rate-sensitive growth stocks", "Nasdaq", "S&P 500"],
+      "why": "A strong labor market makes the Fed less likely to cut and more open to another hike. That lifts yields and the dollar, and it weighs on long-duration tech stocks.",
       "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-futures-climb-as-oil-slide-lifts-sentiment-5014579"
-        }
-      ],
-      "what": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "IndustryWeek: October jobs report, US adds 165,000 jobs as unemployment falls to 4.1%", "url": "https://www.industryweek.com/talent/news/55417255/october-jobs-report-us-adds-165000-jobs-as-unemployment-falls-slightly-to-41"},
+        {"title": "Fox Business: US economy adds 165,000 jobs in October, blowing past expectations", "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026.amp"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
+      "headline": "Traders price a high chance of a December Fed rate hike",
+      "what": "The Fed funds target range is 3.75% to 4.00%. Market pricing for a rate increase at the Dec 8 to 9 meeting is roughly 70% to 80%, though sources differ on the exact odds.",
       "effect": "bearish",
-      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["Treasury yields", "US dollar", "banks", "homebuilders", "Nasdaq", "S&P 500"],
+      "why": "Higher policy rates raise borrowing costs across the economy and lift the discount rate applied to future earnings, which hurts valuations most in growth stocks.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
-        }
-      ],
-      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "Regards of Wall Street: Stock market week ahead, November 9, 2026", "url": "https://www.regardsofwallstreet.com/news/stock-market-week-ahead-november-9-2026"},
+        {"title": "Yournews: Wall Street braces for inflation report after AI stock rout", "url": "https://yournews.com/2026/11/09/7257886/wall-street-braces-for-inflation-report-after-ai-stock-rout/"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
-      ],
-      "effect": "bullish",
-      "headline": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-        }
-      ],
-      "what": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500",
-        "Treasuries"
-      ],
+      "headline": "Oil swings on US strikes in Iran and later talk hopes",
+      "what": "US strikes on Iran's Qeshm Island on Nov 3 pushed Brent to about $106.60 a barrel. Brent had eased to $97.94 by Fri Nov 6, and WTI was about $90.54.",
       "effect": "bearish",
-      "headline": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses",
       "impact": "medium",
+      "affected": ["energy", "airlines", "Brent crude", "WTI crude", "inflation expectations"],
+      "why": "Oil near $90 to $100 keeps inflation expectations high, which supports the case for tighter policy. Any renewed flare-up in the Middle East could push prices back up quickly.",
       "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
-        }
-      ],
-      "what": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses.",
-      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+        {"title": "StockAnalysis: Market bullets, Nov 3, 2026", "url": "https://stockanalysis.com/market-bullets/2026-11-03/"},
+        {"title": "Journal Arta: Wall Street close, Nasdaq rises 1.09% and S&P 500 gains 0.32%", "url": "https://journalarta.com/en/2026/11/07/wall-street-close-nasdaq-rises-1-09-and-sp-500-gains-0-32-as-dow-slips-0-46/"}
+      ]
     },
     {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
-        }
-      ],
-      "what": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html"
-        }
-      ],
-      "what": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "INTC",
-        "Nasdaq",
-        "Semiconductors"
-      ],
+      "headline": "Small Friday rebound for stocks, led by Nasdaq and the Russell 2000",
+      "what": "On Fri Nov 6 the S&P 500 rose 0.32% to 7,376.86 and the Nasdaq gained 1.09% to 24,579.42. The Russell 2000 rose 0.87% to 2,753.65, while the Dow slipped 0.46%.",
       "effect": "neutral",
-      "headline": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
       "impact": "medium",
+      "affected": ["S&P 500", "Nasdaq", "Russell 2000", "Dow Jones", "chipmakers"],
+      "why": "The bounce shows dip buyers are active, but it recovered only a small part of Thursday's losses. Whether it holds depends on how the CPI report and the AI trade develop this week.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
-        }
-      ],
-      "what": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
-      "why": "Results and outlook from INTC move its shares and can set the tone for its sector."
+        {"title": "Journal Arta: Wall Street close, Nasdaq rises 1.09% and S&P 500 gains 0.32% as Dow slips 0.46%", "url": "https://journalarta.com/en/2026/11/07/wall-street-close-nasdaq-rises-1-09-and-sp-500-gains-0-32-as-dow-slips-0-46/"}
+      ]
     },
     {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "Marchex expects Q4 revenue of $15M+ with $2.3M, $2.5M adjusted EBITDA as AI deployments expand",
+      "headline": "Marvell agrees to buy Lumentum in a $115 billion all-stock deal",
+      "what": "Marvell Technology agreed on Nov 2 to acquire optical components maker Lumentum in an all-stock transaction valued at $115 billion including debt.",
+      "effect": "neutral",
       "impact": "medium",
+      "affected": ["Marvell Technology (MRVL)", "Lumentum (LITE)", "optical networking", "AI infrastructure"],
+      "why": "The deal consolidates suppliers of the optical links used in AI data centers, a segment that has been under pressure from the AI sell-off. Investors will look for how the combined company handles the sector's cyclical risks.",
       "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4670363-marchex-expects-q4-revenue-of-15m-with-2_3m-2_5m-adjusted-ebitda-as-ai-deployments-expand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Marchex expects Q4 revenue of $15M+ with $2.3M, $2.5M adjusted EBITDA as AI deployments expand.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+        {"title": "StockAnalysis: Market bullets, Nov 2, 2026", "url": "https://stockanalysis.com/market-bullets/2026-11-02/"}
+      ]
+    },
+    {
+      "headline": "Earnings this week include CoreWeave, Cisco and Applied Materials",
+      "what": "CoreWeave reports after the close on Tue Nov 10, with its call at 5:00pm ET. Nebius reports before the open on Thu Nov 12, and Cisco and Applied Materials report after the close that day.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["CoreWeave", "Cisco", "Applied Materials", "Nebius", "AI infrastructure", "Nasdaq"],
+      "why": "CoreWeave, Nebius and the chip equipment makers give direct reads on AI data center spending, the same fear behind Thursday's sell-off. Their guidance could confirm or ease that worry.",
+      "sources": [
+        {"title": "Regards of Wall Street: Stock market week ahead, November 9, 2026", "url": "https://www.regardsofwallstreet.com/news/stock-market-week-ahead-november-9-2026"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Tue 11/10", "item": "October CPI report, 8:30am ET (monthly change only)"},
+    {"when": "Tue 11/10", "item": "CoreWeave earnings after the close, call at 5:00pm ET"},
+    {"when": "Thu 11/12", "item": "Cisco and Applied Materials earnings after the close"},
+    {"when": "Thu 11/12", "item": "New York Fed president John Williams speaks, 6:30am ET"},
+    {"when": "Fri 11/13", "item": "October PPI report, 8:30am ET"},
+    {"when": "Dec 8 to 9", "item": "Fed meeting, with a possible rate hike being priced in"}
+  ],
+  "bottomLine": "US stocks are in a fragile spot after the sharpest AI-led sell-off since April 2025 and a Friday bounce that recovered only a small part of it. Strong October payrolls and a hawkish Fed tone have pushed the odds of a December hike to around 70% to 80%, while the 10-year yield sits near 4.86%. Today's CPI print and the AI-linked earnings this week will show whether the selling was a reset or the start of a deeper correction."
 }
