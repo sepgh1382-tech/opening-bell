@@ -1,0 +1,237 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, AI and chip stocks and earnings. The top story: The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test. Of today's top 10 stories, 6 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Tue Nov 10",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T08:25:39Z",
+  "mood": "bullish",
+  "moodReason": "The S&P 500 rose 2.3% in the last session. Of today's top 10 stories, 6 lean bullish and 3 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "+2.3% Mon",
+      "value": "7,549.94"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+2.7% Mon",
+      "value": "25,253.14"
+    },
+    {
+      "asset": "Dow",
+      "change": "+2.2% Mon",
+      "value": "52,389.75"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+3.1% Mon",
+      "value": "2,840.81"
+    },
+    {
+      "asset": "VIX",
+      "change": "-22.3% Mon",
+      "value": "19.92"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "+0 bp Mon",
+      "value": "4.86%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-2.0% Mon",
+      "value": "$85.09"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-0.8% Mon",
+      "value": "$74,642"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "China’s Moonshot AI rents advanced Nvidia chips: Bloomberg",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4669531-chinas-moonshot-ai-rents-advanced-nvidia-chips-bloomberg?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "China’s Moonshot AI rents advanced Nvidia chips: Bloomberg.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Elmos Semiconductor GAAP EPS of €2.14, revenue of €166.7M; reaffirms FY2026 outlook",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4669537-elmos-semiconductor-gaap-eps-of-214-revenue-of-1667m-reaffirms-fy2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "Elmos Semiconductor GAAP EPS of €2.14, revenue of €166.7M; reaffirms FY2026 outlook.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "Energy",
+        "Oil",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html"
+        }
+      ],
+      "what": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bearish",
+      "headline": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html"
+        }
+      ],
+      "what": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "The chip makers’ shares were posting big gains Monday, but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bearish",
+      "headline": "Trump administration proposes stricter work-search rules for unemployment benefits",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html"
+        }
+      ],
+      "what": "A Labor Department proposal would require unemployment claimants to report at least five qualifying work-search activities each week.",
+      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+    },
+    {
+      "affected": [
+        "GS",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
+        }
+      ],
+      "what": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "SoftBank swings to $7 billion net loss in second quarter as tech selloff weighs on results",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
+        }
+      ],
+      "what": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    }
+  ],
+  "watch": []
+}
