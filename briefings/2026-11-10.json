@@ -1,10 +1,10 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, earnings and AI and chip stocks. The top story: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations. Of today's top 10 stories, 4 lean bullish and 4 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 4:24 p.m. CT, Tue Nov 10",
+  "bottomLine": "The biggest themes right now are interest rates, inflation and earnings. The top story: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations. Of today's top 10 stories, 5 lean bullish and 4 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 7:29 p.m. CT, Tue Nov 10",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T22:24:59Z",
+  "generatedAt": "2026-11-11T01:29:34Z",
   "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.4% today. Of today's top 10 stories, 4 lean bullish and 4 lean bearish.",
+  "moodReason": "The S&P 500 fell 0.4% today. Of today's top 10 stories, 5 lean bullish and 4 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
@@ -38,13 +38,13 @@
     },
     {
       "asset": "Oil (WTI)",
-      "change": "-0.5% Mon",
-      "value": "$86.44"
+      "change": "-0.4% Tue",
+      "value": "$86.53"
     },
     {
       "asset": "Bitcoin",
-      "change": "-2.0% Mon",
-      "value": "$73,707"
+      "change": "-2.0% Tue",
+      "value": "$73,703"
     }
   ],
   "source": "free-agent",
@@ -75,15 +75,33 @@
         "Financials"
       ],
       "effect": "bearish",
-      "headline": "Aggressive Fed rate hikes are quickly becoming the biggest risk to stocks in 2027, says economist",
-      "impact": "high",
+      "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
+      "impact": "medium",
       "sources": [
         {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories"
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-futures-climb-as-oil-slide-lifts-sentiment-5014579"
         }
       ],
-      "what": "The Fed remains too optimistic on its ability to tame inflation, and markets may be too complacent, economist Neil Dutta warns.",
+      "what": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        }
+      ],
+      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
@@ -111,24 +129,6 @@
         "Treasuries",
         "Financials"
       ],
-      "effect": "bearish",
-      "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-futures-climb-as-oil-slide-lifts-sentiment-5014579"
-        }
-      ],
-      "what": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
       "effect": "bullish",
       "headline": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
       "impact": "medium",
@@ -143,21 +143,21 @@
     },
     {
       "affected": [
+        "NVDA",
         "S&P 500",
-        "Treasuries",
-        "Financials"
+        "Treasuries"
       ],
       "effect": "bearish",
-      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "headline": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses",
       "impact": "medium",
       "sources": [
         {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
         }
       ],
-      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+      "what": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
     },
     {
       "affected": [
@@ -215,22 +215,20 @@
     },
     {
       "affected": [
-        "NVDA",
         "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
+        "Semiconductors"
       ],
-      "effect": "neutral",
-      "headline": "US lawmakers push China chip rules after Nvidia CEO allegations",
+      "effect": "bullish",
+      "headline": "Marchex expects Q4 revenue of $15M+ with $2.3M, $2.5M adjusted EBITDA as AI deployments expand",
       "impact": "medium",
       "sources": [
         {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/schumer-says-congress-must-have-answers-on-trump-defense-of-nvidia-ceo-5016683"
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4670363-marchex-expects-q4-revenue-of-15m-with-2_3m-2_5m-adjusted-ebitda-as-ai-deployments-expand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
         }
       ],
-      "what": "US lawmakers push China chip rules after Nvidia CEO allegations.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+      "what": "Marchex expects Q4 revenue of $15M+ with $2.3M, $2.5M adjusted EBITDA as AI deployments expand.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
     }
   ],
   "watch": []
