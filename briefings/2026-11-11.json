@@ -1,50 +1,50 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, earnings and AI and chip stocks. The top story: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations. Of today's top 10 stories, 5 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Wed Nov 11",
+  "bottomLine": "The biggest themes right now are inflation, the broad market and trade policy. The top story: Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market. Of today's top 10 stories, 4 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 5:30 p.m. CT, Wed Nov 11",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T07:44:49Z",
-  "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.4% in the last session. Of today's top 10 stories, 5 lean bullish and 3 lean bearish.",
+  "generatedAt": "2026-11-11T23:30:11Z",
+  "mood": "bullish",
+  "moodReason": "The S&P 500 rose 1.3% today. Of today's top 10 stories, 4 lean bullish and 6 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
-      "change": "-0.4% Tue",
-      "value": "7,520.93"
+      "change": "+1.3% Wed",
+      "value": "7,619.38"
     },
     {
       "asset": "Nasdaq",
-      "change": "-0.7% Tue",
-      "value": "25,065.87"
+      "change": "+1.6% Wed",
+      "value": "25,466.19"
     },
     {
       "asset": "Dow",
-      "change": "-0.3% Tue",
-      "value": "52,231.89"
+      "change": "+0.5% Wed",
+      "value": "52,486.49"
     },
     {
       "asset": "Russell 2000",
-      "change": "-0.7% Tue",
-      "value": "2,821.38"
+      "change": "+0.9% Wed",
+      "value": "2,846.26"
     },
     {
       "asset": "VIX",
-      "change": "-2.3% Tue",
-      "value": "19.46"
+      "change": "-10.1% Wed",
+      "value": "17.49"
     },
     {
       "asset": "10Y yield",
-      "change": "+12 bp Tue",
-      "value": "4.98%"
+      "change": "+2 bp Wed",
+      "value": "5.00%"
     },
     {
       "asset": "Oil (WTI)",
       "change": "+0.2% Tue",
-      "value": "$86.20"
+      "value": "$86.25"
     },
     {
       "asset": "Bitcoin",
-      "change": "+0.1% Tue",
-      "value": "$73,764"
+      "change": "-0.0% Tue",
+      "value": "$73,700"
     }
   ],
   "source": "free-agent",
@@ -53,19 +53,83 @@
       "affected": [
         "S&P 500",
         "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
+        "Rate sensitive stocks",
+        "Energy",
+        "Oil"
       ],
       "effect": "bearish",
-      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+      "headline": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
       "impact": "high",
       "sources": [
         {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories"
         }
       ],
-      "what": "Treasury yields moved higher after a hotter-than-expected CPI report.",
+      "what": "The tight trading relationship between oil prices and Treasury yields has broken down. It’s a sign that inflation concerns are extending beyond the energy shock.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia prepares to oust Jensen Huang, WSJ reports, stock sinks",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+        },
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories"
+        },
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/instant-view-nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5020061"
+        }
+      ],
+      "what": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
+      "why": "Broad market moves show how investors are pricing the latest news and set the tone for the next session."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html"
+        }
+      ],
+      "what": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+        }
+      ],
+      "what": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
@@ -84,43 +148,6 @@
         }
       ],
       "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
-      ],
-      "effect": "bullish",
-      "headline": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-        }
-      ],
-      "what": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
@@ -144,6 +171,23 @@
     {
       "affected": [
         "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bullish",
+      "headline": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html"
+        }
+      ],
+      "what": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
+      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+    },
+    {
+      "affected": [
+        "S&P 500",
         "Treasuries",
         "Financials"
       ],
@@ -161,81 +205,38 @@
     },
     {
       "affected": [
-        "INTC",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "neutral",
-      "headline": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
-        }
-      ],
-      "what": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
-      "why": "Results and outlook from INTC move its shares and can set the tone for its sector."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
-        }
-      ],
-      "what": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html"
-        },
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
-        }
-      ],
-      "what": "In the AI era, our economic competitiveness, military capabilities, and intelligence edge can be taken down by one man. We aren't prepared.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
+        "MU",
         "Nasdaq",
         "Semiconductors",
         "S&P 500"
       ],
       "effect": "bullish",
-      "headline": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+      "headline": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back",
       "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html"
+          "url": "https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html"
         }
       ],
-      "what": "Anthropic is on target for an IPO that could value the AI company at over $1.4 trillion. Investors had multiple ways to buy the stock much earlier.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+      "what": "Intensifying competition in the world's largest auto market forced Nissan to cut its annual sales forecast for a second time in months.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
     }
   ],
   "watch": []
