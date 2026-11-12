@@ -1,10 +1,10 @@
 {
-  "bottomLine": "The biggest themes right now are inflation, the broad market and trade policy. The top story: Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market. Of today's top 10 stories, 4 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 5:30 p.m. CT, Wed Nov 11",
+  "bottomLine": "The biggest themes right now are inflation, trade policy and interest rates. The top story: Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market. Of today's top 10 stories, 3 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 8:33 p.m. CT, Wed Nov 11",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T23:30:11Z",
+  "generatedAt": "2026-11-12T02:33:12Z",
   "mood": "bullish",
-  "moodReason": "The S&P 500 rose 1.3% today. Of today's top 10 stories, 4 lean bullish and 6 lean bearish.",
+  "moodReason": "The S&P 500 rose 1.3% today. Of today's top 10 stories, 3 lean bullish and 6 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
@@ -38,13 +38,13 @@
     },
     {
       "asset": "Oil (WTI)",
-      "change": "+0.2% Tue",
-      "value": "$86.25"
+      "change": "-0.1% Wed",
+      "value": "$85.96"
     },
     {
       "asset": "Bitcoin",
-      "change": "-0.0% Tue",
-      "value": "$73,700"
+      "change": "+0.2% Wed",
+      "value": "$73,867"
     }
   ],
   "source": "free-agent",
@@ -68,31 +68,6 @@
       ],
       "what": "The tight trading relationship between oil prices and Treasury yields has broken down. It’s a sign that inflation concerns are extending beyond the energy shock.",
       "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Nvidia prepares to oust Jensen Huang, WSJ reports, stock sinks",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
-        },
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories"
-        },
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/instant-view-nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5020061"
-        }
-      ],
-      "what": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
-      "why": "Broad market moves show how investors are pricing the latest news and set the tone for the next session."
     },
     {
       "affected": [
@@ -134,24 +109,6 @@
     },
     {
       "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bearish",
-      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
-        }
-      ],
-      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
         "Nasdaq",
         "Semiconductors",
         "S&P 500"
@@ -187,21 +144,43 @@
     },
     {
       "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
       ],
-      "effect": "bullish",
-      "headline": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+      "effect": "bearish",
+      "headline": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia prepares to oust Jensen Huang, WSJ reports, stock sinks",
       "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html"
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+        },
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories"
         }
       ],
-      "what": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+      "what": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
+      "why": "Broad market moves show how investors are pricing the latest news and set the tone for the next session."
     },
     {
       "affected": [
@@ -237,6 +216,25 @@
       ],
       "what": "Intensifying competition in the world's largest auto market forced Nissan to cut its annual sales forecast for a second time in months.",
       "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+        }
+      ],
+      "what": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
     }
   ],
   "watch": []
