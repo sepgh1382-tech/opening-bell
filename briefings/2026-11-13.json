@@ -1,241 +1,68 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, AI and chip stocks and earnings. The top story: Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’. Of today's top 10 stories, 1 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Fri Nov 13",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T07:56:48Z",
+  "generatedAt": "2026-11-13T14:50:00Z",
+  "coverage": "Premarket, Fri Nov 13 (data through the Thu Nov 12 close)",
   "mood": "bearish",
-  "moodReason": "The S&P 500 fell 0.4% in the last session. Of today's top 10 stories, 1 lean bullish and 6 lean bearish.",
+  "moodReason": "Hot October inflation has traders fully pricing a December rate hike, the 10-year Treasury yield climbed back to about 5.1%, and oil rose after Trump said he is no longer interested in a deal with Iran. Stocks still gained 2.9% for the week, but the rate and oil backdrop leans negative.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "-0.4% Thu",
-      "value": "7,592.40"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "-0.4% Thu",
-      "value": "25,366.09"
-    },
-    {
-      "asset": "Dow",
-      "change": "-0.4% Thu",
-      "value": "52,297.09"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "-1.7% Thu",
-      "value": "2,799.06"
-    },
-    {
-      "asset": "VIX",
-      "change": "+6.9% Thu",
-      "value": "18.70"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "+11 bp Thu",
-      "value": "5.10%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "-0.3% Thu",
-      "value": "$88.44"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "-3.9% Thu",
-      "value": "$68,558"
-    }
+    {"asset": "S&P 500", "value": "7,592.40", "change": "-0.4%"},
+    {"asset": "Dow Jones Industrial Average", "value": "52,297.09", "change": "-0.4%"},
+    {"asset": "Nasdaq Composite", "value": "25,366.09", "change": "-0.4%"},
+    {"asset": "Russell 2000", "value": "2,799.06", "change": "-1.7%"},
+    {"asset": "10-year Treasury yield", "value": "5.10%", "change": "+12 bp"},
+    {"asset": "Brent crude (per barrel)", "value": "about 94.58, sources vary", "change": "Rose on Iran comments"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "NVDA",
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
+      "headline": "October CPI comes in hotter than expected on headline and core prices",
+      "what": "Consumer prices rose 0.4% in October against a 0.3% forecast, and core prices rose 0.3% against a 0.2% forecast. The BLS published no 12-month rate because October 2025 data was not collected during last year's government shutdown.",
       "effect": "bearish",
-      "headline": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq Composite", "Treasuries", "rate-sensitive growth stocks"],
+      "why": "CME FedWatch shows a quarter-point hike at the Dec 8 to 9 meeting fully priced, with about 13.6 percent odds of a half-point move. Higher expected rates raise borrowing costs and pressure equity valuations.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
-        }
-      ],
-      "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "CNBC", "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"},
+        {"title": "La Nacion (AP)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11102026-nid10112026/"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
+      "headline": "10-year Treasury yield climbs back above 5% on Fed hike bets and higher oil",
+      "what": "After the Veterans Day holiday, bond markets reopened with the 10-year yield rising more than 13 basis points to about 5.12 percent intraday. The 2-year yield rose to about 4.88 percent. The Treasury's official par yield for the 10-year was 5.10 percent.",
       "effect": "bearish",
-      "headline": "The bond market now has an even bigger fear than AI fallout",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["Treasuries", "banks", "homebuilders", "utilities", "S&P 500"],
+      "why": "A 5 percent 10-year yield raises the discount rate used to value stocks and raises mortgage and corporate borrowing costs, which weighs on the broad market.",
       "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "CNBC", "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"},
+        {"title": "Babypips market recap", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-12"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
-      ],
+      "headline": "Oil rises after Trump says he is no longer interested in an Iran deal",
+      "what": "Oil prices climbed on Thursday after President Trump said he is no longer interested in a deal with Iran. Reports also described U.S. forces downing two Iranian attack drones.",
       "effect": "bearish",
-      "headline": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
       "impact": "medium",
+      "affected": ["Energy", "airlines", "transportation", "consumer discretionary", "Treasuries"],
+      "why": "Higher crude adds to inflation pressure, which strengthens the case for Fed hikes. Sources differ on the exact Brent level, with reported prices around 92 to 96 dollars a barrel.",
       "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "AP via WTOP", "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026"}
+      ]
     },
     {
-      "affected": [
-        "NVDA",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html"
-        }
-      ],
-      "what": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors"
-      ],
+      "headline": "Stocks recover from a sharp early drop but still close slightly lower",
+      "what": "The S&P 500 fell nearly 1 percent early on Thursday, erased the loss, then finished down 0.4 percent. The Russell 2000 underperformed with a 1.7 percent decline. For the week, the S&P 500 is up 2.9 percent and the Nasdaq up 3.2 percent.",
       "effect": "neutral",
-      "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
-        }
-      ],
-      "what": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
-        },
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-resigns-is-the-stock-now-a-50-bargain-5021520"
-        }
-      ],
-      "what": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
-      "why": "Broad market moves show how investors are pricing the latest news and set the tone for the next session."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
-        }
-      ],
-      "what": "Nvidia's leadership crisis threatens to spill over into the AI financing boom.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm"
-        }
-      ],
-      "what": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "MSFT"
-      ],
-      "effect": "bullish",
-      "headline": "Widespread Microsoft outage takes down Outlook and other 365 services",
       "impact": "low",
+      "affected": ["S&P 500", "Nasdaq Composite", "Russell 2000"],
+      "why": "The quick recovery shows dip buyers are still active, but the small-cap underperformance suggests investors are sensitive to higher rates.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
-        }
-      ],
-      "what": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
-      "why": "Results and outlook from MSFT move its shares and can set the tone for its sector."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
-      "effect": "neutral",
-      "headline": "Britain eyes welfare cuts to tackle surge in youth unemployment",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/britain-eyes-welfare-cuts-to-tackle-surge-in-youth-unemployment-5024299"
-        }
-      ],
-      "what": "Britain eyes welfare cuts to tackle surge in youth unemployment.",
-      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+        {"title": "AP via WTOP", "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Fri 11/13", "item": "Pre-market trading after a mixed Thursday close, with oil and Iran headlines in focus"},
+    {"when": "Dec 8 to 9", "item": "FOMC meeting, where a quarter-point hike is fully priced and a half-point move has some odds"}
+  ],
+  "bottomLine": "The S&P 500 still gained 2.9 percent this week, but the tone has turned cautious. Hot inflation has moved the Fed toward another hike, pushing the 10-year yield back near 5 percent, and oil is rising as Iran talks stall. Until inflation cools or the oil picture improves, rate expectations and energy prices are the main risks for stocks."
 }
