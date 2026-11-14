@@ -1,0 +1,241 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, earnings and AI and chip stocks. The top story: AI risks are the biggest threat to the financial system, Fed survey finds. Of today's top 10 stories, 3 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Weekend edition, week of Nov 9 to 13",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T07:36:34Z",
+  "mood": "bullish",
+  "moodReason": "The S&P 500 rose 2.5% over the past week. Of today's top 10 stories, 3 lean bullish and 6 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "+2.5% wk",
+      "value": "7,561.67"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+2.3% wk",
+      "value": "25,136.27"
+    },
+    {
+      "asset": "Dow",
+      "change": "+2.1% wk",
+      "value": "52,347.55"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+1.3% wk",
+      "value": "2,790.49"
+    },
+    {
+      "asset": "VIX",
+      "change": "-24.7% wk",
+      "value": "19.30"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "+29 bp wk",
+      "value": "5.15%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-2.5% wk",
+      "value": "$88.56"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-11.3% wk",
+      "value": "$67,187"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
+        }
+      ],
+      "what": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
+        }
+      ],
+      "what": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        }
+      ],
+      "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+        }
+      ],
+      "what": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        }
+      ],
+      "what": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
+        }
+      ],
+      "what": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+        }
+      ],
+      "what": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "INTC",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
+        }
+      ],
+      "what": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
+      "why": "Results and outlook from INTC move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "AMD",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
+        }
+      ],
+      "what": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    }
+  ],
+  "watch": []
+}
