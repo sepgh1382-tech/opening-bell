@@ -1,0 +1,243 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, trade policy and bond yields. The top story: Treasury yields are broadly flat as investors await retail sales data. Of today's top 10 stories, 3 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Tue Nov 17",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T09:13:01Z",
+  "mood": "bearish",
+  "moodReason": "The S&P 500 fell 1.9% in the last session. Of today's top 10 stories, 3 lean bullish and 3 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-1.9% Mon",
+      "value": "7,416.59"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-2.5% Mon",
+      "value": "24,509.76"
+    },
+    {
+      "asset": "Dow",
+      "change": "-1.4% Mon",
+      "value": "51,608.17"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "-1.7% Mon",
+      "value": "2,742.94"
+    },
+    {
+      "asset": "VIX",
+      "change": "+2.1% Tue",
+      "value": "23.40"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-3 bp Mon",
+      "value": "5.12%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-0.0% Mon",
+      "value": "$85.70"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-1.0% Mon",
+      "value": "$64,195"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Rate sensitive stocks"
+      ],
+      "effect": "bullish",
+      "headline": "Treasury yields are broadly flat as investors await retail sales data",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/treasury-yields-bonds-inflation.html"
+        }
+      ],
+      "what": "U.S. Treasury yields were little changed on Tuesday morning as investors awaited economic data and comments from Federal Reserve officials later in the session.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+        }
+      ],
+      "what": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Treasuries",
+        "Rate sensitive stocks",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "Nvidia fallout: Commerce targets loophole for China's data center use",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
+        }
+      ],
+      "what": "The rule was written by the Treasury Department and the National Security Council after criticism of Commerce Secretary Howard Lutnick.",
+      "why": "Rising yields make stocks look less attractive next to bonds and raise borrowing costs; falling yields do the opposite."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ],
+      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+        }
+      ],
+      "what": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bearish",
+      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
+        }
+      ],
+      "what": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
+        }
+      ],
+      "what": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "AIB Data Centers Inc. GAAP EPS of -$0.06 beats by $0.04, revenue of $0.8M beats by $0.75M",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4673510-aib-data-centers-inc-gaap-eps-of--006-beats-by-004-revenue-of-08m-beats-by-075m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "AIB Data Centers Inc. GAAP EPS of -$0.06 beats by $0.04, revenue of $0.8M beats by $0.75M.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Not SpaceX: SPX Technologies Could Be the Better Way to Profit From Increased Scrutiny Over AI Infrastructure Spending",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/not-spacex-spx-technologies-could-be-better-way-profit-increased-scrutiny-over-ai"
+        }
+      ],
+      "what": "Orbital data centers face high depreciation and operational risks, and it's far from clear what their depreciation rate will be.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "PLTR",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    }
+  ],
+  "watch": []
+}
