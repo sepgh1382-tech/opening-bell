@@ -1,0 +1,235 @@
+{
+  "bottomLine": "The biggest themes right now are trade policy, earnings and interest rates. The top story: Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC. Of today's top 10 stories, 5 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Wed Nov 18",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T08:32:30Z",
+  "mood": "bearish",
+  "moodReason": "The S&P 500 fell 1.0% in the last session. Of today's top 10 stories, 5 lean bullish and 3 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-1.0% Tue",
+      "value": "7,340.53"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-0.7% Tue",
+      "value": "24,328.38"
+    },
+    {
+      "asset": "Dow",
+      "change": "-1.6% Tue",
+      "value": "50,759.42"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "-1.5% Tue",
+      "value": "2,701.87"
+    },
+    {
+      "asset": "VIX",
+      "change": "-4.7% Wed",
+      "value": "24.26"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-2 bp Tue",
+      "value": "5.10%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-2.2% Tue",
+      "value": "$84.16"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-0.4% Tue",
+      "value": "$64,663"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+        }
+      ],
+      "what": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Nvidia’s revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "1 AI Stock I’d Buy Right Now Without Hesitation",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/1-ai-stock-id-buy-right-now-without-hesitation"
+        }
+      ],
+      "what": "Applied Materials just posted record quarterly revenue of $10.41 billion, up 53%, and guided for even more this quarter.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "SpaceX vs. Anthropic: Here’s Which Mega-IPO Stock I’d Buy After Anthropic Goes Public.",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/spacex-vs-anthropic-heres-which-mega-ipo-stock-id-buy-after-anthropic-goes-public"
+        }
+      ],
+      "what": "SpaceX's AI divisions saw major revenue growth in Q3.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html"
+        }
+      ],
+      "what": "In her first earnings report as interim CEO, Nvidia's Colette Kress calmed investors' nerves, at least for the moment.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ],
+      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+        }
+      ],
+      "what": "The forecast represents one of the most hawkish views among policymakers.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "Europe shares steady after Nvidia results; reels from steepest drop since March",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/europe-shares-steady-after-nvidia-results--reels-from-steepest-drop-since-march-5034786"
+        }
+      ],
+      "what": "Europe shares steady after Nvidia results; reels from steepest drop since March.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+        }
+      ],
+      "what": "Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    },
+    {
+      "affected": [
+        "UNH",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "UnitedHealth Is Targeting 13% to 16% Long-Term Earnings Growth. Where Will the Stock Be in 5 Years?",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/unitedhealth-targeting-13-16-long-term-earnings-growth-where-will-stock-be-5-years"
+        }
+      ],
+      "what": "UnitedHealth’s third-quarter earnings from operations rose, and management raised its 2026 adjusted earnings outlook.",
+      "why": "Results and outlook from UNH move its shares and can set the tone for its sector."
+    }
+  ],
+  "watch": []
+}
