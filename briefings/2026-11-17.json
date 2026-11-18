@@ -1,10 +1,10 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, trade policy and AI and chip stocks. The top story: Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off. Of today's top 10 stories, 1 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 5:52 p.m. CT, Tue Nov 17",
+  "bottomLine": "The biggest themes right now are earnings, interest rates and the job market. The top story: Nvidia’s stock rises as blowout numbers help ease CEO transition fears. Of today's top 10 stories, 4 lean bullish and 4 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 9:09 p.m. CT, Tue Nov 17",
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T23:52:14Z",
+  "generatedAt": "2026-11-18T03:09:11Z",
   "mood": "bearish",
-  "moodReason": "The S&P 500 fell 1.0% today. Of today's top 10 stories, 1 lean bullish and 6 lean bearish.",
+  "moodReason": "The S&P 500 fell 1.0% today. Of today's top 10 stories, 4 lean bullish and 4 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
@@ -38,54 +38,54 @@
     },
     {
       "asset": "Oil (WTI)",
-      "change": "+0.2% Mon",
-      "value": "$85.87"
+      "change": "-1.1% Tue",
+      "value": "$85.05"
     },
     {
       "asset": "Bitcoin",
-      "change": "+0.0% Mon",
-      "value": "$64,873"
+      "change": "-0.7% Tue",
+      "value": "$64,376"
     }
   ],
   "source": "free-agent",
   "stories": [
     {
       "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
       ],
-      "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off",
-      "impact": "high",
+      "effect": "bullish",
+      "headline": "Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
+      "impact": "medium",
       "sources": [
         {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-17-grab-holdings-shares-slip-amid-broader-stock-market-sell"
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories"
         }
       ],
-      "what": "Grab Holdings (NASDAQ:GRAB), a Southeast Asian super-app provider, closed at $3.18, down 0.93%, on Tuesday, Nov. 17.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+      "what": "Nvidia’s revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
     },
     {
       "affected": [
         "NVDA",
-        "S&P 500",
-        "Industrials",
         "Nasdaq",
-        "Semiconductors"
+        "Semiconductors",
+        "S&P 500"
       ],
-      "effect": "bearish",
-      "headline": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "effect": "bullish",
+      "headline": "Nvidia earnings spark after-hours rally in chipmakers, neocloud stocks",
       "impact": "medium",
       "sources": [
         {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-earnings-spark-afterhours-rally-in-chipmakers-neocloud-stocks-5034434"
         }
       ],
-      "what": "The U.S. Commerce Department is making moves to tighten export controls.",
-      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+      "what": "Nvidia earnings spark after-hours rally in chipmakers, neocloud stocks.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
     },
     {
       "affected": [
@@ -127,58 +127,20 @@
     },
     {
       "affected": [
-        "CRM",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 17: Stocks Slide on AI Chip and Tech Pressures, Salesforce Plummets 9%",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-17-stocks-slide-ai-chip-and-tech-pressures-salesforce-plummets-9"
-        }
-      ],
-      "what": "Falling 1.03% to 7,341, the S&P 500 (SNPINDEX:^GSPC) marked its fourth day of consecutive losses, while the Nasdaq Composite (NASDAQINDEX:^IXIC) dropped 0.74% to 24,328 on technology sector weakness, and the Dow Jones Industrial Average (DJINDICES:^DJI) tumbled 1.64% to 50,75",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "TSLA",
+        "NVDA",
         "S&P 500"
       ],
       "effect": "bullish",
-      "headline": "NIO vs. Tesla: Which EV Stock Is a Better Buy for 2027?",
+      "headline": "Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock",
       "impact": "medium",
       "sources": [
         {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/nio-vs-tesla-which-ev-stock-better-buy-2027"
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html"
         }
       ],
-      "what": "NIO distinguishes itself through battery-swapping technology and rapid revenue growth in the premium electric vehicle market.",
-      "why": "Results and outlook from TSLA move its shares and can set the tone for its sector."
-    },
-    {
-      "affected": [
-        "CRM",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "Why Salesforce’s stock led the S&P 500’s decliners amid tech jitters",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "A series of technology outages has investors concerned that software companies could prove “particularly vulnerable” to AI misuse, an analyst says.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+      "what": "Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
     },
     {
       "affected": [
@@ -232,6 +194,42 @@
         }
       ],
       "what": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "JPM",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "JPMorgan is working on AI agent transactions that don’t involve humans",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
+        }
+      ],
+      "what": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia’s former sales chief had ties to customers in chip scandal- The Information",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/nvidias-former-sales-chief-had-ties-to-customers-in-chip-scandal-the-information-5034568"
+        }
+      ],
+      "what": "Nvidia’s former sales chief had ties to customers in chip scandal- The Information.",
       "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
     }
   ],
