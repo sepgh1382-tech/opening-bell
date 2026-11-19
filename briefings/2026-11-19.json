@@ -1,0 +1,235 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, trade policy and earnings. The top story: Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Of today's top 10 stories, 5 lean bullish and 5 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Thu Nov 19",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T08:47:49Z",
+  "mood": "mixed",
+  "moodReason": "The S&P 500 fell 0.2% in the last session. Of today's top 10 stories, 5 lean bullish and 5 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-0.2% Wed",
+      "value": "7,323.63"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+0.4% Wed",
+      "value": "24,429.88"
+    },
+    {
+      "asset": "Dow",
+      "change": "-1.1% Wed",
+      "value": "50,198.17"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+0.5% Wed",
+      "value": "2,714.31"
+    },
+    {
+      "asset": "VIX",
+      "change": "-11.0% Thu",
+      "value": "21.87"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-4 bp Wed",
+      "value": "5.07%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-1.0% Wed",
+      "value": "$82.45"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "+0.8% Wed",
+      "value": "$63,513"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+        }
+      ],
+      "what": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Nvidia investors face uncertainty around CEO succession, the AI ecosystem, export controls and China.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+        }
+      ],
+      "what": "Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        }
+      ],
+      "what": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Modexus Solutions Expects Data Center Growth To Boost Revenue Over Next 3 Year Period",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/modexus-solutions-expects-data-center-growth-boost-revenue-over-next-3-year-period"
+        }
+      ],
+      "what": "(RTTNews) - Modexus Solutions, Inc. (MOD), a thermal management technology and solutions company, has announced new long-term financial targets.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials"
+      ],
+      "effect": "bullish",
+      "headline": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html"
+        }
+      ],
+      "what": "Korean media, gaming and travel stocks surged on hopes of greater access to China.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bullish",
+      "headline": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+        }
+      ],
+      "what": "India’s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+    },
+    {
+      "affected": [
+        "ORCL",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html"
+        }
+      ],
+      "what": "Investor fears about AI balance sheets and debt are running high, especially for neoclouds. ETFs targeting the credit default swaps of AI issuers are coming.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "TGT",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
+        }
+      ],
+      "what": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
+      "why": "Results and outlook from TGT move its shares and can set the tone for its sector."
+    }
+  ],
+  "watch": []
+}
