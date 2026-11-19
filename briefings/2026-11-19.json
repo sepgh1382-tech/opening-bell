@@ -1,56 +1,94 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, trade policy and earnings. The top story: Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Of today's top 10 stories, 5 lean bullish and 5 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Thu Nov 19",
+  "bottomLine": "The biggest themes right now are earnings, interest rates and trade policy. The top story: Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results. Of today's top 10 stories, 2 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 5:37 p.m. CT, Thu Nov 19",
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T08:47:49Z",
-  "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.2% in the last session. Of today's top 10 stories, 5 lean bullish and 5 lean bearish.",
+  "generatedAt": "2026-11-19T23:37:27Z",
+  "mood": "bearish",
+  "moodReason": "The S&P 500 fell 2.0% today. Of today's top 10 stories, 2 lean bullish and 6 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
-      "change": "-0.2% Wed",
-      "value": "7,323.63"
+      "change": "-2.0% Thu",
+      "value": "7,175.83"
     },
     {
       "asset": "Nasdaq",
-      "change": "+0.4% Wed",
-      "value": "24,429.88"
+      "change": "-2.3% Thu",
+      "value": "23,879.20"
     },
     {
       "asset": "Dow",
-      "change": "-1.1% Wed",
-      "value": "50,198.17"
+      "change": "-2.2% Thu",
+      "value": "49,097.06"
     },
     {
       "asset": "Russell 2000",
-      "change": "+0.5% Wed",
-      "value": "2,714.31"
+      "change": "-2.2% Thu",
+      "value": "2,655.11"
     },
     {
       "asset": "VIX",
-      "change": "-11.0% Thu",
-      "value": "21.87"
+      "change": "+15.8% Thu",
+      "value": "28.44"
     },
     {
       "asset": "10Y yield",
-      "change": "-4 bp Wed",
-      "value": "5.07%"
+      "change": "-1 bp Thu",
+      "value": "5.05%"
     },
     {
       "asset": "Oil (WTI)",
-      "change": "-1.0% Wed",
-      "value": "$82.45"
+      "change": "-0.4% Wed",
+      "value": "$82.95"
     },
     {
       "asset": "Bitcoin",
-      "change": "+0.8% Wed",
-      "value": "$63,513"
+      "change": "-2.0% Wed",
+      "value": "$61,756"
     }
   ],
   "source": "free-agent",
   "stories": [
     {
       "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-19-nvidia-slides-investors-weigh-ceo-transition-fallout-despite"
+        }
+      ],
+      "what": "Nvidia (NASDAQ:NVDA), a leader in AI accelerators, chips, and data-center networking hardware, closed at $145.98, down 3.30%. Strong third-quarter results, a raised outlook, and investor excitement over Anthropic's IPO supported shares early, but leadership and AI-spending concer",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+        }
+      ],
+      "what": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
         "S&P 500",
         "Treasuries",
         "Financials",
@@ -58,36 +96,16 @@
         "Semiconductors"
       ],
       "effect": "bearish",
-      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "impact": "high",
+      "headline": "Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
         }
       ],
-      "what": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500",
-        "Industrials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bearish",
-      "headline": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-      "impact": "high",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "Nvidia investors face uncertainty around CEO succession, the AI ecosystem, export controls and China.",
-      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
     },
     {
       "affected": [
@@ -109,126 +127,119 @@
     },
     {
       "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bearish",
-      "headline": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
-        }
-      ],
-      "what": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
         "Nasdaq",
         "Semiconductors",
         "S&P 500"
       ],
-      "effect": "bullish",
-      "headline": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "Modexus Solutions Expects Data Center Growth To Boost Revenue Over Next 3 Year Period",
+      "effect": "bearish",
+      "headline": "Stock Market Today, Nov. 19: CoreWeave Falls as Profit-Taking Follows Anthropic IPO Pricing Above Range",
       "impact": "medium",
       "sources": [
         {
           "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/modexus-solutions-expects-data-center-growth-boost-revenue-over-next-3-year-period"
+          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-19-coreweave-falls-profit-taking-follows-anthropic-ipo-pricing"
         }
       ],
-      "what": "(RTTNews) - Modexus Solutions, Inc. (MOD), a thermal management technology and solutions company, has announced new long-term financial targets.",
+      "what": "CoreWeave (NASDAQ:CRWV), a specialized cloud infrastructure provider, closed at $44.91, down 6.10%. The stock moved after Anthropic priced its IPO above range, which initially lifted AI infrastructure sentiment, resulting in profit taking before concerns over AI costs and rising",
       "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
     },
     {
       "affected": [
         "S&P 500",
-        "Industrials"
+        "Treasuries",
+        "Financials",
+        "Bitcoin",
+        "Crypto stocks"
       ],
-      "effect": "bullish",
-      "headline": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
+      "effect": "bearish",
+      "headline": "Crypto Market Today, Nov. 19: Bitcoin Approaches $60,000 as ETF Outflows Surpass $2.5 Billion in 2026",
       "impact": "medium",
       "sources": [
         {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html"
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/crypto-market-today-nov-19-bitcoin-approaches-60000-etf-outflows-surpass-25-billion-2026"
         }
       ],
-      "what": "Korean media, gaming and travel stocks surged on hopes of greater access to China.",
-      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+      "what": "Cryptocurrency markets extended their losses on Thursday, November 19, as a broad-based sell-off on Wall Street, mounting concerns over further Federal Reserve interest rate hikes, and weakening ETF demand continued to weigh on digital assets.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
       "affected": [
         "S&P 500",
-        "Treasuries"
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
       ],
-      "effect": "bullish",
-      "headline": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "effect": "neutral",
+      "headline": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
       "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
         }
       ],
-      "what": "India’s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
-      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+      "what": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
     },
     {
       "affected": [
-        "ORCL",
+        "MU",
+        "AVGO",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "The Anthropic enthusiasm has faded while China concerns have intensified.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ],
+      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
         "Nasdaq",
         "Semiconductors",
         "S&P 500"
       ],
       "effect": "bearish",
-      "headline": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+      "headline": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
       "impact": "medium",
       "sources": [
         {
           "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html"
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
         }
       ],
-      "what": "Investor fears about AI balance sheets and debt are running high, especially for neoclouds. ETFs targeting the credit default swaps of AI issuers are coming.",
+      "what": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
       "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "TGT",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
-        }
-      ],
-      "what": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
-      "why": "Results and outlook from TGT move its shares and can set the tone for its sector."
     }
   ],
   "watch": []
