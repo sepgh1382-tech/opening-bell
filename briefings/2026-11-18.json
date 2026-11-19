@@ -1,8 +1,8 @@
 {
   "bottomLine": "The biggest themes right now are interest rates, trade policy and earnings. The top story: Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Of today's top 10 stories, 4 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 5:25 p.m. CT, Wed Nov 18",
+  "coverage": "After the close, updated 8:50 p.m. CT, Wed Nov 18",
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T23:25:16Z",
+  "generatedAt": "2026-11-19T02:50:17Z",
   "mood": "bearish",
   "moodReason": "The S&P 500 fell 0.2% today. Of today's top 10 stories, 4 lean bullish and 6 lean bearish.",
   "snapshot": [
@@ -38,13 +38,13 @@
     },
     {
       "asset": "Oil (WTI)",
-      "change": "-4.5% Tue",
-      "value": "$82.17"
+      "change": "-1.2% Wed",
+      "value": "$82.27"
     },
     {
       "asset": "Bitcoin",
-      "change": "-3.4% Tue",
-      "value": "$62,699"
+      "change": "-3.6% Wed",
+      "value": "$62,543"
     }
   ],
   "source": "free-agent",
@@ -131,6 +131,24 @@
         "Semiconductors",
         "S&P 500"
       ],
+      "effect": "bearish",
+      "headline": "Japan’s Datasection slumps on big guidance cut amid U.S.-China chip access row",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/japans-datasection-slumps-on-big-guidance-cut-amid-uschina-chip-access-row-5037539"
+        }
+      ],
+      "what": "Japan’s Datasection slumps on big guidance cut amid U.S.-China chip access row.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
       "effect": "bullish",
       "headline": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
       "impact": "medium",
@@ -182,20 +200,19 @@
     {
       "affected": [
         "S&P 500",
-        "Treasuries",
-        "Financials"
+        "Treasuries"
       ],
-      "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "effect": "bullish",
+      "headline": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
       "impact": "medium",
       "sources": [
         {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-18-sp-500-breaks-key-support-fed-minutes-signal-more-rate-hikes"
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
         }
       ],
-      "what": "The S&P 500 (SNPINDEX:^GSPC) fell 0.24% to 7,323, slipping below its closely watched 200-day moving average. The Nasdaq Composite (NASDAQINDEX:^IXIC) bucked the broader trend, gaining 0.42% to 24,430, supported by strength in select technology and retail stocks.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+      "what": "India’s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
     },
     {
       "affected": [
@@ -215,23 +232,6 @@
       ],
       "what": "Investor fears about AI balance sheets and debt are running high, especially for neoclouds. ETFs targeting the credit default swaps of AI issuers are coming.",
       "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "TGT",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
-        }
-      ],
-      "what": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
-      "why": "Results and outlook from TGT move its shares and can set the tone for its sector."
     }
   ],
   "watch": []
