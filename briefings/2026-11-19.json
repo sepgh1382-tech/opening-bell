@@ -1,10 +1,10 @@
 {
-  "bottomLine": "The biggest themes right now are earnings, interest rates and trade policy. The top story: Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results. Of today's top 10 stories, 2 lean bullish and 6 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 5:37 p.m. CT, Thu Nov 19",
+  "bottomLine": "The biggest themes right now are the economy, earnings and interest rates. The top story: TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say. Of today's top 10 stories, 4 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "After the close, updated 8:39 p.m. CT, Thu Nov 19",
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T23:37:27Z",
+  "generatedAt": "2026-11-20T02:39:04Z",
   "mood": "bearish",
-  "moodReason": "The S&P 500 fell 2.0% today. Of today's top 10 stories, 2 lean bullish and 6 lean bearish.",
+  "moodReason": "The S&P 500 fell 2.0% today. Of today's top 10 stories, 4 lean bullish and 3 lean bearish.",
   "snapshot": [
     {
       "asset": "S&P 500",
@@ -38,35 +38,35 @@
     },
     {
       "asset": "Oil (WTI)",
-      "change": "-0.4% Wed",
-      "value": "$82.95"
+      "change": "-0.3% Thu",
+      "value": "$82.92"
     },
     {
       "asset": "Bitcoin",
-      "change": "-2.0% Wed",
-      "value": "$61,756"
+      "change": "-2.1% Thu",
+      "value": "$61,660"
     }
   ],
   "source": "free-agent",
   "stories": [
     {
       "affected": [
-        "NVDA",
+        "TSM",
+        "S&P 500",
         "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
+        "Semiconductors"
       ],
-      "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
+      "effect": "neutral",
+      "headline": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
       "impact": "medium",
       "sources": [
         {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-19-nvidia-slides-investors-weigh-ceo-transition-fallout-despite"
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say-5038806"
         }
       ],
-      "what": "Nvidia (NASDAQ:NVDA), a leader in AI accelerators, chips, and data-center networking hardware, closed at $145.98, down 3.30%. Strong third-quarter results, a raised outlook, and investor excitement over Anthropic's IPO supported shares early, but leadership and AI-spending concer",
-      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+      "what": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
     },
     {
       "affected": [
@@ -105,62 +105,6 @@
         }
       ],
       "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
-        }
-      ],
-      "what": "Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 19: CoreWeave Falls as Profit-Taking Follows Anthropic IPO Pricing Above Range",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-19-coreweave-falls-profit-taking-follows-anthropic-ipo-pricing"
-        }
-      ],
-      "what": "CoreWeave (NASDAQ:CRWV), a specialized cloud infrastructure provider, closed at $44.91, down 6.10%. The stock moved after Anthropic priced its IPO above range, which initially lifted AI infrastructure sentiment, resulting in profit taking before concerns over AI costs and rising",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Bitcoin",
-        "Crypto stocks"
-      ],
-      "effect": "bearish",
-      "headline": "Crypto Market Today, Nov. 19: Bitcoin Approaches $60,000 as ETF Outflows Surpass $2.5 Billion in 2026",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/crypto-market-today-nov-19-bitcoin-approaches-60000-etf-outflows-surpass-25-billion-2026"
-        }
-      ],
-      "what": "Cryptocurrency markets extended their losses on Thursday, November 19, as a broad-based sell-off on Wall Street, mounting concerns over further Federal Reserve interest rate hikes, and weakening ETF demand continued to weigh on digital assets.",
       "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
     },
     {
@@ -240,6 +184,57 @@
       ],
       "what": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
       "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials"
+      ],
+      "effect": "bullish",
+      "headline": "Anthropic’s stock surges in its debut, and the rest of the market dives anyway",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+        }
+      ],
+      "what": "SoftBank shares plunged over 16% on Friday as Japanese and South Korean technology stocks fell sharply.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "DIS"
+      ],
+      "effect": "bullish",
+      "headline": "Disney Just Raised Its Dividend 33% and Guided to Double-Digit EPS Growth. Here’s What Its Results Mean for Investors.",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/disney-just-raised-its-dividend-33-and-guided-double-digit-eps-growth-heres-what-its"
+        }
+      ],
+      "what": "Disney’s non-sports streaming segment saw its operating income nearly double in fiscal 2026.",
+      "why": "Results and outlook from DIS move its shares and can set the tone for its sector."
     }
   ],
   "watch": []
