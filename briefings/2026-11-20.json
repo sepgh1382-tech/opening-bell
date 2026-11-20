@@ -1,0 +1,237 @@
+{
+  "bottomLine": "The biggest themes right now are earnings, interest rates and trade policy. The top story: Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models. Of today's top 10 stories, 3 lean bullish and 3 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Fri Nov 20",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T08:32:28Z",
+  "mood": "bearish",
+  "moodReason": "The S&P 500 fell 2.0% in the last session. Of today's top 10 stories, 3 lean bullish and 3 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-2.0% Thu",
+      "value": "7,175.83"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-2.3% Thu",
+      "value": "23,879.20"
+    },
+    {
+      "asset": "Dow",
+      "change": "-2.2% Thu",
+      "value": "49,097.06"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "-2.2% Thu",
+      "value": "2,655.11"
+    },
+    {
+      "asset": "VIX",
+      "change": "+0.6% Fri",
+      "value": "28.62"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-1 bp Thu",
+      "value": "5.05%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-1.1% Thu",
+      "value": "$82.26"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-0.0% Thu",
+      "value": "$61,884"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+        }
+      ],
+      "what": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        }
+      ],
+      "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+        }
+      ],
+      "what": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ],
+      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "US AI chip curbs hit China tech stocks, spur self-sufficiency push",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-hit-china-tech-stocks-spur-selfsufficiency-push-5040932"
+        }
+      ],
+      "what": "US AI chip curbs hit China tech stocks, spur self-sufficiency push.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "AI is changing software engineering, and some developers miss the struggle",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html"
+        }
+      ],
+      "what": "AI coding tools are making software engineers faster, but developers tell CNBC the work has lost its \"sense of joy and fun.\"",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "PEP",
+        "Treasuries",
+        "Rate sensitive stocks"
+      ],
+      "effect": "neutral",
+      "headline": "PepsiCo Inks 10-Year Deal To Supply Food And Drink Products To Over 700 Hyatt Properties In US",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/pepsico-inks-10-year-deal-supply-food-and-drink-products-over-700-hyatt-properties-us"
+        }
+      ],
+      "what": "(RTTNews) - Hyatt Hotels Corporation (H) and PepsiCo Inc. (PEP) have announced a 10-year deal to extend PepsiCo's portfolio of beverage and snacks to over 700 Hyatt properties across the U.S.",
+      "why": "Rising yields make stocks look less attractive next to bonds and raise borrowing costs; falling yields do the opposite."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+        }
+      ],
+      "what": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials"
+      ],
+      "effect": "bullish",
+      "headline": "Anthropic’s stock surges in its debut, and the rest of the market dives anyway",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "FTSE 100 today: Stocks fall on tech, metals rout despite UK retail beat",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-fall-on-tech-metals-rout-despite-uk-retail-beat-5040931"
+        }
+      ],
+      "what": "FTSE 100 today: Stocks fall on tech, metals rout despite UK retail beat.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    }
+  ],
+  "watch": []
+}
