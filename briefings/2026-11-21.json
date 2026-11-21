@@ -1,0 +1,242 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, earnings and AI and chip stocks. The top story: Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Of today's top 10 stories, 2 lean bullish and 5 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Weekend edition, week of Nov 16 to 20",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T08:16:37Z",
+  "mood": "bearish",
+  "moodReason": "The S&P 500 fell 8.6% over the past week. Of today's top 10 stories, 2 lean bullish and 5 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-8.6% wk",
+      "value": "6,910.39"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-10.0% wk",
+      "value": "22,617.73"
+    },
+    {
+      "asset": "Dow",
+      "change": "-8.0% wk",
+      "value": "48,147.33"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "-7.5% wk",
+      "value": "2,581.79"
+    },
+    {
+      "asset": "VIX",
+      "change": "+86.0% wk",
+      "value": "35.89"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-24 bp wk",
+      "value": "4.91%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-5.2% wk",
+      "value": "$83.98"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-9.8% wk",
+      "value": "$57,818"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+        }
+      ],
+      "what": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+        }
+      ],
+      "what": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bearish",
+      "headline": "Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        }
+      ],
+      "what": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+        }
+      ],
+      "what": "Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        }
+      ],
+      "what": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Here’s My Top AI Stock to Buy With Nvidia in Uncertain Territory",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/heres-my-top-ai-stock-buy-nvidia-uncertain-territory"
+        }
+      ],
+      "what": "Broadcom's custom AI chips are becoming a popular option.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "’Black Friday’ brings consumer spending into focus for AI-rocked market",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5041258"
+        }
+      ],
+      "what": "’Black Friday’ brings consumer spending into focus for AI-rocked market.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "neutral",
+      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ],
+      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
+        }
+      ],
+      "what": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "neutral",
+      "headline": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
+        }
+      ],
+      "what": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    }
+  ],
+  "watch": []
+}
