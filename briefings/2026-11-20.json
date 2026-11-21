@@ -1,237 +1,94 @@
 {
-  "bottomLine": "The biggest themes right now are the economy, interest rates and earnings. The top story: ’Black Friday’ brings consumer spending into focus for AI-rocked market. Of today's top 10 stories, 2 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "After the close, updated 8:51 p.m. CT, Fri Nov 20",
   "date": "2026-11-20",
-  "generatedAt": "2026-11-21T02:51:17Z",
+  "generatedAt": "2026-11-21T03:35:35Z",
+  "coverage": "After-close, Fri Nov 20",
   "mood": "bearish",
-  "moodReason": "The S&P 500 fell 3.7% today. Of today's top 10 stories, 2 lean bullish and 2 lean bearish.",
+  "moodReason": "Stocks fell for a seventh straight session, pushing the S&P 500 into a correction, and Nvidia dropped 14 percent after reports of an SEC accounting review. Hawkish Fed talk about more rate hikes adds to the pressure.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "-3.7% Fri",
-      "value": "6,910.39"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "-5.3% Fri",
-      "value": "22,617.73"
-    },
-    {
-      "asset": "Dow",
-      "change": "-1.9% Fri",
-      "value": "48,147.33"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "-2.8% Fri",
-      "value": "2,581.79"
-    },
-    {
-      "asset": "VIX",
-      "change": "+26.2% Fri",
-      "value": "35.89"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "-14 bp Fri",
-      "value": "4.91%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "+0.5% Thu",
-      "value": "$83.62"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "-5.4% Fri",
-      "value": "$58,532"
-    }
+    {"asset": "S&P 500", "value": "6,910.39", "change": "-3.70%"},
+    {"asset": "Nasdaq Composite", "value": "22,617.73", "change": "-5.28%"},
+    {"asset": "Dow Jones", "value": "48,147.33", "change": "-1.93%"},
+    {"asset": "VIX", "value": "35.89", "change": "+26.20%"},
+    {"asset": "10-year Treasury yield", "value": "4.92%", "change": "-12 bps"},
+    {"asset": "Nvidia (NVDA)", "value": "125.53", "change": "-14.01%"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "S&P 500",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "neutral",
-      "headline": "’Black Friday’ brings consumer spending into focus for AI-rocked market",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5041258"
-        }
-      ],
-      "what": "’Black Friday’ brings consumer spending into focus for AI-rocked market.",
-      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "neutral",
-      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
-        }
-      ],
-      "what": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
+      "headline": "Nvidia plunges 14% after reports of an SEC accounting review",
+      "what": "Reuters reported that SEC enforcement staff are examining potential accounting issues at Nvidia, and California's attorney general sent the company an investigative subpoena. Nvidia closed at $125.53, a 52-week low, and chip peers such as Micron and AMD fell more than 12%.",
       "effect": "bearish",
-      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["Nvidia (NVDA)", "semiconductors", "Micron", "AMD", "Nasdaq 100"],
+      "why": "Nvidia is the largest driver of AI-related index weight, so a sharp drop in the leading chip name pulls down the whole AI trade and the indexes that hold it.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
-        }
-      ],
-      "what": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+        {"title": "StockTitan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"},
+        {"title": "The Wall Street Republic", "url": "https://thewallstreetrepublic.substack.com/p/nvidia-crashes-1401-on-an-sec-probe"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
-        }
-      ],
-      "what": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "AMZN",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
+      "headline": "S&P 500 enters a correction as the AI selloff spreads",
+      "what": "The S&P 500 closed at 6,910.39, down 3.70%, its seventh straight loss and an 8.6% drop for the week, its worst since April 2025. The Dow and S&P 500 are now more than 10% below their record highs, and the VIX closed at 35.89, its first close above 30 since late March.",
       "effect": "bearish",
-      "headline": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["S&P 500", "Dow Jones", "Nasdaq Composite", "technology sector", "VIX"],
+      "why": "Technology fell 7.27% and was the worst sector. Consumer staples were the only sector to finish higher, a sign of defensive rotation rather than a full exit from stocks. Taiwan's TAIEX fell 6.23%, a record weekly loss, which shows the chip selloff is global.",
       "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-20-amazon-shares-slide-ai-and-mega-cap-tech-sell"
-        }
-      ],
-      "what": "Amazon (NASDAQ:AMZN), a global e-commerce, cloud, and digital advertising platform, closed at $246.82, down 4.10%. Shares fell on Friday amid an AI and mega-cap tech sell-off, while investors are watching capital spending, margins, and AWS growth.Trading volume reached 72.1M shar",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+        {"title": "Cappnotes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"},
+        {"title": "The Wall Street Republic", "url": "https://thewallstreetrepublic.substack.com/p/nvidia-crashes-1401-on-an-sec-probe"}
+      ]
     },
     {
-      "affected": [
-        "NVDA",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
+      "headline": "Fed hawks push for more rate hikes, and markets lean toward a December increase",
+      "what": "St. Louis Fed President Musalem said the US likely needs several rate hikes by spring to control inflation, and called the current 3.75% to 4.00% rate accommodative. Kalshi prediction markets priced a 25 basis point hike at the December meeting as the most likely outcome, though the snapshots they showed ranged from 77% to 91%.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["S&P 500", "rate-sensitive growth stocks", "banks", "Treasuries"],
+      "why": "Higher expected rates raise borrowing costs and lower the value of future earnings, which weighs most on high-valuation growth stocks. A hike bet also removes the hope of a Fed rescue during the selloff.",
+      "sources": [
+        {"title": "Newsquawk", "url": "https://www.newsquawk.com/headlines/feds-musalem-2028-voter-hawk-says-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-in-a-timely-way"},
+        {"title": "Morningstar (Dow Jones)", "url": "https://www.morningstar.com/news/dow-jones/2026111010580/feds-schmid-joins-hawkish-chorus-on-rate-direction"},
+        {"title": "Kalshi", "url": "https://kalshi.com/fed-rate-odds"}
+      ]
+    },
+    {
+      "headline": "Treasury yields fall sharply as investors buy safe assets",
+      "what": "The 10-year Treasury yield fell about 12 basis points to 4.92%, and the 2-year fell 13 basis points to 4.63%. Bond prices rose as stocks sold off.",
       "effect": "neutral",
-      "headline": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
       "impact": "medium",
+      "affected": ["Treasuries", "banks", "utilities", "REITs"],
+      "why": "Lower yields ease pressure on stock valuations. The move came from risk-off buying rather than a softer Fed, so it reads as a flight to safety, not a sign that rate hikes are off the table.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-        }
-      ],
-      "what": "Trump said he discussed Jensen Huang with China's Xi. Bessent said the ousted Nvidia CEO didn't come up in talks he had while in China.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+        {"title": "Cappnotes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"}
+      ]
     },
     {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
+      "headline": "Anthropic shares fall in their first full trading session",
+      "what": "Anthropic (ANT) fell 8.50% to $88.91 in its first full session after its IPO. The stock is still above its $83 IPO price.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["Anthropic (ANT)", "AI stocks", "IPO market"],
+      "why": "A weak debut for one of the largest new AI listings adds to doubts about AI valuations at the same moment that Nvidia and other AI leaders are under pressure. It may also weigh on sentiment for future tech IPOs.",
+      "sources": [
+        {"title": "StockTitan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"}
+      ]
+    },
+    {
+      "headline": "Global Payments jumps 10% on a reported takeover approach",
+      "what": "Bloomberg reported that private equity firm GTCR is exploring a takeover of Global Payments worth about $50 billion including debt. The stock rose 9.95% on the news.",
       "effect": "bullish",
-      "headline": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
-        }
-      ],
-      "what": "Cybersecurity companies have been hunting for acquisitions in the AI era.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "GOOGL",
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/investingclub/2026/11/20/ai-rout-wipes-out-nasdaqs-2026-gains-alphabet-is-a-tech-bright-spot.html"
-        }
-      ],
-      "what": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
-      "effect": "neutral",
-      "headline": "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html"
-        }
-      ],
-      "what": "Unhappy workers are staying put at their jobs as anxiety around the job market looms. If conditions improve, these workers could be the first to quit, according to experts.",
-      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
-    },
-    {
-      "affected": [
-        "Energy",
-        "Oil"
-      ],
-      "effect": "bullish",
-      "headline": "Oil prices wrap up third straight weekly decline on strong Middle East supply outlook",
       "impact": "low",
+      "affected": ["Global Payments (GPN)", "payments sector"],
+      "why": "Buyout interest in a beaten-down company suggests some private buyers still see value in lower-priced stocks. It is a single-stock story, so its effect on the broader market is limited.",
       "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4675383-oil-prices-wrap-up-third-straight-weekly-decline-on-strong-middle-east-supply-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Oil prices wrap up third straight weekly decline on strong Middle East supply outlook.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+        {"title": "Cappnotes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Thu 11/26", "item": "US stock markets closed for Thanksgiving"},
+    {"when": "Fri 11/27", "item": "Holiday-shortened trading session (check exchange hours)"},
+    {"when": "Dec 9", "item": "December FOMC decision (date from a Kalshi listing, verify on the Fed calendar)"},
+    {"when": "Next week", "item": "Any follow-up on the SEC accounting review of Nvidia"}
+  ],
+  "bottomLine": "The AI and chip trade is driving a broad selloff, and the S&P 500 is now more than 10% below its record. Rising rate-hike expectations remove the usual hope of a Fed rescue, and a VIX above 35 signals real fear. Defensive stocks held up, so investors are rotating rather than leaving equities entirely. The next test is whether the Nvidia probe deepens and whether the selling steadies before the holiday-shortened week."
 }
