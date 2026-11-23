@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T06:27:00Z",
+  "coverage": "Pre-market, Mon Nov 23 (covers Fri Nov 20 close and the weekend)",
+  "mood": "bearish",
+  "moodReason": "All three major indexes ended the week of Nov 16 to 20 in correction, with the Nasdaq down about 10% on AI valuation fears and a hawkish Fed. Sunday futures bounced, but the trend is still negative.",
+  "snapshot": [
+    {"asset": "S&P 500 (Nov 20 close)", "value": "6,910.39", "change": "-3.70%"},
+    {"asset": "Dow Jones (Nov 20 close)", "value": "48,147.33", "change": "-1.93%"},
+    {"asset": "Nasdaq Composite (Nov 20 close)", "value": "22,617.73", "change": "-5.28%"},
+    {"asset": "Russell 2000 (Nov 20 close)", "value": "2,581.79", "change": "-2.76%"},
+    {"asset": "10-year Treasury yield (Nov 19)", "value": "about 5.07%", "change": "Back above 5% since mid-Nov"},
+    {"asset": "Dollar index (mid-Nov)", "value": "about 103.4", "change": "+1.1%"},
+    {"asset": "Gold (mid-Nov)", "value": "about $3,735 to $3,880", "change": "-4.6%"}
+  ],
+  "stories": [
+    {
+      "headline": "Tech rout drives the worst week since April 2025 as the Nasdaq falls about 5%",
+      "what": "The Nasdaq Composite fell about 5.3% on Friday Nov 20 and the S&P 500 about 3.7%, with Nvidia down about 10%. For the week the Dow fell about 8%, the S&P 500 about 8.6% and the Nasdaq about 10%, the weakest week since early April 2025. The Dow and S&P 500 entered correction territory on Nov 19.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["Nasdaq Composite", "S&P 500", "Nvidia", "AI and semiconductor stocks", "Mega-cap tech"],
+      "why": "Investors are repricing AI-linked stocks over doubts that AI spending and data center build-outs will produce enough profit to justify valuations. Tech carries a large share of index weight, so the selloff drags the whole market lower.",
+      "sources": [
+        {"title": "Stock Market Digest, Nov 20 2026 (StockMarketWatch)", "url": "https://stockmarketwatch.com/digest/2026-11-20"},
+        {"title": "Yahoo Finance: Markets News, Nov 20 2026", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-131303598.html"},
+        {"title": "CNBC: S&P 500 and Dow close in correction, Nov 19 2026", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"}
+      ]
+    },
+    {
+      "headline": "Rate-hike odds rise ahead of the Dec 9 Fed meeting under Chair Warsh",
+      "what": "Fed Chair Kevin Warsh has struck a hawkish tone, and a Kalshi snapshot cited in recent coverage gave about 91% odds of a 25 basis point hike at the Dec 9 meeting and about 2% odds of a cut. The fed funds range is 3.75% to 4.00% after the Oct 28 hold.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq Composite", "Russell 2000", "Rate-sensitive growth stocks", "Banks and homebuilders"],
+      "why": "Higher expected rates raise borrowing costs and lower the present value of future earnings, which hits high-valuation growth stocks hardest. The Russell 2000 fell about 2.8% on Nov 20 as small caps, which borrow heavily, sold off.",
+      "sources": [
+        {"title": "Kalshi: Fed rate odds", "url": "https://kalshi.com/fed-rate-odds"},
+        {"title": "Babypips: Fundamentals cheat sheet, Nov 16 2026", "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-11-16-fed-minutes-nvidia-bitcoin"},
+        {"title": "Advisor Perspectives: Kevin Warsh Is Now Free to Unleash His Inner Hawk", "url": "https://www.advisorperspectives.com/articles/2026/11/11/kevin-warsh-free-unleash-inner-hawk"}
+      ]
+    },
+    {
+      "headline": "10-year Treasury yield back above 5% and the dollar at its highest since April 2025",
+      "what": "The 10-year Treasury yield rose above 5% in mid-November for the first time since late October, and the dollar index climbed to near 103.4, its highest since April 2025. Hotter inflation data and hawkish Fed comments drove the move.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["US Treasuries", "S&P 500", "Gold", "Bitcoin", "US multinationals with overseas sales"],
+      "why": "Higher yields make bonds more competitive with stocks and raise financing costs across the economy. A stronger dollar reduces the dollar value of overseas earnings for US multinationals.",
+      "sources": [
+        {"title": "Saxo: Market Quick Take, US Treasury yields rip higher, Nov 11 2026", "url": "https://www.home.saxo/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026"},
+        {"title": "Babypips: Daily financial forex market recap, Nov 12 2026", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-12"},
+        {"title": "FXStreet: Yields hit 5.07, gold holds 3,735 and bitcoin eyes 60k", "url": "https://fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"}
+      ]
+    },
+    {
+      "headline": "Anthropic prices a record $81 billion IPO, then fades in its Nasdaq debut",
+      "what": "Anthropic began trading on the Nasdaq on Nov 19 under the ticker ANT after pricing at $83 a share, raising about $81.3 billion in the IPO. The stock opened at $111.50 but slid to the mid-$90s by midday. It is the largest IPO on record, and coverage tied the wider AI selloff to the debut.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["AI stocks", "Amazon", "Alphabet", "Nasdaq 100"],
+      "why": "The fade from the opening price was read as a sign of limits to appetite for AI valuations, which fed the bubble debate. Amazon and Alphabet together hold about 28.4% of Anthropic, so their shares are tied to its price. Anthropic is on track to join the Nasdaq 100 on Dec 21.",
+      "sources": [
+        {"title": "Al Jazeera: Anthropic starts trading in the US after blockbuster IPO", "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"},
+        {"title": "Fox Business: Anthropic begins trading on Nasdaq in record-breaking IPO", "url": "https://foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"},
+        {"title": "Stocktwits: Anthropic stock jumps in Nasdaq debut after record IPO", "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-stock-jumps-38-in-nasdaq-debut-after-record-107-3-b-ipo/cNbihePR900"}
+      ]
+    },
+    {
+      "headline": "US futures rebound on Sunday after the tech rout",
+      "what": "US equity futures traded higher on Sunday evening Nov 22 to start the shortened week. Reports put S&P 500 futures up roughly 1% to 2% and Nasdaq 100 futures up about 1.9%, after Friday's sell-off.",
+      "effect": "bullish",
+      "impact": "medium",
+      "affected": ["S&P 500 futures", "Nasdaq 100 futures", "Mega-cap tech"],
+      "why": "A futures bounce after a sharp drop suggests some dip buying, but it does not settle whether AI valuations and rate expectations have reset. Monday's cash session will show whether the rebound holds.",
+      "sources": [
+        {"title": "CNBC: S&P 500 futures rebound sharply to rise 2%, Nov 22 2026", "url": "https://cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+        {"title": "Eurasia Business News: Stock Market Today, Nov 20 2026", "url": "https://eurasiabusinessnews.com/2026/11/20/stock-market-today-november-20-2026-tech-rout-deepens-as-anthropic-stocks-slide/"}
+      ]
+    },
+    {
+      "headline": "Gold and bitcoin lose ground as yields and the dollar rise",
+      "what": "Gold fell about 4.6% to near $3,880 in mid-November and was reported near $3,735 later in the week. Total crypto market value fell about 20.6% in a month, and bitcoin dropped below $70,000 in a later selloff.",
+      "effect": "bearish",
+      "impact": "low",
+      "affected": ["Gold", "Bitcoin", "Gold miners", "Crypto-linked stocks"],
+      "why": "Gold pays no interest, so higher yields and a stronger dollar reduce its appeal. Bitcoin has traded more like a risk asset alongside tech, so the AI selloff weighs on it too.",
+      "sources": [
+        {"title": "FXStreet: Yields hit 5.07, gold holds 3,735 and bitcoin eyes 60k", "url": "https://fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"},
+        {"title": "Forex.com: Gold and EUR/USD hit 2026 lows as US yields erupt", "url": "https://www.forex.com/en-sg/news-and-analysis/gold-eur-usd-hit-2026-lows-as-us-yields-erupt/"}
+      ]
+    }
+  ],
+  "watch": [
+    {"when": "Mon 11/23", "item": "First cash session after the Sunday futures rebound; test whether tech gains hold"},
+    {"when": "Thu 11/26", "item": "Thanksgiving: US stock markets closed"},
+    {"when": "Fri 11/27", "item": "Holiday-shortened trading session (confirm exchange hours)"},
+    {"when": "Wed 12/9", "item": "Fed policy decision, with rate-hike odds in focus"},
+    {"when": "Fri 12/18", "item": "Anthropic underwriter option to buy additional shares expires"},
+    {"when": "Mon 12/21", "item": "Anthropic expected to join the Nasdaq 100"}
+  ],
+  "bottomLine": "US stocks enter a holiday-shortened week after their weakest stretch since April 2025, led by AI and mega-cap tech. Sunday futures point to some dip buying, but a Fed that now leans toward hikes and a 10-year yield above 5% keep pressure on high valuations. The near-term tests are whether tech holds its bounce into Thanksgiving and how Anthropic trades ahead of the Dec 9 Fed decision."
+}
