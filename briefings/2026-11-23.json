@@ -1,103 +1,90 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T06:27:00Z",
-  "coverage": "Pre-market, Mon Nov 23 (covers Fri Nov 20 close and the weekend)",
+  "generatedAt": "2026-11-23T22:50:00Z",
+  "coverage": "Evening edition, Mon Nov 23 (covers the Fri Nov 20 close, the weekend and the Thanksgiving week ahead)",
   "mood": "bearish",
-  "moodReason": "All three major indexes ended the week of Nov 16 to 20 in correction, with the Nasdaq down about 10% on AI valuation fears and a hawkish Fed. Sunday futures bounced, but the trend is still negative.",
+  "moodReason": "The S&P 500 fell 8.6% in the week of Nov 16 to 20, its worst week since April 2025, as AI and chip stocks sold off. Futures pricing now gives about 91% odds of a December rate hike, and the week ahead is dominated by October core PCE inflation.",
   "snapshot": [
-    {"asset": "S&P 500 (Nov 20 close)", "value": "6,910.39", "change": "-3.70%"},
-    {"asset": "Dow Jones (Nov 20 close)", "value": "48,147.33", "change": "-1.93%"},
-    {"asset": "Nasdaq Composite (Nov 20 close)", "value": "22,617.73", "change": "-5.28%"},
-    {"asset": "Russell 2000 (Nov 20 close)", "value": "2,581.79", "change": "-2.76%"},
-    {"asset": "10-year Treasury yield (Nov 19)", "value": "about 5.07%", "change": "Back above 5% since mid-Nov"},
-    {"asset": "Dollar index (mid-Nov)", "value": "about 103.4", "change": "+1.1%"},
-    {"asset": "Gold (mid-Nov)", "value": "about $3,735 to $3,880", "change": "-4.6%"}
+    {"asset": "S&P 500 (Fri Nov 20 close)", "value": "6,910.39", "change": "-3.7%"},
+    {"asset": "Dow Jones (Fri Nov 20 close)", "value": "48,147.33", "change": "-1.9%"},
+    {"asset": "Nasdaq Composite (Fri Nov 20 close)", "value": "22,617.73", "change": "-5.3%"},
+    {"asset": "Russell 2000 (Fri Nov 20 close)", "value": "2,581.79", "change": "-2.8%"},
+    {"asset": "S&P 500 (week of Nov 16 to 20)", "value": "Worst week since April 2025", "change": "-8.6%"},
+    {"asset": "Nasdaq Composite (week of Nov 16 to 20)", "value": "Weakest week in several years", "change": "-10%"}
   ],
   "stories": [
     {
-      "headline": "Tech rout drives the worst week since April 2025 as the Nasdaq falls about 5%",
-      "what": "The Nasdaq Composite fell about 5.3% on Friday Nov 20 and the S&P 500 about 3.7%, with Nvidia down about 10%. For the week the Dow fell about 8%, the S&P 500 about 8.6% and the Nasdaq about 10%, the weakest week since early April 2025. The Dow and S&P 500 entered correction territory on Nov 19.",
+      "headline": "AI and chip stocks drive the S&P 500 into correction and its worst week since April 2025",
+      "what": "The Nasdaq Composite fell 5.3% on Friday Nov 20 and the S&P 500 fell 3.7%, with the Dow down 1.9%. For the week the S&P 500 lost 8.6%, the Dow about 8% and the Nasdaq about 10%. Nvidia fell about 14% on Friday, and the VIX closed at its highest level since April 2025.",
       "effect": "bearish",
       "impact": "high",
-      "affected": ["Nasdaq Composite", "S&P 500", "Nvidia", "AI and semiconductor stocks", "Mega-cap tech"],
-      "why": "Investors are repricing AI-linked stocks over doubts that AI spending and data center build-outs will produce enough profit to justify valuations. Tech carries a large share of index weight, so the selloff drags the whole market lower.",
+      "affected": ["S&P 500", "Nasdaq Composite", "Dow Jones", "Nvidia", "AI and semiconductor stocks", "Mega-cap tech"],
+      "why": "Tech and chip stocks carry a large share of index weight, so their selloff drags the whole market down. Investors are also questioning whether heavy AI spending will earn enough profit to justify current valuations.",
       "sources": [
-        {"title": "Stock Market Digest, Nov 20 2026 (StockMarketWatch)", "url": "https://stockmarketwatch.com/digest/2026-11-20"},
-        {"title": "Yahoo Finance: Markets News, Nov 20 2026", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-131303598.html"},
+        {"title": "StockMarketWatch: Market Digest, Fri Nov 20 2026", "url": "https://stockmarketwatch.com/digest/2026-11-20"},
+        {"title": "CNBC: S&P 500 and Dow close in correction, Nov 19 2026", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
+        {"title": "Fox Business: Stock market slide wipes out Nasdaq gains for the year on AI rout", "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"}
+      ]
+    },
+    {
+      "headline": "Futures put about 91% odds on a December Fed rate hike, with some officials pushing for a bigger move",
+      "what": "Fed funds futures priced roughly 91% odds of a quarter-point hike at the Dec 8 to 9 meeting as of Nov 22. Governor Waller has floated a half-point hike in December, a larger move that markets had not priced in. Minutes from the October meeting showed nearly all officials expect to raise rates next month.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq Composite", "Russell 2000", "Rate-sensitive growth stocks", "Banks and homebuilders", "US Treasuries"],
+      "why": "Higher expected rates raise borrowing costs and lower the present value of future earnings, which hits high-valuation growth stocks hardest. Small caps, which borrow heavily, are also sensitive, and the Russell 2000 fell 2.8% on Nov 20.",
+      "sources": [
+        {"title": "Avalon Capital Research: Weekly Playbook, Futures put a December hike at 91%", "url": "https://avaloncapitalresearch.substack.com/p/weekly-playbook-futures-put-a-december"},
+        {"title": "Heygotrade: US Stocks Week Ahead, PCE, GDP and Dell Earnings", "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"},
+        {"title": "Global View: PCE Fed Hike Risk in Thanksgiving Week", "url": "https://global-view.com/gv-radar-pce-fed-hike-thanksgiving-week/"}
+      ]
+    },
+    {
+      "headline": "October core PCE inflation and Q3 GDP revision land Wednesday, the last major data before the Fed's blackout",
+      "what": "October core PCE, the Fed's preferred inflation gauge, is due Wednesday Nov 25, with forecasts clustering around 3.2% year over year. Q3 GDP is revised the same day, and some economists expect growth to be revised up to about 3.6% from the advance estimate of 3.4%. The Fed's pre-meeting quiet period starts Saturday Nov 28.",
+      "effect": "neutral",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq Composite", "US Treasuries", "Dollar"],
+      "why": "A hot PCE print would strengthen the case for a December hike and could push yields and tech stocks lower. A soft print would ease pressure, though one analysis notes it would not cancel a hike.",
+      "sources": [
+        {"title": "Heygotrade: US Stocks Week Ahead, PCE, GDP and Dell Earnings", "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"},
+        {"title": "Global View: PCE Fed Hike Risk in Thanksgiving Week", "url": "https://global-view.com/gv-radar-pce-fed-hike-thanksgiving-week/"},
+        {"title": "Thrive in Markets: S&P 500 Faces PCE Inflation Test in Thanksgiving Week", "url": "https://thriveinmarkets.com/market-insights/week-ahead-2026-11-23/"}
+      ]
+    },
+    {
+      "headline": "Anthropic's Nasdaq debut fails to revive the AI trade as investors take profits",
+      "what": "Anthropic began trading on the Nasdaq in a record IPO, but the AI rally did not carry over. Investors took profits in AI names after the debut, and the selloff in AI and chip stocks deepened through Friday.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["AI stocks", "Amazon", "Alphabet", "Nasdaq Composite"],
+      "why": "A weak debut after a record IPO was read as a sign of limits to investor appetite for AI valuations. Amazon and Alphabet hold stakes in Anthropic, so their shares are linked to its trading.",
+      "sources": [
+        {"title": "Investing.com: Wall Street futures fall as Anthropic debut fails to revive AI trade", "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450"},
         {"title": "CNBC: S&P 500 and Dow close in correction, Nov 19 2026", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"}
       ]
     },
     {
-      "headline": "Rate-hike odds rise ahead of the Dec 9 Fed meeting under Chair Warsh",
-      "what": "Fed Chair Kevin Warsh has struck a hawkish tone, and a Kalshi snapshot cited in recent coverage gave about 91% odds of a 25 basis point hike at the Dec 9 meeting and about 2% odds of a cut. The fed funds range is 3.75% to 4.00% after the Oct 28 hold.",
-      "effect": "bearish",
-      "impact": "high",
-      "affected": ["S&P 500", "Nasdaq Composite", "Russell 2000", "Rate-sensitive growth stocks", "Banks and homebuilders"],
-      "why": "Higher expected rates raise borrowing costs and lower the present value of future earnings, which hits high-valuation growth stocks hardest. The Russell 2000 fell about 2.8% on Nov 20 as small caps, which borrow heavily, sold off.",
-      "sources": [
-        {"title": "Kalshi: Fed rate odds", "url": "https://kalshi.com/fed-rate-odds"},
-        {"title": "Babypips: Fundamentals cheat sheet, Nov 16 2026", "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-11-16-fed-minutes-nvidia-bitcoin"},
-        {"title": "Advisor Perspectives: Kevin Warsh Is Now Free to Unleash His Inner Hawk", "url": "https://www.advisorperspectives.com/articles/2026/11/11/kevin-warsh-free-unleash-inner-hawk"}
-      ]
-    },
-    {
-      "headline": "10-year Treasury yield back above 5% and the dollar at its highest since April 2025",
-      "what": "The 10-year Treasury yield rose above 5% in mid-November for the first time since late October, and the dollar index climbed to near 103.4, its highest since April 2025. Hotter inflation data and hawkish Fed comments drove the move.",
-      "effect": "bearish",
-      "impact": "high",
-      "affected": ["US Treasuries", "S&P 500", "Gold", "Bitcoin", "US multinationals with overseas sales"],
-      "why": "Higher yields make bonds more competitive with stocks and raise financing costs across the economy. A stronger dollar reduces the dollar value of overseas earnings for US multinationals.",
-      "sources": [
-        {"title": "Saxo: Market Quick Take, US Treasury yields rip higher, Nov 11 2026", "url": "https://www.home.saxo/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026"},
-        {"title": "Babypips: Daily financial forex market recap, Nov 12 2026", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-12"},
-        {"title": "FXStreet: Yields hit 5.07, gold holds 3,735 and bitcoin eyes 60k", "url": "https://fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"}
-      ]
-    },
-    {
-      "headline": "Anthropic prices a record $81 billion IPO, then fades in its Nasdaq debut",
-      "what": "Anthropic began trading on the Nasdaq on Nov 19 under the ticker ANT after pricing at $83 a share, raising about $81.3 billion in the IPO. The stock opened at $111.50 but slid to the mid-$90s by midday. It is the largest IPO on record, and coverage tied the wider AI selloff to the debut.",
-      "effect": "bearish",
+      "headline": "Dell earnings Tuesday will test whether AI server demand is holding up",
+      "what": "Dell reports Tuesday Nov 24, and investors will focus on its AI order backlog, AI-server margins and guidance. Nvidia already reported on Nov 17, but its shares fell sharply in the following days.",
+      "effect": "neutral",
       "impact": "medium",
-      "affected": ["AI stocks", "Amazon", "Alphabet", "Nasdaq 100"],
-      "why": "The fade from the opening price was read as a sign of limits to appetite for AI valuations, which fed the bubble debate. Amazon and Alphabet together hold about 28.4% of Anthropic, so their shares are tied to its price. Anthropic is on track to join the Nasdaq 100 on Dec 21.",
+      "affected": ["Dell", "AI server makers", "Nvidia", "Semiconductors"],
+      "why": "Strong AI orders would ease fears that AI spending is slowing, while weak backlog or margins would add to the selloff in AI hardware names.",
       "sources": [
-        {"title": "Al Jazeera: Anthropic starts trading in the US after blockbuster IPO", "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"},
-        {"title": "Fox Business: Anthropic begins trading on Nasdaq in record-breaking IPO", "url": "https://foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"},
-        {"title": "Stocktwits: Anthropic stock jumps in Nasdaq debut after record IPO", "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-stock-jumps-38-in-nasdaq-debut-after-record-107-3-b-ipo/cNbihePR900"}
-      ]
-    },
-    {
-      "headline": "US futures rebound on Sunday after the tech rout",
-      "what": "US equity futures traded higher on Sunday evening Nov 22 to start the shortened week. Reports put S&P 500 futures up roughly 1% to 2% and Nasdaq 100 futures up about 1.9%, after Friday's sell-off.",
-      "effect": "bullish",
-      "impact": "medium",
-      "affected": ["S&P 500 futures", "Nasdaq 100 futures", "Mega-cap tech"],
-      "why": "A futures bounce after a sharp drop suggests some dip buying, but it does not settle whether AI valuations and rate expectations have reset. Monday's cash session will show whether the rebound holds.",
-      "sources": [
-        {"title": "CNBC: S&P 500 futures rebound sharply to rise 2%, Nov 22 2026", "url": "https://cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
-        {"title": "Eurasia Business News: Stock Market Today, Nov 20 2026", "url": "https://eurasiabusinessnews.com/2026/11/20/stock-market-today-november-20-2026-tech-rout-deepens-as-anthropic-stocks-slide/"}
-      ]
-    },
-    {
-      "headline": "Gold and bitcoin lose ground as yields and the dollar rise",
-      "what": "Gold fell about 4.6% to near $3,880 in mid-November and was reported near $3,735 later in the week. Total crypto market value fell about 20.6% in a month, and bitcoin dropped below $70,000 in a later selloff.",
-      "effect": "bearish",
-      "impact": "low",
-      "affected": ["Gold", "Bitcoin", "Gold miners", "Crypto-linked stocks"],
-      "why": "Gold pays no interest, so higher yields and a stronger dollar reduce its appeal. Bitcoin has traded more like a risk asset alongside tech, so the AI selloff weighs on it too.",
-      "sources": [
-        {"title": "FXStreet: Yields hit 5.07, gold holds 3,735 and bitcoin eyes 60k", "url": "https://fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"},
-        {"title": "Forex.com: Gold and EUR/USD hit 2026 lows as US yields erupt", "url": "https://www.forex.com/en-sg/news-and-analysis/gold-eur-usd-hit-2026-lows-as-us-yields-erupt/"}
+        {"title": "Heygotrade: US Stocks Week Ahead, PCE, GDP and Dell Earnings", "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"},
+        {"title": "Benzinga: What To Watch In A Short Week Following Market Correction", "url": "https://www.benzinga.com/opinion/26/11/63522511/what-to-watch-in-a-short-week-following-market-correction"}
       ]
     }
   ],
   "watch": [
-    {"when": "Mon 11/23", "item": "First cash session after the Sunday futures rebound; test whether tech gains hold"},
+    {"when": "Tue 11/24", "item": "Dell earnings: AI order backlog, AI-server margins and guidance"},
+    {"when": "Wed 11/25", "item": "October core PCE inflation and Q3 GDP revision"},
     {"when": "Thu 11/26", "item": "Thanksgiving: US stock markets closed"},
-    {"when": "Fri 11/27", "item": "Holiday-shortened trading session (confirm exchange hours)"},
-    {"when": "Wed 12/9", "item": "Fed policy decision, with rate-hike odds in focus"},
-    {"when": "Fri 12/18", "item": "Anthropic underwriter option to buy additional shares expires"},
-    {"when": "Mon 12/21", "item": "Anthropic expected to join the Nasdaq 100"}
+    {"when": "Fri 11/27", "item": "Early market close at 1 p.m. (confirm exchange hours)"},
+    {"when": "Sat 11/28", "item": "Fed pre-meeting quiet period begins"},
+    {"when": "Fri 12/4", "item": "November jobs report"},
+    {"when": "Tue 12/8 to Wed 12/9", "item": "Fed meeting: rate-hike odds and possible half-point hike"}
   ],
-  "bottomLine": "US stocks enter a holiday-shortened week after their weakest stretch since April 2025, led by AI and mega-cap tech. Sunday futures point to some dip buying, but a Fed that now leans toward hikes and a 10-year yield above 5% keep pressure on high valuations. The near-term tests are whether tech holds its bounce into Thanksgiving and how Anthropic trades ahead of the Dec 9 Fed decision."
+  "bottomLine": "US stocks end a painful week with the S&P 500 down 8.6% and the Nasdaq down about 10%, led by AI and chip stocks. Futures put about 91% odds on a December Fed hike, so the market now treats higher rates as the base case rather than a risk. The holiday-shortened week hinges on Wednesday's October PCE print, and that data will set the tone into the Dec 8 to 9 Fed meeting."
 }
