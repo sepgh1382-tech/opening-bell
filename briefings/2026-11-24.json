@@ -1,0 +1,240 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, bond yields and AI and chip stocks. The top story: The bull and bear surprises that could ambush investors next year, according to Bank of America. Of today's top 10 stories, 6 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Tue Nov 24",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T10:54:49Z",
+  "mood": "bullish",
+  "moodReason": "The S&P 500 rose 4.7% in the last session. Of today's top 10 stories, 6 lean bullish and 2 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "+4.7% Mon",
+      "value": "7,237.17"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+6.5% Mon",
+      "value": "24,089.56"
+    },
+    {
+      "asset": "Dow",
+      "change": "+3.0% Mon",
+      "value": "49,595.31"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+3.4% Mon",
+      "value": "2,669.66"
+    },
+    {
+      "asset": "VIX",
+      "change": "+5.4% Tue",
+      "value": "28.07"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "+1 bp Mon",
+      "value": "4.92%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-0.1% Mon",
+      "value": "$80.06"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-2.8% Mon",
+      "value": "$59,498"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "BAC",
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Michael Hartnett’s tactical masterplan is to stay risk off until global rate hikes start to dry up next spring. Thereafter, modest earnings growth and the chance of looser financial conditions in the second half favor owning cyclicals and adding more risk.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Treasuries",
+        "Rate sensitive stocks",
+        "S&P 500",
+        "Industrials",
+        "Energy",
+        "Oil"
+      ],
+      "effect": "neutral",
+      "headline": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+        }
+      ],
+      "what": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
+      "why": "Rising yields make stocks look less attractive next to bonds and raise borrowing costs; falling yields do the opposite."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        }
+      ],
+      "what": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "European Shares Mixed After Tech Rally",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/european-shares-mixed-after-tech-rally"
+        },
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-subdued-after-aidriven-rally-5047331"
+        }
+      ],
+      "what": "(RTTNews) - European stocks were mixed on Tuesday after rallying in the previous session amid revived enthusiasm for the artificial intelligence trade.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "HPE just posted its strongest growth ever, but its stock is sinking",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+        }
+      ],
+      "what": "Sanofi faces a revenue drop towards the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "Nvidia Could Generate $741 Billion in Revenue Next Year. Here’s What That Means for the Stock.",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/nvidia-could-generate-741-billion-revenue-next-year-heres-what-means-stock"
+        }
+      ],
+      "what": "Nvidia CFO and interim CEO Colette Kress said Nvidia's revenue will grow 75% next year.",
+      "why": "Results and outlook from NVDA move its shares and can set the tone for its sector."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "AMZN",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Amazon to acquire AI startup Decart's chip software, hire founders",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+        }
+      ],
+      "what": "Decart, founded in 2023, is best known for its software that lets developers sync their AI models across different chips.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "HPE shares slump on warning of margin pressure from AI servers",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676038-hpe-shares-slump-on-warning-of-margin-pressure-from-ai-servers?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "HPE shares slump on warning of margin pressure from AI servers.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    }
+  ],
+  "watch": []
+}
