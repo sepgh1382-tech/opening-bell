@@ -1,0 +1,238 @@
+{
+  "bottomLine": "The biggest themes right now are trade policy, interest rates and earnings. The top story: European Shares Rally As Tariff Fears Ease. Of today's top 10 stories, 6 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Thu Nov 26",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T09:31:24Z",
+  "mood": "mixed",
+  "moodReason": "The S&P 500 fell 0.3% in the last session. Of today's top 10 stories, 6 lean bullish and 2 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-0.3% Wed",
+      "value": "7,182.78"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-0.6% Wed",
+      "value": "23,585.80"
+    },
+    {
+      "asset": "Dow",
+      "change": "+0.3% Wed",
+      "value": "50,182.95"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+0.7% Wed",
+      "value": "2,704.06"
+    },
+    {
+      "asset": "VIX",
+      "change": "-4.2% Thu",
+      "value": "27.09"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-6 bp Wed",
+      "value": "4.85%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-0.4% Thu",
+      "value": "$83.31"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "+0.5% Wed",
+      "value": "$60,700"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "European Shares Rally As Tariff Fears Ease",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/european-shares-rally-tariff-fears-ease"
+        }
+      ],
+      "what": "(RTTNews) - European stocks rose sharply on Thursday, with banks and technology stocks leading the surge despite concerns over the Trump administration's new tariff announcement and the outlook for AI trade.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "neutral",
+      "headline": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+        }
+      ],
+      "what": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Rate sensitive stocks"
+      ],
+      "effect": "bearish",
+      "headline": "Hawkish Fed risks deeper market selloff as real yields climb, Brooks warns",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676787-hawkish-fed-risks-deeper-market-selloff-as-real-yields-climb-brooks-warns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "Hawkish Fed risks deeper market selloff as real yields climb, Brooks warns.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Industrials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+        }
+      ],
+      "what": "Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
+      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
+        }
+      ],
+      "what": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "neutral",
+      "headline": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
+        }
+      ],
+      "what": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "Hawkish Fed sentiment coincides with sharp drop in S&P 500 valuation",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676788-hawkish-fed-sentiment-coincides-with-sharp-drop-in-sp-500-valuation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "Hawkish Fed sentiment coincides with sharp drop in S&P 500 valuation.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/nasdaq-fell-below-correction-territory-2-beaten-down-nasdaq-stocks-buy-and-hold"
+        }
+      ],
+      "what": "Netflix’s strong revenue and free cash flow make the stock look like a bargain at the current valuation.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+        },
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories"
+        }
+      ],
+      "what": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+      "why": "Political and geopolitical events can change policy, trade and risk appetite, which investors price in quickly."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html"
+        }
+      ],
+      "what": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    }
+  ],
+  "watch": []
+}
