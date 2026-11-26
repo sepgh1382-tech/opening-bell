@@ -1,238 +1,98 @@
 {
-  "bottomLine": "The biggest themes right now are trade policy, interest rates and earnings. The top story: European Shares Rally As Tariff Fears Ease. Of today's top 10 stories, 6 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Thu Nov 26",
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T09:31:24Z",
-  "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.3% in the last session. Of today's top 10 stories, 6 lean bullish and 2 lean bearish.",
+  "generatedAt": "2026-11-26T22:00:00Z",
+  "coverage": "Holiday edition, Thu Nov 26. US markets closed for Thanksgiving. Covers the Wed Nov 25 session and news since.",
+  "mood": "bearish",
+  "moodReason": "A hot October PCE report pushed a December Fed rate hike to near certainty, and new tariff proposals and an AI and tech sell-off hit stocks on Wednesday. The Dow's late recovery kept the index losses small, but the S&P 500 and Nasdaq still closed lower.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "-0.3% Wed",
-      "value": "7,182.78"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "-0.6% Wed",
-      "value": "23,585.80"
-    },
-    {
-      "asset": "Dow",
-      "change": "+0.3% Wed",
-      "value": "50,182.95"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "+0.7% Wed",
-      "value": "2,704.06"
-    },
-    {
-      "asset": "VIX",
-      "change": "-4.2% Thu",
-      "value": "27.09"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "-6 bp Wed",
-      "value": "4.85%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "-0.4% Thu",
-      "value": "$83.31"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "+0.5% Wed",
-      "value": "$60,700"
-    }
+    {"asset": "S&P 500", "value": "7,182.78", "change": "-0.25%"},
+    {"asset": "Nasdaq Composite", "value": "23,585.80", "change": "-0.62%"},
+    {"asset": "Dow Jones", "value": "50,182.95", "change": "+0.33%"},
+    {"asset": "Russell 2000", "value": "2,704.06", "change": "+0.7%"},
+    {"asset": "10-year Treasury yield", "value": "About 4.86%", "change": "-0.07 pts"},
+    {"asset": "VIX", "value": "About 28.3", "change": "+7.3%"},
+    {"asset": "WTI crude", "value": "About $84", "change": "+2.5%"},
+    {"asset": "Gold", "value": "About $3,585 per oz", "change": "+0.8%"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "S&P 500",
-        "Industrials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "European Shares Rally As Tariff Fears Ease",
-      "impact": "high",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/european-shares-rally-tariff-fears-ease"
-        }
-      ],
-      "what": "(RTTNews) - European stocks rose sharply on Thursday, with banks and technology stocks leading the surge despite concerns over the Trump administration's new tariff announcement and the outlook for AI trade.",
-      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
-      "impact": "high",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-        }
-      ],
-      "what": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Rate sensitive stocks"
-      ],
+      "headline": "October PCE inflation rises to 3.8% and a December Fed hike is nearly priced in",
+      "what": "The Bureau of Economic Analysis reported headline PCE inflation of 3.8% year over year for October, up from 3.6% in September. Core PCE rose to 3.3%, above the 3.2% forecast and the highest level in three years.",
       "effect": "bearish",
-      "headline": "Hawkish Fed risks deeper market selloff as real yields climb, Brooks warns",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq 100", "rate-sensitive growth stocks", "banks", "homebuilders", "Treasuries"],
+      "why": "Hot inflation keeps the Fed on track to raise rates at its Dec 8 to 9 meeting, with CME FedWatch odds of roughly 94% to 98%. Higher rates raise borrowing costs and weigh on high-valuation stocks.",
       "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4676787-hawkish-fed-risks-deeper-market-selloff-as-real-yields-climb-brooks-warns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Hawkish Fed risks deeper market selloff as real yields climb, Brooks warns.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "Invezz", "url": "https://invezz.com/news/2026/11/25/us-pce-rises-3-8-in-october-experts-say-fed-rate-hike-in-december-a-done-deal/"},
+        {"title": "StockAnalysis", "url": "https://stockanalysis.com/news/us-pce-inflation-october-2026/"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Industrials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
-        }
-      ],
-      "what": "Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
-      "why": "Trade policy changes costs and access to markets for exporters and importers, which can hit earnings across sectors."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
-        }
-      ],
-      "what": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
-        }
-      ],
-      "what": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
+      "headline": "Trump proposes new tariffs on 14 trading partners, with China at 20%",
+      "what": "The administration proposed tariffs on 14 trading partners, aimed at excess factory capacity. Proposed rates include 15% for the EU, Japan and South Korea and 20% for China. Mexico and Norway are excluded while their investigations continue. The rates would not take effect until after a Jan 25 public hearing.",
       "effect": "bearish",
-      "headline": "Hawkish Fed sentiment coincides with sharp drop in S&P 500 valuation",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["S&P 500", "industrials", "autos", "semiconductors", "China-exposed stocks", "retailers"],
+      "why": "New tariffs raise import costs and could keep inflation and interest rates elevated. Global stocks fell on the news, with MSCI's world gauge down about 0.5%. Some analysts see the rates as opening bargaining positions, which could limit the damage if talks succeed.",
       "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4676788-hawkish-fed-sentiment-coincides-with-sharp-drop-in-sp-500-valuation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Hawkish Fed sentiment coincides with sharp drop in S&P 500 valuation.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"},
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/economy/policy/articles/us-proposes-tariffs-14-trading-131826582.html"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold",
-      "impact": "medium",
+      "headline": "AI and tech stocks sell off sharply before recovering, with Nvidia down 3.9%",
+      "what": "The Nasdaq fell as much as 4.6% intraday and the S&P 500 as much as 3.2% before recovering. Nvidia closed 3.9% lower at $149.30 despite a Q3 revenue report of $115.8 billion, its first report without Jensen Huang as CEO. Micron and Sandisk also fell. Meta and Salesforce rose.",
+      "effect": "bearish",
+      "impact": "high",
+      "affected": ["Nvidia", "Micron", "Sandisk", "Nasdaq Composite", "AI and semiconductor stocks"],
+      "why": "The AI leaders carry a large share of index weight, so their sell-off drags on the S&P 500 and Nasdaq. Investors are questioning whether strong results justify valuations while Nvidia has interim leadership and rising policy risks.",
       "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/nasdaq-fell-below-correction-territory-2-beaten-down-nasdaq-stocks-buy-and-hold"
-        }
-      ],
-      "what": "Netflix’s strong revenue and free cash flow make the stock look like a bargain at the current valuation.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html"},
+        {"title": "ABC News via AP", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+      "headline": "Treasury yields ease as the 10-year falls to about 4.86%",
+      "what": "The 10-year Treasury yield fell about 7 basis points to around 4.86% on Wednesday, while the 30-year was near 5.24%. Yields had been high in recent weeks on Fed hike bets.",
+      "effect": "neutral",
       "impact": "medium",
+      "affected": ["Treasuries", "mortgage rates", "bank stocks", "dollar"],
+      "why": "Lower yields ease pressure on stock valuations, but the 30-year remains above 5%. Yields could move quickly again once traders react to the PCE data and the December Fed decision.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
-        },
-        {
-          "title": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories"
-        }
-      ],
-      "what": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
-      "why": "Political and geopolitical events can change policy, trade and risk appetite, which investors price in quickly."
+        {"title": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield"},
+        {"title": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-25"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Nasdaq",
-        "Semiconductors"
-      ],
+      "headline": "Breadth improves as small caps outperform, though most of the S&P 500 rose",
+      "what": "About three quarters of S&P 500 stocks rose on Wednesday, and the Russell 2000 gained about 0.7% to 2,704.06. Heavy technology weighting kept the S&P 500 down 0.25%.",
       "effect": "bullish",
-      "headline": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
-      "impact": "medium",
+      "impact": "low",
+      "affected": ["Russell 2000", "small caps", "mid caps", "S&P 500 equal weight"],
+      "why": "Broader participation suggests the sell-off was concentrated in a few large AI names. Small caps are more sensitive to borrowing costs, so their strength is a mixed signal while rate hike bets persist.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html"
-        }
-      ],
-      "what": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
-      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+        {"title": "GSM Global News", "url": "https://gsmglobalnews.com/article/d20261125-mktclose1.html"},
+        {"title": "Fox Business", "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"}
+      ]
+    },
+    {
+      "headline": "Oil climbs about 2.5% as the US and Iran conflict remains unresolved",
+      "what": "WTI crude rose to roughly $84 per barrel, up about 2.5% on Wednesday. Coverage tied oil prices to the unresolved US and Iran conflict.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["energy stocks", "airlines", "consumer discretionary", "inflation expectations"],
+      "why": "Higher oil feeds into headline inflation, which is already running near 4%. That reinforces the case for further Fed tightening.",
+      "sources": [
+        {"title": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-25"},
+        {"title": "Fox Business", "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Fri 11/27", "item": "Early stock market close at 1:00 p.m. ET after the Thanksgiving holiday"},
+    {"when": "Tue 12/8 to Wed 12/9", "item": "Fed policy meeting, where a 25 basis point rate hike is widely expected"},
+    {"when": "Wed 12/23", "item": "Next PCE inflation release, after the December Fed meeting"},
+    {"when": "Mon 1/25", "item": "Public hearing on the proposed tariffs on 14 trading partners"}
+  ],
+  "bottomLine": "Inflation is running hot, with headline PCE at 3.8% and core at 3.3%, and markets now expect the Fed to raise rates again in December. New tariff proposals add to the inflation risk and to uncertainty for global trade. The AI sell-off showed that the market's leaders are vulnerable, though the Dow's recovery and broader gains suggest investors have not abandoned stocks yet. Trading resumes Friday on a shortened session."
 }
