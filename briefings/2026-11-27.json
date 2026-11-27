@@ -1,0 +1,231 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, the economy and AI and chip stocks. The top story: The Latest Interest Rate Forecast Is In, and It Spells Trouble for a Historically Expensive AI-Driven Bull Market. Of today's top 10 stories, 6 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Pre-market, Fri Nov 27",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T09:41:05Z",
+  "mood": "mixed",
+  "moodReason": "The S&P 500 fell 0.3% in the last session. Of today's top 10 stories, 6 lean bullish and 2 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "-0.3% Wed",
+      "value": "7,182.78"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "-0.6% Wed",
+      "value": "23,585.80"
+    },
+    {
+      "asset": "Dow",
+      "change": "+0.3% Wed",
+      "value": "50,182.95"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+0.7% Wed",
+      "value": "2,704.06"
+    },
+    {
+      "asset": "VIX",
+      "change": "-8.2% Fri",
+      "value": "24.61"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-6 bp Wed",
+      "value": "4.85%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "+2.7% Fri",
+      "value": "$85.98"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "+2.0% Thu",
+      "value": "$61,710"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "The Latest Interest Rate Forecast Is In, and It Spells Trouble for a Historically Expensive AI-Driven Bull Market",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/latest-interest-rate-forecast-and-it-spells-trouble-historically-expensive-ai-driven-bull"
+        }
+      ],
+      "what": "The artificial intelligence (AI) infrastructure build-out has helped catapult the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite to new heights.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+        }
+      ],
+      "what": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Black Friday Is Here: 2 AI Stocks to Buy While They’re on Sale",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/black-friday-here-2-ai-stocks-buy-while-theyre-sale"
+        }
+      ],
+      "what": "These AI players are well-established tech companies with a solid track record in their specialty areas.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Dottikon ES shares rise 9% on strong first-half results",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/dottikon-es-shares-rise-9-on-strong-firsthalf-results-93CH-5053176"
+        }
+      ],
+      "what": "Dottikon ES shares rise 9% on strong first-half results.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "+32%, +28%, +20%: See the AI-picked stocks surging this week as Black Friday hits",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/32-28-20-see-the-aipicked-stocks-surging-this-week-as-black-friday-hits-5053164"
+        }
+      ],
+      "what": "+32%, +28%, +20%: See the AI-picked stocks surging this week as Black Friday hits.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bearish",
+      "headline": "Germany's unemployment stays flat at 6.40% in November",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676922-germany-unemployment-stays-flat-at-640-in-november?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "Germany's unemployment stays flat at 6.40% in November.",
+      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "European stocks edge higher on chipmaker bounce",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676947-european-stocks-edge-higher-on-chipmaker-bounce?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
+        }
+      ],
+      "what": "European stocks edge higher on chipmaker bounce.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/billionaire-david-tepper-appaloosa-management-has-65-his-portfolio-invested-these-7"
+        }
+      ],
+      "what": "Seven of Appaloosa’s nine largest holdings are AI stocks.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+        }
+      ],
+      "what": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500"
+      ],
+      "effect": "bearish",
+      "headline": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+      "impact": "low",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+        }
+      ],
+      "what": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    }
+  ],
+  "watch": []
+}
