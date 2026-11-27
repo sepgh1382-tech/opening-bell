@@ -1,231 +1,91 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, the economy and AI and chip stocks. The top story: The Latest Interest Rate Forecast Is In, and It Spells Trouble for a Historically Expensive AI-Driven Bull Market. Of today's top 10 stories, 6 lean bullish and 2 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Pre-market, Fri Nov 27",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T09:41:05Z",
+  "generatedAt": "2026-11-27T14:05:00Z",
+  "coverage": "Holiday-shortened session, Fri Nov 27, covering news since the Wed Nov 25 close",
   "mood": "mixed",
-  "moodReason": "The S&P 500 fell 0.3% in the last session. Of today's top 10 stories, 6 lean bullish and 2 lean bearish.",
+  "moodReason": "Futures bounced sharply on Friday after a heavy AI and chip selloff, but markets still face a high probability of a Fed rate hike in December and firm inflation. Trading is thin because of the holiday, so the rebound may not hold.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "-0.3% Wed",
-      "value": "7,182.78"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "-0.6% Wed",
-      "value": "23,585.80"
-    },
-    {
-      "asset": "Dow",
-      "change": "+0.3% Wed",
-      "value": "50,182.95"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "+0.7% Wed",
-      "value": "2,704.06"
-    },
-    {
-      "asset": "VIX",
-      "change": "-8.2% Fri",
-      "value": "24.61"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "-6 bp Wed",
-      "value": "4.85%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "+2.7% Fri",
-      "value": "$85.98"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "+2.0% Thu",
-      "value": "$61,710"
-    }
+    {"asset": "S&P 500", "value": "7,182.78", "change": "-0.25%"},
+    {"asset": "Dow Jones Industrial Average", "value": "50,182.95", "change": "+0.33%"},
+    {"asset": "Nasdaq Composite", "value": "23,585.80", "change": "-0.62%"},
+    {"asset": "Russell 2000", "value": "2,704.06", "change": "+0.7%"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "The Latest Interest Rate Forecast Is In, and It Spells Trouble for a Historically Expensive AI-Driven Bull Market",
+      "headline": "Nvidia beats and guides above forecasts, but the stock still fell",
+      "what": "Nvidia reported Q3 fiscal 2027 revenue of $115.8 billion and guided to about $130 billion for next quarter, plus or minus 3%. Analysts had penciled in about $124.8 billion. The guidance assumes no data center compute revenue from China.",
+      "effect": "neutral",
       "impact": "high",
+      "affected": ["NVDA", "semiconductors", "Nasdaq 100", "AI infrastructure"],
+      "why": "Nvidia is the largest single driver of AI sentiment. A beat-and-raise that still fails to lift the shares suggests investors are worried about durability of AI spending and China exposure, which weighs on the broader tech complex.",
       "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/latest-interest-rate-forecast-and-it-spells-trouble-historically-expensive-ai-driven-bull"
-        }
-      ],
-      "what": "The artificial intelligence (AI) infrastructure build-out has helped catapult the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite to new heights.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"},
+        {"title": "StockTitan", "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "China’s factories are growing profits again, but the AI boom is picking the winners",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
-        }
-      ],
-      "what": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
-      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Black Friday Is Here: 2 AI Stocks to Buy While They’re on Sale",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/black-friday-here-2-ai-stocks-buy-while-theyre-sale"
-        }
-      ],
-      "what": "These AI players are well-established tech companies with a solid track record in their specialty areas.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Dottikon ES shares rise 9% on strong first-half results",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/dottikon-es-shares-rise-9-on-strong-firsthalf-results-93CH-5053176"
-        }
-      ],
-      "what": "Dottikon ES shares rise 9% on strong first-half results.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "+32%, +28%, +20%: See the AI-picked stocks surging this week as Black Friday hits",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/32-28-20-see-the-aipicked-stocks-surging-this-week-as-black-friday-hits-5053164"
-        }
-      ],
-      "what": "+32%, +28%, +20%: See the AI-picked stocks surging this week as Black Friday hits.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
+      "headline": "Fed rate hike in December looks likely, with Waller calling for a half point",
+      "what": "Futures pricing put the odds of a December hike at roughly 73% to over 95%, depending on the source. Fed Governor Christopher Waller said a half-point increase may be needed at the December meeting.",
       "effect": "bearish",
-      "headline": "Germany's unemployment stays flat at 6.40% in November",
-      "impact": "low",
+      "impact": "high",
+      "affected": ["S&P 500", "Nasdaq", "regional banks", "rate-sensitive growth stocks", "US dollar", "Treasuries"],
+      "why": "Tighter policy raises borrowing costs and pressures high-multiple growth stocks. A larger-than-expected hike would tighten financial conditions further and could extend the equity selloff.",
       "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4676922-germany-unemployment-stays-flat-at-640-in-november?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "Germany's unemployment stays flat at 6.40% in November.",
-      "why": "The job market drives consumer spending and Fed policy, so labor data can shift rate expectations and stock prices."
+        {"title": "247 Wall St", "url": "https://247wallst.com/investing/2026/11/18/traders-now-see-a-95-chance-the-fed-hikes-rates-in-december/"},
+        {"title": "CNBC", "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"}
+      ]
     },
     {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "European stocks edge higher on chipmaker bounce",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4676947-european-stocks-edge-higher-on-chipmaker-bounce?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news"
-        }
-      ],
-      "what": "European stocks edge higher on chipmaker bounce.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/billionaire-david-tepper-appaloosa-management-has-65-his-portfolio-invested-these-7"
-        }
-      ],
-      "what": "Seven of Appaloosa’s nine largest holdings are AI stocks.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
-      "impact": "low",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
-        }
-      ],
-      "what": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500"
-      ],
+      "headline": "Inflation remains firm, with October consumer prices up 0.4%",
+      "what": "October consumer prices rose 0.4% from the prior month and were about 4% higher than a year earlier. Core prices rose about 2.8% over the year.",
       "effect": "bearish",
-      "headline": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
-      "impact": "low",
+      "impact": "high",
+      "affected": ["S&P 500", "Treasuries", "Fed policy expectations", "consumer discretionary"],
+      "why": "Inflation running well above the Fed's target keeps the case for higher rates alive. That pressure on yields and rate expectations is the main macro headwind for equities.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
-        }
-      ],
-      "what": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
-      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+        {"title": "U.S. News", "url": "https://www.usnews.com/news/economy/articles/2026-11-18/fed-poised-to-raise-rates-further-to-stem-inflation"}
+      ]
+    },
+    {
+      "headline": "AI and chip stocks drove a sharp intraday drop on Nov 25 before a late recovery",
+      "what": "The Dow rose 0.33% to 50,182.95 after erasing a loss of more than 1,100 points during the session. The S&P 500 fell 0.25% and the Nasdaq Composite fell 0.62%, after AI and chip stocks dragged the market as much as 3.2% lower in the morning.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["AI stocks", "semiconductors", "Dow", "S&P 500", "Nasdaq Composite"],
+      "why": "The intraday swing shows fragile sentiment in AI leadership. Buyers stepped in late in the day, but the pattern suggests positioning is still jittery heading into the year-end period.",
+      "sources": [
+        {"title": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"},
+        {"title": "Swingfolio", "url": "https://swingfolio.com/daily/us/2026-11-25/afternoon"}
+      ]
+    },
+    {
+      "headline": "Oil rises on Middle East supply concerns, with Brent near $98",
+      "what": "Brent crude rose to a two-week high near $98 a barrel after attacks on Middle Eastern energy infrastructure and tankers raised supply concerns. Oil was on track for its first weekly gain in four weeks.",
+      "effect": "bearish",
+      "impact": "medium",
+      "affected": ["energy stocks", "airlines", "transport", "consumer spending", "inflation expectations"],
+      "why": "Higher crude feeds into fuel and transport costs and makes the inflation problem harder for the Fed. Energy producers benefit, while consumers and airlines face squeezed margins.",
+      "sources": [
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/tech-ai-sentiment-thanksgiving-other-180003267.html"}
+      ]
+    },
+    {
+      "headline": "US futures rally Friday as global stocks rebound during the holiday",
+      "what": "Nasdaq futures rose about 2.1% and S&P 500 futures rose about 1.5% in early Friday trading. Asian and European markets rose while US cash markets were closed on Thursday for Thanksgiving.",
+      "effect": "bullish",
+      "impact": "medium",
+      "affected": ["S&P 500", "Nasdaq 100", "AI stocks", "global equities"],
+      "why": "The rebound suggests buyers are willing to step in after a heavy selloff. Strategists remain split on whether the selling has run its course, so the bounce could fade quickly on thin volume.",
+      "sources": [
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/tech-ai-sentiment-thanksgiving-other-180003267.html"},
+        {"title": "Kalkine", "url": "https://kalkine.com/news/general-news/why-us-stock-futures-pointed-higher-during-the-thanksgiving-break"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Fri 11/27", "item": "Early close at 1:00 p.m. ET with thin holiday volume"},
+    {"when": "Mon 11/30", "item": "Regular trading resumes after the holiday; Nvidia guidance and AI stock reaction in focus"},
+    {"when": "Wed 12/9", "item": "Fed decision on whether to raise rates at the December meeting"}
+  ],
+  "bottomLine": "Stocks sold off hard before the Thanksgiving break and then rebounded in global trading, but the rebound is fragile. Nvidia's strong guidance has not yet restored confidence in AI leadership, and sticky inflation with oil near $98 keeps a December Fed hike on the table. Expect thin holiday trading to amplify moves, and watch the Fed meeting on Dec 9 as the main macro catalyst."
 }
