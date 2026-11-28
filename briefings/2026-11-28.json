@@ -1,0 +1,232 @@
+{
+  "bottomLine": "The biggest themes right now are interest rates, inflation and the economy. The top story: Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank. Of today's top 10 stories, 6 lean bullish and 1 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
+  "coverage": "Weekend edition, week of Nov 23 to 27",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T08:54:43Z",
+  "mood": "bullish",
+  "moodReason": "The S&P 500 rose 1.7% over the past week. Of today's top 10 stories, 6 lean bullish and 1 lean bearish.",
+  "snapshot": [
+    {
+      "asset": "S&P 500",
+      "change": "+1.7% wk",
+      "value": "7,297.49"
+    },
+    {
+      "asset": "Nasdaq",
+      "change": "+1.0% wk",
+      "value": "24,129.50"
+    },
+    {
+      "asset": "Dow",
+      "change": "+3.4% wk",
+      "value": "50,774.94"
+    },
+    {
+      "asset": "Russell 2000",
+      "change": "+3.6% wk",
+      "value": "2,750.30"
+    },
+    {
+      "asset": "VIX",
+      "change": "-33.7% wk",
+      "value": "23.81"
+    },
+    {
+      "asset": "10Y yield",
+      "change": "-12 bp wk",
+      "value": "4.94%"
+    },
+    {
+      "asset": "Oil (WTI)",
+      "change": "-0.2% wk",
+      "value": "$83.08"
+    },
+    {
+      "asset": "Bitcoin",
+      "change": "-1.0% wk",
+      "value": "$59,472"
+    }
+  ],
+  "source": "free-agent",
+  "stories": [
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "neutral",
+      "headline": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "impact": "high",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+        }
+      ],
+      "what": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bearish",
+      "headline": "ECB officials signal further rate hikes as inflation remains elevated",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/ecb-officials-signal-further-rate-hikes-as-inflation-remains-elevated-5054086"
+        }
+      ],
+      "what": "ECB officials signal further rate hikes as inflation remains elevated.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bullish",
+      "headline": "Consumer confidence shoots up after Democrats' midterm victories, though inflation worries persist",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+        }
+      ],
+      "what": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "bullish",
+      "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        }
+      ],
+      "what": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "NVDA",
+        "S&P 500",
+        "Treasuries",
+        "Financials"
+      ],
+      "effect": "neutral",
+      "headline": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
+        }
+      ],
+      "what": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+        }
+      ],
+      "what": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
+      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "neutral",
+      "headline": "The First AI Stock I Plan to Buy in 2027",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/first-ai-stock-i-plan-buy-2027"
+        }
+      ],
+      "what": "The First AI Stock I Plan to Buy in 2027.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors"
+      ],
+      "effect": "bullish",
+      "headline": "Opera's 2027 Outlook: AI-Driven Browser Ecosystem Maintains Rapid Growth",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/operas-2027-outlook-ai-driven-browser-ecosystem-maintains-rapid-growth"
+        }
+      ],
+      "what": "Opera achieved strong revenue growth through AI-integrated browsers and niche audience targeting.",
+      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
+    },
+    {
+      "affected": [
+        "S&P 500",
+        "Treasuries"
+      ],
+      "effect": "bullish",
+      "headline": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+        }
+      ],
+      "what": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
+      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
+    },
+    {
+      "affected": [
+        "Nasdaq",
+        "Semiconductors",
+        "S&P 500"
+      ],
+      "effect": "bullish",
+      "headline": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+      "impact": "medium",
+      "sources": [
+        {
+          "title": "CNBC",
+          "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
+        }
+      ],
+      "what": "Jensen Huang's return sparked a fleeting AI rally, but persistent market volatility gave us another opportunity to put cash to work.",
+      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+    }
+  ],
+  "watch": []
+}
