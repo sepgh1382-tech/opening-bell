@@ -1,232 +1,94 @@
 {
-  "bottomLine": "The biggest themes right now are interest rates, inflation and the economy. The top story: Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank. Of today's top 10 stories, 6 lean bullish and 1 lean bearish. This briefing is put together automatically from headlines and market data, and the bullish or bearish ratings come from keyword rules, so read the linked articles before drawing conclusions.",
-  "coverage": "Weekend edition, week of Nov 23 to 27",
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T08:54:43Z",
-  "mood": "bullish",
-  "moodReason": "The S&P 500 rose 1.7% over the past week. Of today's top 10 stories, 6 lean bullish and 1 lean bearish.",
+  "generatedAt": "2026-11-28T14:53:25Z",
+  "coverage": "Weekend edition, week of Nov 23 to 27, with preview of Nov 30 to Dec 4",
+  "mood": "mixed",
+  "moodReason": "The S&P 500 posted its best week since April 2025 after a sharp correction, with chip and AI stocks leading the rebound. The rally is fragile, though: the Fed is widely expected to raise rates in December, and the Friday jobs report is a major test.",
   "snapshot": [
-    {
-      "asset": "S&P 500",
-      "change": "+1.7% wk",
-      "value": "7,297.49"
-    },
-    {
-      "asset": "Nasdaq",
-      "change": "+1.0% wk",
-      "value": "24,129.50"
-    },
-    {
-      "asset": "Dow",
-      "change": "+3.4% wk",
-      "value": "50,774.94"
-    },
-    {
-      "asset": "Russell 2000",
-      "change": "+3.6% wk",
-      "value": "2,750.30"
-    },
-    {
-      "asset": "VIX",
-      "change": "-33.7% wk",
-      "value": "23.81"
-    },
-    {
-      "asset": "10Y yield",
-      "change": "-12 bp wk",
-      "value": "4.94%"
-    },
-    {
-      "asset": "Oil (WTI)",
-      "change": "-0.2% wk",
-      "value": "$83.08"
-    },
-    {
-      "asset": "Bitcoin",
-      "change": "-1.0% wk",
-      "value": "$59,472"
-    }
+    {"asset": "S&P 500", "value": "7,297.49", "change": "+1.6%"},
+    {"asset": "Dow Jones Industrial Average", "value": "50,774.94", "change": "+1.2%"},
+    {"asset": "Nasdaq Composite", "value": "24,129.50", "change": "+2.3%"},
+    {"asset": "Nasdaq-100", "value": "26,726.39", "change": "+2.6%"}
   ],
-  "source": "free-agent",
   "stories": [
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "headline": "S&P 500 posts its best week since April 2025 as chip and AI stocks rebound",
+      "what": "The S&P 500 rose 5.6% for the holiday-shortened week, its best week since April 2025, after falling into a correction earlier in the week. All 11 S&P 500 sectors rose on Friday, and the Dow had its biggest weekly gain since October 2022.",
+      "effect": "bullish",
       "impact": "high",
+      "affected": ["S&P 500", "Dow Jones", "Nasdaq 100", "semiconductors", "AI stocks"],
+      "why": "A broad rebound that starts from a correction can restore buyer confidence, but the size of the move on a thin holiday session also raises the risk of a pullback once full volume returns.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-        }
-      ],
-      "what": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "StockAnalysis", "url": "https://stockanalysis.com/news/sp-500-caps-best-week-in-over-a-year/"},
+        {"title": "Yahoo Finance (AP)", "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-184551517.html"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
+      "headline": "Chip stocks suffer their worst week since 2001 before recovering",
+      "what": "One market report said the PHLX Semiconductor Index fell 17.13% over the period, its worst week since 2001, before investors bought back AI and chip stocks into Friday's rally. Sources differ on the exact size of the drop, so treat the figure as approximate.",
+      "effect": "neutral",
+      "impact": "high",
+      "affected": ["semiconductors", "Nvidia", "Broadcom", "AMD", "Micron", "Taiwan Semiconductor"],
+      "why": "Semiconductors carry a large share of index weight and of AI-driven earnings expectations. Their swings explain much of the index volatility, so whether the rebound holds depends heavily on this group.",
+      "sources": [
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"},
+        {"title": "Yahoo Finance (AP)", "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-184551517.html"}
+      ]
+    },
+    {
+      "headline": "Anthropic completes record IPO, then shares slide",
+      "what": "Anthropic priced its IPO at $83 a share in what was reported as the largest IPO on record. Shares rose on debut day and then fell, and sources give conflicting figures for the size of the raise and for Friday's move.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["Anthropic (new listing)", "AI stocks", "IPO market"],
+      "why": "A record listing absorbs a large amount of investor capital and tests appetite for AI valuations. A weak aftermarket can weigh on sentiment for other AI names and future offerings.",
+      "sources": [
+        {"title": "The Hill", "url": "https://thehill.com/business/6234002-stocks-plummet-anthropic-record-ipo/"},
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-set-start-trading-completing-135519162.html"}
+      ]
+    },
+    {
+      "headline": "Nvidia beats on revenue and raises outlook, but leadership and regulatory questions linger",
+      "what": "Nvidia reported fiscal third-quarter revenue of about $115.8 billion, roughly double a year earlier, with data center revenue up 110% and a raised outlook. Reports on the company's leadership and an SEC investigation were inconsistent across sources, so they are not included here.",
+      "effect": "neutral",
+      "impact": "medium",
+      "affected": ["Nvidia", "AI infrastructure", "neoclouds"],
+      "why": "Nvidia is the largest weight in AI-related equity exposure. Strong results support the AI capital spending thesis, while governance and regulatory uncertainty can cap how far the stock and sector can rally.",
+      "sources": [
+        {"title": "Kiplinger", "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"},
+        {"title": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-earnings-ai-stocks-slide-134200676.html"}
+      ]
+    },
+    {
+      "headline": "Markets price in a December Fed rate hike as core inflation runs above target",
+      "what": "Futures pricing cited in coverage of the week ahead put the odds of a quarter-point hike at the December 8 to 9 Fed meeting near 98 to 99%. October core PCE rose 3.3% year over year, well above the Fed's 2% target.",
       "effect": "bearish",
-      "headline": "ECB officials signal further rate hikes as inflation remains elevated",
-      "impact": "medium",
+      "impact": "high",
+      "affected": ["S&P 500", "Treasury yields", "rate-sensitive growth stocks", "small caps", "dollar"],
+      "why": "A tightening move that is already priced in still pressures valuations, especially for long-duration growth stocks and small caps. The bigger risk is a hawkish tone that suggests more hikes ahead.",
       "sources": [
-        {
-          "title": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/ecb-officials-signal-further-rate-hikes-as-inflation-remains-elevated-5054086"
-        }
-      ],
-      "what": "ECB officials signal further rate hikes as inflation remains elevated.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
+        {"title": "QNC News", "url": "https://qncnews.com/2026/11/27/wall-street-faces-jobs-data-and-a-federal-reserve-meeting-after-sliding-from-record-highs/"},
+        {"title": "WHTC (Reuters)", "url": "https://whtc.com/2026/11/27/sliding-stock-market-confronts-jobs-data-rate-view-as-next-tests/"}
+      ]
     },
     {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
-      "effect": "bullish",
-      "headline": "Consumer confidence shoots up after Democrats' midterm victories, though inflation worries persist",
+      "headline": "Treasury yields jumped in mid-November, pressuring stocks and the dollar",
+      "what": "In the week ended Nov 13, the 10-year Treasury yield rose about 30 basis points to around 5.14%, breaking above 5.00% for the first time since late October. The dollar strengthened to a 2026 high on a more hawkish view of Fed policy.",
+      "effect": "bearish",
       "impact": "medium",
+      "affected": ["Treasuries", "dollar", "gold", "homebuilders", "utilities"],
+      "why": "Higher long-term yields raise borrowing costs across the economy and compete with stocks for investor money. This was an important backdrop to the November selloff, and yields need to stabilize for the rebound to last.",
       "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
-        }
-      ],
-      "what": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "bullish",
-      "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
-        }
-      ],
-      "what": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "NVDA",
-        "S&P 500",
-        "Treasuries",
-        "Financials"
-      ],
-      "effect": "neutral",
-      "headline": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
-        }
-      ],
-      "what": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
-      "why": "Interest rate expectations feed straight into stock valuations and borrowing costs, so central bank news tends to move the whole market."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "China’s factories are growing profits again, but the AI boom is picking the winners",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
-        }
-      ],
-      "what": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
-      "why": "Economic data shows whether growth is speeding up or slowing down, which sets the outlook for corporate profits."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "neutral",
-      "headline": "The First AI Stock I Plan to Buy in 2027",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/first-ai-stock-i-plan-buy-2027"
-        }
-      ],
-      "what": "The First AI Stock I Plan to Buy in 2027.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors"
-      ],
-      "effect": "bullish",
-      "headline": "Opera's 2027 Outlook: AI-Driven Browser Ecosystem Maintains Rapid Growth",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "Nasdaq",
-          "url": "https://www.nasdaq.com/articles/operas-2027-outlook-ai-driven-browser-ecosystem-maintains-rapid-growth"
-        }
-      ],
-      "what": "Opera achieved strong revenue growth through AI-integrated browsers and niche audience targeting.",
-      "why": "Earnings and guidance show how companies are really doing, which moves their shares and can set the tone for their sector."
-    },
-    {
-      "affected": [
-        "S&P 500",
-        "Treasuries"
-      ],
-      "effect": "bullish",
-      "headline": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
-        }
-      ],
-      "what": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
-      "why": "Inflation readings shape what the Fed does next: hotter numbers pressure stocks and bonds, cooler ones support them."
-    },
-    {
-      "affected": [
-        "Nasdaq",
-        "Semiconductors",
-        "S&P 500"
-      ],
-      "effect": "bullish",
-      "headline": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
-      "impact": "medium",
-      "sources": [
-        {
-          "title": "CNBC",
-          "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
-        }
-      ],
-      "what": "Jensen Huang's return sparked a fleeting AI rally, but persistent market volatility gave us another opportunity to put cash to work.",
-      "why": "AI and chip stocks are a large part of the major indexes, so big moves in the group sway the whole market."
+        {"title": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/what-shaped-us-treasury-yields-and-the-dollar-in-week-ended-november-13/cNb2sojR9Qd"},
+        {"title": "Babypips", "url": "https://www.babypips.com/analysis/premium-weekly-recap-2026-11-09-13-cpi-dollar-ai"}
+      ]
     }
   ],
-  "watch": []
+  "watch": [
+    {"when": "Mon 11/30", "item": "Fed speakers begin a run of appearances through Dec 4"},
+    {"when": "Tue 12/1", "item": "ISM manufacturing index and JOLTS job openings report"},
+    {"when": "Fri 12/4", "item": "November jobs report, consensus about 90,000 new jobs and 4.1% unemployment"},
+    {"when": "Tue 12/8 to Wed 12/9", "item": "Federal Reserve meeting, with a quarter-point hike widely expected"}
+  ],
+  "bottomLine": "U.S. stocks ended a volatile holiday week with their best weekly gain in more than a year, led by chips and AI names after a sharp correction. The rebound is real but fragile, because inflation remains well above target and a December rate hike is close to fully priced. The jobs report on Dec 4 and the Fed meeting on Dec 8 to 9 will decide whether the rally holds."
 }
